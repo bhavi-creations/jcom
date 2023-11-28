@@ -196,7 +196,7 @@ line-height: 150%;
     background-color: lightgrey;
     text-align: center;
     height: 296px;
-    width: 235px;
+    /* width: 235px; */
     border-radius: 8px;
 
 }
