@@ -1,0 +1,492 @@
+    
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body_container{
+    font-family: 'Inter', sans-serif;
+}
+
+/* navbar............... */
+.jcom_logo{
+    width: 247px;
+height: 62.561px;
+flex-shrink: 0;
+/* margin-left:121px; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+.navbar-nav {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 54px;
+  }
+  
+  #navlink2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+  
+#navlink2:hover{
+    color: #27A4DE;
+    /* font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; */
+    
+}
+.button1{
+    display: inline-flex;
+    padding: 6px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 9px;
+background: #27A4DE;
+color: white;
+border-color: white;
+  }
+  
+/* title-container  */
+
+
+.bg_slide_img{
+    background-image: url(assets/new\ Slider\ 2.jpg);
+    text-align: center;
+    height: 450px;
+    width: auto;
+}
+
+.bg_slide_mini_img{
+    background-image: url(assets/sm-cro-1.png);
+    width: auto;
+}
+
+.scroll_img{
+    height: 580px;
+    }
+
+
+.title-container {
+ 
+    /* position: absolute; */
+    background-image: url("assets/hindu\ 01\ \(1\).png");
+    background-size: cover;
+    height: 400px;
+    width: auto;
+    font-family: 'Inter', sans-serif;
+    /* margin-bottom:20px; */
+}
+
+
+.title-heading { 
+    color: #011622;
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 137%; /* 82.2px */
+    text-transform: capitalize;
+
+ 
+ 
+}
+.title-para {
+    color: #232323;
+    font-family: 'Inter', sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.image {
+    width:730px;
+    height:530px;
+}
+
+
+/* title-navbar   */
+ 
+.indicators{
+    width: 53.503px;
+height: 53.503px;
+flex-shrink: 0;
+}
+
+.navbar2 {
+    margin-left:100px;
+    margin-right: 100px;
+    margin-top: -50px;
+}
+
+#nav1 {
+    color: #222;
+    font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+} 
+#sub1 {
+    color: #444;
+    font-family: 'Inter', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+opacity: 0.5;
+}
+.search {
+    /* width: 26.004px;
+height: 24px; */
+margin-right: 250px;
+border-radius:30px;
+/* stroke-width: 1.5px; */
+color: #FEFEFE;
+background-color:#A5461A;
+width: 50px;
+height: 50px; 
+
+
+  }     
+
+/* three indicators ......... */
+.three_size{
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+.para_h1{
+    color: var(--Primary, #001142);
+text-align: center;
+font-family: 'Inter', sans-serif;font-size: 16.462px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24.694px */
+}
+ 
+.para_h2{
+    color: #444;
+    font-family: 'Inter', sans-serif;
+font-size: 16.462px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+
+/* our capability/............ */
+.cards_style{
+    background-color: lightgrey;
+    text-align: center;
+    height: 296px;
+    width: 235px;
+    border-radius: 8px;
+
+}
+
+
+.service_heading{
+    /* color: orange;
+    font-weight: bold; */
+    color: #F17216;
+    font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;   
+line-height: normal;
+}
+ .Capability_heading{
+    color: #282C4B;
+    font-family: 'Inter', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 53px; /* 147.222% */
+letter-spacing: 0.72px;
+}
+.Capability_para{
+    color: #747582;
+    font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.mini_card_head{
+    color: #14183E;
+    font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 125% */
+}
+
+.mini_card_para{
+    color: #747582;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 180% */
+}
+
+/* why choose heading  */
+.why_choose_heading{
+    color: #282C4B;
+    font-family: 'Inter', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 53px; /* 147.222% */
+letter-spacing: 0.72px;
+}
+
+.why_choose_para{
+    color: #222;
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 135% */
+}
+
+/* hello mee tour new members .......... */
+
+.hi_img{
+    width: 50px;
+    height: 50px;
+}
+
+.Entrepreneur_mini_head{
+    color: #111;
+    font-family:'Inter', sans-serif;
+    font-size: 17.782px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    /* width: 113px;
+height: 21.126px;
+flex-shrink: 0; */
+}
+.Entrepreneur_name{
+    color: var(--Primary, #001142);
+    font-family:'Inter', sans-serif;
+    font-size: 24.927px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-transform: capitalize;
+    /* width: 268px;
+height: 30px;
+flex-shrink: 0; */
+}
+.Entrepreneur_para{
+    color: #333;
+    font-family:'Inter', sans-serif;
+    font-size: 21.338px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 184.5%; /* 39.369px */
+    /* width: 713.936px;
+height: 139.161px;
+flex-shrink: 0; */
+}
+.entrepreneur_img{
+width: 201.823px;
+height: 217.706px;
+flex-shrink: 0;
+border-radius: 0px 0px 71.127px 0px;
+background-image: url(<path-to-image>), lightgray 50% / cover no-repeat, #FFF;
+}
+
+
+
+/* owners_card.......................... */
+
+.owenrs_heading{
+    color: #282C4B;
+    font-family:'Inter', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+
+.hint_sz{
+  
+    color: #333;
+font-family: Recursive;
+font-size: 38px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+ .owners_para{
+    color: #333;
+    font-family:'Inter', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 177.5%; /* 26.625px */
+ }
+.cards_own{
+    background-color:#CFE5F1 ;
+    text-align: center; 
+    height: auto;
+    width: auto;
+    border-radius: 8px;
+padding-top: 70px;
+padding-bottom: 70px;
+}
+
+.owner_name{
+    color: #000;
+    font-family:'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 154.5%; /* 24.72px */
+}
+
+
+/* COUNTERS OUR NUMBERS  */
+
+
+
+ 
+
+
+ 
+
+.num{
+    color: #282C4B;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 144.523%; /* 46.247px */
+text-transform: capitalize;
+}
+
+
+
+.num_span{
+    color: #444;
+
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 144.523%;
+text-transform: capitalize;
+}
+
+
+
+
+/* faq questions ....... */
+
+
+ 
+ 
+
+section.faqs-section.mt-5 h2.text-left.mb-4.headings {
+    margin-bottom: 40px !IMPORTANT;
+}
+.faq_qustion_para_out{
+    color: #333;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 150.523%; /* 30.105px */
+text-transform: capitalize;
+}
+.faq_qustion_para_in{
+    color: #333;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 150.523%; /* 30.105px */
+text-transform: capitalize;
+}
+/* footer ................................................................... */
+.footer_bg{
+    background: var(--secondary-600, #073C55);
+    
+}
+.footer_heading{
+    /* padding-top: 18px;
+    text-decoration: none;
+    color:white;
+    font-size: 17.652px;
+    font-style: normal;
+font-weight: 600;
+line-height: normal; */
+   
+color: #FFF;
+ 
+font-family: 'Inter', sans-serif;
+font-size: 17.652px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+}
+.footer_menu{
+    color: #FFF;
+    text-decoration: none;
+font-family: 'Inter', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.foot_pad{
+    color: white;
+    background-color: #032B3E;
+  height: 70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
