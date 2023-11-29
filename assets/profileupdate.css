@@ -1,0 +1,273 @@
+/* navbar............... */
+.jcom_logo{
+    width: 247px;
+  height: 62.561px;
+  flex-shrink: 0;
+  /* margin-left:121px; */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .navbar-nav {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 54px;
+  }
+  
+  #navlink2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+  }
+  
+  
+  #navlink2:hover{
+    color: #27A4DE;
+    /* font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; */
+    
+  }
+  .button1{
+    display: inline-flex;
+    padding: 6px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 9px;
+  background: #27A4DE;
+  color: white;
+  border-color: white;
+  }
+  
+  
+  /* title-navbar   */
+  .search_icon {
+    background-color:#A5461A;
+    color: #FEFEFE;
+    border-radius:50px;
+    padding-top: 13px;
+     width:50px;
+     height: 50px; 
+    margin-right: 250px;
+    stroke-width: 1.5px;
+  } 
+  
+  .border_line{
+    border-right:1px solid  rgba(153, 153, 153, 0.50);
+    margin-right: 30px;
+    /* opacity: 0.5; */
+    width: 1.5px;
+  height: 68px;
+  
+  
+  }
+  
+  .indicators{
+   width: 53.503px;
+  height: 53.503px;
+  flex-shrink: 0;
+  }
+  
+  .navbar2 {
+   margin-left:100px;
+   margin-right: 100px;
+   margin-top: 70px;
+  }
+  
+  #nav1 {
+   color: #222;
+   font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  } 
+  #sub1 {
+   color: #444;
+   font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  opacity: 0.5;
+  }
+  .search {
+   /* width: 26.004px;
+  height: 24px; */
+  /* margin-right: 250px; */
+  border-radius:30px;
+  /* stroke-width: 1.5px; */
+  color: #FEFEFE;
+  background-color:#A5461A;
+  width: 50px;
+  /* height: 50px;  */
+  
+  
+  }     
+  
+  
+  /* five buttons...  */
+  .five_bttons{
+    width: 142px;
+  height: 39px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #F2F2F2;
+  border-color:transparent;
+  }
+  
+  
+  
+  
+  .btn_txt{
+    color: #666;
+  font-family: 'Inter', sans-serif; 
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  }
+  
+  
+  .btn_txt:hover{
+    
+  color: #111;
+  }
+  
+  
+  
+  /*scroll-spy/............ */
+  .cards_style{
+    
+    text-align: center;
+    height: 370px;
+    border-radius: 8px;
+  
+  }
+  
+    .scrollspy-example {
+      position: relative;
+      height: 500px; /* Set the height of the scrollable container */
+      overflow-y: scroll;
+      overflow-x: hidden;
+                                                                                                                                                                                                                                                                                                    
+    }
+  
+   .details_qus{
+    color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: left;
+  padding-left: 50px;
+   }
+   
+   .details_ans{
+    color: #444;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+   }
+   
+   
+   .details_button{
+    display: inline-flex;
+    padding: 6px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+  background: #27A4DE;
+  color: white;
+  border-color: white;
+  
+  }
+   
+  .profile_card_pic{
+    margin-right: -150px;
+    padding-bottom: 17px;
+    
+  }
+  
+  .profile_card_logo{
+    margin-right: -200px;
+    margin-top: -100px;
+  }
+  
+  .profiles_lg{
+    margin-left: 200px;
+  }
+  
+  .cards_style_lg{
+    text-align: center;
+    height: 410px;
+    border-radius: 8px;
+  }
+  
+  .profile_card_pic_lg{
+    margin-right: -150px;
+    padding-bottom: 17px;
+  }
+  
+  
+  
+  /* footer ................................................................... */
+  .footer_bg{
+    background: var(--secondary-600, #073C55);
+    
+  }
+  .footer_heading{
+    /* padding-top: 18px;
+    text-decoration: none;
+    color:white;
+    font-size: 17.652px;
+    font-style: normal;
+  font-weight: 600;
+  line-height: normal; */
+   
+  color: #FFF;
+  
+  font-family: 'Inter', sans-serif;
+  font-size: 17.652px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  }
+  .footer_menu{
+    color: #FFF;
+    text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .foot_pad{
+    color: white;
+    background-color: #032B3E;
+  height: 70px;
+  
+  }

@@ -9,9 +9,10 @@
 }
 
 /* navbar............... */
+
 .jcom_logo{
-    width: 247px;
-height: 62.561px;
+    width: 220px;
+height: 60px;
 flex-shrink: 0;
 /* margin-left:121px; */
 }
@@ -410,8 +411,22 @@ text-transform: capitalize;
 
 /* faq questions ....... */
 
+.icon {
+    margin-left:300px;
+background: #27A4DE;
+border-radius:50px;
+height:20px;
+width:20px;
 
- 
+
+}
+
+
+.para {
+    font-weight:600;
+    position:absolute;
+}
+
  
 
 section.faqs-section.mt-5 h2.text-left.mb-4.headings {

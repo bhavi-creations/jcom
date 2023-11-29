@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body_container{
+    font-family: 'Inter', sans-serif;
+}
+
+/* navbar............... */
+
+.jcom_logo{
+    width: 220px;
+height: 60px;
+flex-shrink: 0;
+/* margin-left:121px; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+.navbar-nav {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 54px;
+  }
+  
+  #navlink2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+  
+#navlink2:hover{
+    color: #27A4DE;
+    /* font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; */
+    
+}
+.button1{
+    display: inline-flex;
+    padding: 6px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 9px;
+background: #27A4DE;
+color: white;
+border-color: white;
+  }
+
+/* section1 */
+.section1-heading {
+    color: #F17216;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.section1-para {
+    color: #282C4B;
+font-family: Readex Pro;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}

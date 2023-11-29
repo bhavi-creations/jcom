@@ -11,9 +11,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/profile.css">
-    <link rel="stylesheet" href="./assets/index.css">
-
  
     <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script> 
     <meta charset="UTF-8">
@@ -29,8 +26,7 @@
 
     <title>JCOM.profile</title>
     <link rel="icon" href="" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/profile.css">
-    <link rel="stylesheet" href="./assets/index.css">
+    <link rel="stylesheet" href="./assets/profileupdate.css">
     
  
 
@@ -38,12 +34,20 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+
+        <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS bundle (includes Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
 </head>
 <body class="background_color body_container">
     <!-- navbaar.........  -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow ">
         <a class="navbar-brand p-3" href="#">
-            <img class="jcom_logo" src="./assets/img/image 2.png" height="40px" />
+            <img class="jcom_logo" src="assets/jcom logo.png" height="40px" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -64,66 +68,80 @@
 
     <!-- Title navbar -->
     
-    <nav id="nav_mrg" class="navbar2 navbar-expand-lg mt-5 navbar-light bg-light shadow">
-        <div class="collapse  mt-5 pt-3 pb-3  navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#" id="nav1">Bussiness Name<span class="sr-only">(current)</span></a>
-              <a class="nav-link" href="#" id="sub1">Add Details<span class="sr-only">(current)</span></a>
-              
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" id="nav1">Select Category</a>
-              <a class="nav-link dropdown-toggle" href="#" id="sub1" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Choose
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Bussiness Name</a>
-                <a class="dropdown-item" href="#">Select Category</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Select Sub Category</a>
-              </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" id="nav1">Select Sub Category</a>
-              <a class="nav-link dropdown-toggle" href="#" id="sub1" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Choose
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Bussiness Name</a>
-                <a class="dropdown-item" href="#">Select Category</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Select Sub Category</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#" id="nav1">Select Location</a>
-              <a class="nav-link dropdown-toggle" id="sub1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Where are you going ?
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Bussiness Name</a>
-                <a class="dropdown-item" href="#">Select Category</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Select Sub Category</a>
-              </div>
-            </li>
-          </ul>
-          <div class="search  pt-2">
-          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="24"  viewBox="0 0 26 24" fill="none">
-            <mask id="path-1-inside-1_8_546" fill="white">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M18.2877 15.5327C19.35 13.9459 19.9696 12.0377 19.9696 9.98478C19.9696 4.47034 15.4992 0 9.98478 0C4.47034 0 0 4.47034 0 9.98478C0 15.4992 4.47034 19.9696 9.98478 19.9696C12.8916 19.9696 15.5083 18.7274 17.3331 16.7449L24.9437 24L26.0036 22.8881L18.2877 15.5327Z"/>
-            </mask>
-            <path d="M18.2877 15.5327L17.0412 14.6982L16.3388 15.7472L17.2527 16.6184L18.2877 15.5327ZM17.3331 16.7449L18.3681 15.6592L17.2632 14.6059L16.2294 15.7291L17.3331 16.7449ZM24.9437 24L23.9087 25.0857L24.9945 26.1207L26.0294 25.035L24.9437 24ZM26.0036 22.8881L27.0894 23.9231L28.1244 22.8374L27.0386 21.8024L26.0036 22.8881ZM18.4696 9.98478C18.4696 11.7314 17.9434 13.3506 17.0412 14.6982L19.5341 16.3672C20.7566 14.5412 21.4696 12.344 21.4696 9.98478H18.4696ZM9.98478 1.5C14.6708 1.5 18.4696 5.29877 18.4696 9.98478H21.4696C21.4696 3.64191 16.3276 -1.5 9.98478 -1.5V1.5ZM1.5 9.98478C1.5 5.29877 5.29877 1.5 9.98478 1.5V-1.5C3.64191 -1.5 -1.5 3.64191 -1.5 9.98478H1.5ZM9.98478 18.4696C5.29877 18.4696 1.5 14.6708 1.5 9.98478H-1.5C-1.5 16.3276 3.64191 21.4696 9.98478 21.4696V18.4696ZM16.2294 15.7291C14.6768 17.4159 12.4549 18.4696 9.98478 18.4696V21.4696C13.3283 21.4696 16.3399 20.0389 18.4367 17.7608L16.2294 15.7291ZM25.9787 22.9143L18.3681 15.6592L16.2981 17.8306L23.9087 25.0857L25.9787 22.9143ZM24.9179 21.8532L23.858 22.965L26.0294 25.035L27.0894 23.9231L24.9179 21.8532ZM17.2527 16.6184L24.9687 23.9739L27.0386 21.8024L19.3227 14.4469L17.2527 16.6184Z" fill="#FEFEFE" mask="url(#path-1-inside-1_8_546)"/>
-          </svg></div>
+    <div class="container navbar2 navbar-light p-4 bg-light shadow">
+      <div class="row justify-content-center">
+          <div class="col-lg-2 border_line"  >
+              <a class="nav-link mt-2 mb-3 " href="#" id="nav1">Bussiness Name<span class="sr-only">(current)</span></a>   
+              <div class="dropdown">
+                  <button class="nav-link  dropdown-toggle" id="sub1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Add Details
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+          </div>
+          <div class="col-lg-2 border_line">
+              <a class="nav-link mt-2  mb-3 " href="#" id="nav1">Select Category<span class="sr-only">(current)</span></a>  
+              <div class="dropdown">
+                  <button class="nav-link  dropdown-toggle" id="sub1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   choose
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+         
+          </div>
+          <div class="col-lg-2 border_line">
+              <a class="nav-link mt-2  mb-3 " href="#" id="nav1">Select Category<span class="sr-only">(current)</span></a> 
+              <div class="dropdown">
+                  <button class="nav-link  dropdown-toggle" id="sub1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   choose
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+          </div>
+          <div class="col-lg-2 border_line">
+              <a class="nav-link  mt-2  mb-3 " href="#" id="nav1">Select sub Category<span class="sr-only">(current)</span></a>
+             
+              <div class="dropdown">
+                  <button class="nav-link  dropdown-toggle" id="sub1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   choose
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+          </div>
+          <div class="col-lg-2   ">
+            <div class="search_icon mt-2">
+                <svg  xmlns="http://www.w3.org/2000/svg" width="50" height="25"  viewBox="0 0 26 24" fill="none">
+                    <mask id="path-1-inside-1_8_546" fill="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.2877 15.5327C19.35 13.9459 19.9696 12.0377 19.9696 9.98478C19.9696 4.47034 15.4992 0 9.98478 0C4.47034 0 0 4.47034 0 9.98478C0 15.4992 4.47034 19.9696 9.98478 19.9696C12.8916 19.9696 15.5083 18.7274 17.3331 16.7449L24.9437 24L26.0036 22.8881L18.2877 15.5327Z"/>
+                    </mask>
+                    <path d="M18.2877 15.5327L17.0412 14.6982L16.3388 15.7472L17.2527 16.6184L18.2877 15.5327ZM17.3331 16.7449L18.3681 15.6592L17.2632 14.6059L16.2294 15.7291L17.3331 16.7449ZM24.9437 24L23.9087 25.0857L24.9945 26.1207L26.0294 25.035L24.9437 24ZM26.0036 22.8881L27.0894 23.9231L28.1244 22.8374L27.0386 21.8024L26.0036 22.8881ZM18.4696 9.98478C18.4696 11.7314 17.9434 13.3506 17.0412 14.6982L19.5341 16.3672C20.7566 14.5412 21.4696 12.344 21.4696 9.98478H18.4696ZM9.98478 1.5C14.6708 1.5 18.4696 5.29877 18.4696 9.98478H21.4696C21.4696 3.64191 16.3276 -1.5 9.98478 -1.5V1.5ZM1.5 9.98478C1.5 5.29877 5.29877 1.5 9.98478 1.5V-1.5C3.64191 -1.5 -1.5 3.64191 -1.5 9.98478H1.5ZM9.98478 18.4696C5.29877 18.4696 1.5 14.6708 1.5 9.98478H-1.5C-1.5 16.3276 3.64191 21.4696 9.98478 21.4696V18.4696ZM16.2294 15.7291C14.6768 17.4159 12.4549 18.4696 9.98478 18.4696V21.4696C13.3283 21.4696 16.3399 20.0389 18.4367 17.7608L16.2294 15.7291ZM25.9787 22.9143L18.3681 15.6592L16.2981 17.8306L23.9087 25.0857L25.9787 22.9143ZM24.9179 21.8532L23.858 22.965L26.0294 25.035L27.0894 23.9231L24.9179 21.8532ZM17.2527 16.6184L24.9687 23.9739L27.0386 21.8024L19.3227 14.4469L17.2527 16.6184Z" fill="#FEFEFE" mask="url(#path-1-inside-1_8_546)"/>
+                </svg>
+            </div>
         </div>
-      </nav>
+      </div>
+  </div>
 
 
 
  <!-- five catigerorys   -->
 
- <div class="container ps-5 button_line mt-5">
+ <div class="container ps-5 button_line mt-5 mb-5">
   <div class="row    justify-content-center">
       <div class="col-lg-2 col-sm-12">
         <button type="button" class="five_bttons m-3 " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
@@ -157,37 +175,559 @@
  <!-- scroll spy ..... -->
 
 
- <div class="tata mb-5" data-spy="scroll" data-target="#imageNavbar" data-offset="50">
+ <!-- only display on xl divices   -->
+ <div class="profiles_lg d-none  d-xl-block p-1 mb-5"  data-spy="scroll" data-target="#imageNavbar" data-offset="50">
 
   <div class="container-fluid">
-    <div class="row">
+    <div class="">
       
   
-      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 ps-5 ms-5">
-        <div class="scrollspy-example">
-          <div>
-              <img class="  ms-5" id="image1" src="./assets/img/pexels-photo-2379004.jpeg" alt="Image 1">
-              <img class="  ms-5"  id="image1" src="./assets/img/pexels-photo-2379004.jpeg" alt="Image 1">
-              <img class="  ms-5"  id="image1" src="./assets/img/pexels-photo-2379004.jpeg" alt="Image 1">
+      <main role="main" class="  ml-sm-auto col-md-12 col-lg-12 col-xl-12 ">
+        <div class=" mt-3 scrollspy-example">
+
+
+              <div class="row pt-3 ms-5">
+                  <div class="cards_style me-3 col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-2 mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                    <div class="card_size"> 
+                      
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                      
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                      <button class="details_button mb-3 ">Join Us</button>
+                    </div>
+                  </div>           
+                  <div class="cards_style me-3  col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-2 mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                    <div class="card_size"> 
+                      
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                      
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                      <button class="details_button mb-3 ">Join Us</button>
+                    </div>
+                  </div>
+                  <div class="cards_style me-3  col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-2 mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                    <div class="card_size"> 
+                      
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                      
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                      <button class="details_button mb-3 ">Join Us</button>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="row pt-5 ms-5">
+                <div class="cards_style me-3 col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-2 mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                  <div class="card_size"> 
+                    
+                    <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                    
+                    <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                    <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                    <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                    <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                    <button class="details_button mb-3 ">Join Us</button>
+                  </div>
+                </div>           
+                <div class="cards_style me-3  col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-2 mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                  <div class="card_size"> 
+                    
+                    <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                    
+                    <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                    <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                    <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                    <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                    <button class="details_button mb-3 ">Join Us</button>
+                  </div>
+                </div>
+                <div class="cards_style me-3  col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-2 mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                  <div class="card_size"> 
+                    
+                    <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                    
+                    <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                    <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                    <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                    <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                    <button class="details_button mb-3 ">Join Us</button>
+                  </div>
+                </div>
+            </div>
+               
+            <div class="row pt-5 ms-5">
+              <div class="cards_style me-3 col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-2 mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                <div class="card_size"> 
+                  
+                  <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                  
+                  <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                  <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                  <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                  <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                  <button class="details_button mb-3 ">Join Us</button>
+                </div>
+              </div>           
+              <div class="cards_style me-3  col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-2 mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                <div class="card_size"> 
+                  
+                  <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                  
+                  <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                  <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                  <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                  <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                  <button class="details_button mb-3 ">Join Us</button>
+                </div>
+              </div>
+              <div class="cards_style me-3  col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-2 mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                <div class="card_size"> 
+                  
+                  <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                  
+                  <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                  <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                  <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                  <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                  <button class="details_button mb-3 ">Join Us</button>
+                </div>
+              </div>
           </div>
-          <div>
-            <img class=" ms-5" id="image1" src="./assets/img/pexels-photo-2379004.jpeg" alt="Image 1">
-            <img class=" ms-5" id="image1" src="./assets/img/pexels-photo-2379004.jpeg" alt="Image 1">
-            <img class=" ms-5" id="image1" src="./assets/img/pexels-photo-2379004.jpeg" alt="Image 1">
+
+
+
         </div>
-        <div>
-          <img class=" ms-5" id="image1" src="./assets/img/pexels-photo-2379004.jpeg" alt="Image 1">
-          <img class=" ms-5" id="image1" src="./assets/img/pexels-photo-2379004.jpeg" alt="Image 1">
-          <img class=" ms-5" id="image1" src="./assets/img/pexels-photo-2379004.jpeg" alt="Image 1">
-      </div>
+      </main>
+
+    </div>
+  </div>
+</div>
+ 
+
+<!-- onyl display on lg divices    -->
+<div class="profiles_lg d-none   d-lg-block d-xl-none   p-1 mb-5"  data-spy="scroll" data-target="#imageNavbar" data-offset="50">
+
+  <div class="container-fluid">
+    <div class="">
+      
+  
+      <main role="main" class="  ml-sm-auto col-md-12 col-lg-12 col-xl-12 ">
+        <div class=" mt-3 scrollspy-example">
+
+
+              <div class="row pt-3">
+                  <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2 d-flex justify-content-end flex-column"     style="width: 250px; "  >
+                    <div class="card_size"> 
+                      
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                      
+                      <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                      <button class="details_button mb-3 ">Join Us</button>
+                    </div>
+                  </div>           
+                  <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2  d-flex justify-content-end flex-column"     style="width: 250px; "  >
+                    <div class="card_size"> 
+                      
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                      
+                      <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                      <button class="details_button mb-3 ">Join Us</button>
+                    </div>
+                  </div>
+                  <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2  d-flex justify-content-end flex-column"     style="width: 250px; "  >
+                    <div class="card_size"> 
+                      
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                      
+                      <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                      <button class="details_button mb-3 ">Join Us</button>
+                    </div>
+                  </div>
+              </div>
+
+
+              <div class="row pt-5">
+                <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2 d-flex justify-content-end flex-column"     style="width: 250px; "  >
+                  <div class="card_size"> 
+                    
+                    <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                    
+                    <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                    <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                    <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                    <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                    <button class="details_button mb-3 ">Join Us</button>
+                  </div>
+                </div>           
+                <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2  d-flex justify-content-end flex-column"     style="width: 250px; "  >
+                  <div class="card_size"> 
+                    
+                    <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                    
+                    <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                    <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                    <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                    <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                    <button class="details_button mb-3 ">Join Us</button>
+                  </div>
+                </div>
+                <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2  d-flex justify-content-end flex-column"     style="width: 250px; "  >
+                  <div class="card_size"> 
+                    
+                    <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                    
+                    <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                    <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                    <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                    <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                    <button class="details_button mb-3 ">Join Us</button>
+                  </div>
+                </div>
+              </div>
+               
+
+              <div class="row pt-5">
+                <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2 d-flex justify-content-end flex-column"     style="width: 250px; "  >
+                  <div class="card_size"> 
+                    
+                    <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                    
+                    <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                    <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                    <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                    <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                    <button class="details_button mb-3 ">Join Us</button>
+                  </div>
+                </div>           
+                <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2  d-flex justify-content-end flex-column"     style="width: 250px; "  >
+                  <div class="card_size"> 
+                    
+                    <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                    
+                    <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                    <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                    <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                    <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                    <button class="details_button mb-3 ">Join Us</button>
+                  </div>
+                </div>
+                <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2  d-flex justify-content-end flex-column"     style="width: 250px; "  >
+                  <div class="card_size"> 
+                    
+                    <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                    
+                    <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                    <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                    <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                    <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                    <button class="details_button mb-3 ">Join Us</button>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+        </div>
+      </main>
+
+    </div>
+  </div>
+</div>
+
+<!-- onyl display on md divices    -->
+<div class="profiles_mg d-none d-md-block  d-lg-none d-xl-none   p-1 mb-5"  data-spy="scroll" data-target="#imageNavbar" data-offset="50">
+
+  <div class="container-fluid">
+    <div class="">
+      
+  
+      <main role="main" class="  ml-sm-auto col-md-12 col-lg-12 col-xl-12 ">
+        <div class=" mt-3 scrollspy-example">
+
+
+              <div class="row pt-3">
+                  <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2 d-flex justify-content-end flex-column"     style="width: 240px; "  >
+                    <div class="card_size"> 
+                      
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                      
+                      <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                      <button class="details_button mb-3 ">Join Us</button>
+                    </div>
+                  </div>           
+                  <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2  d-flex justify-content-end flex-column"     style="width: 240px; "  >
+                    <div class="card_size"> 
+                      
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                      
+                      <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                      <button class="details_button mb-3 ">Join Us</button>
+                    </div>
+                  </div>
+                  <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2  d-flex justify-content-end flex-column"     style="width: 240px; "  >
+                    <div class="card_size"> 
+                      
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                      
+                      <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                      <button class="details_button mb-3 ">Join Us</button>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="row pt-4">
+                <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2 d-flex justify-content-end flex-column"     style="width: 240px; "  >
+                  <div class="card_size"> 
+                    
+                    <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                    
+                    <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                    <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                    <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                    <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                    <button class="details_button mb-3 ">Join Us</button>
+                  </div>
+                </div>           
+                <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2  d-flex justify-content-end flex-column"     style="width: 240px; "  >
+                  <div class="card_size"> 
+                    
+                    <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                    
+                    <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                    <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                    <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                    <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                    <button class="details_button mb-3 ">Join Us</button>
+                  </div>
+                </div>
+                <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2  d-flex justify-content-end flex-column"     style="width: 240px; "  >
+                  <div class="card_size"> 
+                    
+                    <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                    
+                    <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                    <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                    <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                    <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                    <button class="details_button mb-3 ">Join Us</button>
+                  </div>
+                </div>
+            </div>
+
+            <div class="row pt-4">
+              <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2 d-flex justify-content-end flex-column"     style="width: 240px; "  >
+                <div class="card_size"> 
+                  
+                  <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                  
+                  <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                  <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                  <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                  <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                  <button class="details_button mb-3 ">Join Us</button>
+                </div>
+              </div>           
+              <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2  d-flex justify-content-end flex-column"     style="width: 240px; "  >
+                <div class="card_size"> 
+                  
+                  <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                  
+                  <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                  <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                  <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                  <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                  <button class="details_button mb-3 ">Join Us</button>
+                </div>
+              </div>
+              <div class="cards_style_lg col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-1 mt-2  d-flex justify-content-end flex-column"     style="width: 240px; "  >
+                <div class="card_size"> 
+                  
+                  <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                  
+                  <img class="profile_card_pic_lg " src="assets/Ellipse 19.png" alt="">
+                  <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                  <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                  <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                  <button class="details_button mb-3 ">Join Us</button>
+                </div>
+              </div>
+          </div>
+
+
+
+        </div>
+      </main>
+
+    </div>
+  </div>
+</div>
+
+ <!-- only display on sm divices   -->
+<div class="profiles_sm d-sm-block d-md-none d-lg-none  mb-5  p-1"  data-spy="scroll" data-target="#imageNavbar" data-offset="50">
+
+  <div class="container-fluid">
+    <div class="">
+      
+  
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 ">
+        <div class=" mt-3 scrollspy-example">
+
+
+              <div class="row pt-3">
+                  <div class="cards_style col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-5 mt-2  d-flex justify-content-end flex-column"     style="width: 296px; "  >
+                    <div class="card_size"> 
+                      
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                      
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                      <button class="details_button mb-3 ">Join Us</button>
+                    </div>
+                  </div>           
+                  <div class="cards_style col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-5 mt-2  d-flex justify-content-end flex-column"     style="width: 296px; "  >
+                    <div class="card_size"> 
+                      
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                      
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                      <button class="details_button mb-3 ">Join Us</button>
+                    </div>
+                  </div>
+                  <div class="cards_style col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-5 mt-2  d-flex justify-content-end flex-column"     style="width: 296px; "  >
+                    <div class="card_size"> 
+                      
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                      
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                      <button class="details_button mb-3 ">Join Us</button>
+                    </div>
+                  </div>
+              </div>
+
+
+              <div class="row pt-5">
+                  <div class="cards_style col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-5 mt-2  d-flex justify-content-end flex-column"     style="width: 296px; "  >
+                    <div class="card_size"> 
+                      
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                      
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                      <button class="details_button mb-3 ">Join Us</button>
+                    </div>
+                  </div>           
+                  <div class="cards_style col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-5 mt-2  d-flex justify-content-end flex-column"     style="width: 296px; "  >
+                    <div class="card_size"> 
+                      
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                      
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                      <button class="details_button mb-3 ">Join Us</button>
+                    </div>
+                  </div>
+                  <div class="cards_style col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-5 mt-2  d-flex justify-content-end flex-column"     style="width: 296px; "  >
+                    <div class="card_size"> 
+                      
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                      
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                      <button class="details_button mb-3 ">Join Us</button>
+                    </div>
+                  </div>
+              </div>
+               
+
+              <div class="row pt-5">
+                <div class="cards_style col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-5 mt-2  d-flex justify-content-end flex-column"     style="width: 296px; "  >
+                  <div class="card_size"> 
+                    
+                    <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                    
+                    <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                    <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                    <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                    <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                    <button class="details_button mb-3 ">Join Us</button>
+                  </div>
+                </div>           
+                <div class="cards_style col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-5 mt-2  d-flex justify-content-end flex-column"     style="width: 296px; "  >
+                  <div class="card_size"> 
+                    
+                    <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                    
+                    <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                    <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                    <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                    <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                    <button class="details_button mb-3 ">Join Us</button>
+                  </div>
+                </div>
+                <div class="cards_style col-lg-4 col-md-12 col-sm-12   shadow-lg   ms-5 mt-2  d-flex justify-content-end flex-column"     style="width: 296px; "  >
+                  <div class="card_size"> 
+                    
+                    <img class="profile_card_logo" src="assets/image 2.png" alt="">
+                    
+                    <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                    <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                    <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                    <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                    <button class="details_button mb-3 ">Join Us</button>
+                  </div>
+                </div>
+              </div>
+
+
+
+
         </div>
       </main>
     </div>
   </div>
 </div>
- 
- 
-
  
 
   
@@ -197,7 +737,7 @@
  <!-- footer  -->
  
  
-<footer class="footer_bg pt-3 mt-2">
+ <footer class="footer_bg pt-3 mt-2">
     <div class="container">
         <div class="row " >
           
@@ -246,14 +786,16 @@
 
     </div>
 </footer>
-
+  <!-- dead line  -->
 <div >
     <div class=" text-center foot_pad  pt-3">
         <p class="fotter_end">
             @Hindu Dharmika Peetham |Designed by <a href="https://bhavicreations.com"  target="_blank"><span class="bhavi_creations">Bhavi Creations</span></a>
         </p>
     </div>
-</div>   
+</div>  
+
+
 </body>
 
 </html>
