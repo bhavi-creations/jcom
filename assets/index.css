@@ -1,7 +1,7 @@
-    
 *{
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .body_container{
@@ -9,10 +9,9 @@
 }
 
 /* navbar............... */
-
 .jcom_logo{
-    width: 220px;
-height: 60px;
+    width: 247px;
+height: 62.561px;
 flex-shrink: 0;
 /* margin-left:121px; */
 }
@@ -69,13 +68,16 @@ border-color: white;
 .bg_slide_img{
     background-image: url(assets/new\ Slider\ 2.jpg);
     text-align: center;
+    background-size: cover;
     height: 450px;
     width: auto;
 }
 
 .bg_slide_mini_img{
-    background-image: url(assets/sm-cro-1.png);
+    background-image: url(assets/sm-cro.png);
+    background-size: cover;
     width: auto;
+    height: auto;
 }
 
 .scroll_img{
@@ -122,7 +124,26 @@ line-height: normal;
 
 
 /* title-navbar   */
+.search_icon {
+    background-color:#A5461A;
+    color: #FEFEFE;
+    border-radius:50px;
+    padding-top: 13px;
+     width:50px;
+     height: 50px;  
+    margin-right: 250px;
+    stroke-width: 1.5px;
+}
+.border_line{
+     border-right:1px solid  rgba(153, 153, 153, 0.50);
+     margin-right: 30px;
+     /* opacity: 0.5; */
+     width: 1.5px;
+height: 68px;
  
+
+}
+
 .indicators{
     width: 53.503px;
 height: 53.503px;
@@ -133,6 +154,7 @@ flex-shrink: 0;
     margin-left:100px;
     margin-right: 100px;
     margin-top: -50px;
+     
 }
 
 #nav1 {
@@ -154,26 +176,14 @@ line-height: normal;
 text-transform: capitalize;
 opacity: 0.5;
 }
-.search {
-    /* width: 26.004px;
-height: 24px; */
-margin-right: 250px;
-border-radius:30px;
-/* stroke-width: 1.5px; */
-color: #FEFEFE;
-background-color:#A5461A;
-width: 50px;
-height: 50px; 
-
-
-  }     
+     
 
 /* three indicators ......... */
 .three_size{
     padding-right: 75px;
     padding-left: 75px;
 }
-
+ 
 .para_h1{
     color: var(--Primary, #001142);
 text-align: center;
@@ -197,11 +207,15 @@ line-height: 150%;
     background-color: lightgrey;
     text-align: center;
     height: 296px;
-    /* width: 235px; */
     border-radius: 8px;
-
+ 
 }
 
+.mini_card_img{
+    width: 170px;
+    height: 130px;
+    /* padding-bottom: 20px; */
+}
 
 .service_heading{
     /* color: orange;
@@ -450,30 +464,29 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 150.523%; /* 30.105px */
-text-transform: capitalize;
+text-transform: capitalize;
 }
+
+
+
+
+
+
+
+
 /* footer ................................................................... */
 .footer_bg{
     background: var(--secondary-600, #073C55);
     
 }
 .footer_heading{
-    /* padding-top: 18px;
-    text-decoration: none;
-    color:white;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
     font-size: 17.652px;
     font-style: normal;
-font-weight: 600;
-line-height: normal; */
-   
-color: #FFF;
- 
-font-family: 'Inter', sans-serif;
-font-size: 17.652px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-decoration: none;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
 }
 .footer_menu{
     color: #FFF;
@@ -484,24 +497,12 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+/* dead line  */
+
 .foot_pad{
     color: white;
     background-color: #032B3E;
   height: 70px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
