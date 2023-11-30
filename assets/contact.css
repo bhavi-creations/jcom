@@ -1,22 +1,12 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
-.body_container{
-    font-family: 'Inter', sans-serif;
-}
-
 /* navbar............... */
-
 .jcom_logo{
-    width: 220px;
-height: 60px;
-flex-shrink: 0;
-/* margin-left:121px; */
-}
-
-.navbar {
+    width: 247px;
+  height: 62.561px;
+  flex-shrink: 0;
+  /* margin-left:121px; */
+  }
+  
+  .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +14,7 @@ flex-shrink: 0;
     background-color: #f8f9fa;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-.navbar-nav {
+  .navbar-nav {
     display: inline-flex;
     align-items: flex-start;
     gap: 54px;
@@ -38,10 +28,10 @@ flex-shrink: 0;
     font-weight: 500;
     line-height: normal;
     
-}
-
+  }
   
-#navlink2:hover{
+  
+  #navlink2:hover{
     color: #27A4DE;
     /* font-family: Inter;
     font-size: 18px;
@@ -49,33 +39,244 @@ flex-shrink: 0;
     font-weight: 500;
     line-height: normal; */
     
-}
-.button1{
+  }
+  .button1{
     display: inline-flex;
     padding: 6px 30px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 9px;
-background: #27A4DE;
-color: white;
-border-color: white;
+  background: #27A4DE;
+  color: white;
+  border-color: white;
   }
+  
 
-/* section1 */
-.section1-heading {
-    color: #F17216;
-font-family: Poppins;
-font-size: 20px;
+
+
+
+
+
+
+
+/* top card  */
+.top_card_lg{
+  margin-top: -600px;
+}
+.help_card_lg{
+  padding-top: 50px;
+  margin-left: 100px;
+}
+
+.service_heading_lg{
+  color: #F17216;
+font-family: 'Inter', sans-serif;font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
-.section1-para {
-    color: #282C4B;
-font-family: Readex Pro;
+.Capability_heading_lg{
+  color: #282C4B;
+font-family:  'Inter', sans-serif;
 font-size: 44px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+padding-bottom: 350px;
+}
+.card_bg_img{
+ margin-top: 300px;
+ /* margin-bottom: 50px; */
+}
+
+
+.top_card1{
+  margin-top: -600px;
+}
+
+.service_heading{
+ 
+
+color: #F17216;
+font-family: 'Inter', sans-serif;font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.Capability_heading{
+    
+color: #282C4B;
+font-family:  'Inter', sans-serif;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 200px;
+}
+
+.Capability_heading_md{
+  color: #282C4B;
+font-family:  'Inter', sans-serif;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 350px;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.help_card{
+  padding-top: 50px;
+ 
+}
+
+.form-card{
+   height: 500px;
+   border-radius: 25px;
+   background: #FFF;
+   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+margin-left:10px ;
+margin-bottom: 20px;
+}
+
+
+ 
+.Send_Message_btn{
+  text-align: center;
+  justify-content: center;
+  border-radius: 12px;
+background: #07364C;
+color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 197px;
+height: 42px;
+flex-shrink: 0;
+margin-top: 26px;
+margin-left: 55px;
+}
+.form_head{
+    color: #333;
+    font-family:  'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+
+
+
+}
+
+.name_form{
+  border-radius: 12px;
+background: #F2F2F2;
+width: 300px;
+height: 45px;
+flex-shrink: 0;
+border: transparent;
+padding-left: 20px;
+}
+
+
+.text_form{
+  border-radius: 12px;
+background: #F2F2F2;
+width: 300px;
+height: 120px;
+flex-shrink: 0;
+border: transparent;
+padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer ................................................................... */
+.footer_bg{
+    background: var(--secondary-600, #073C55);
+    
+}
+.footer_heading{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 17.652px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+.footer_menu{
+    color: #FFF;
+    text-decoration: none;
+font-family: 'Inter', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* dead line  */
+
+.foot_pad{
+    color: white;
+    background-color: #032B3E;
+  height: 70px;
+
 }
