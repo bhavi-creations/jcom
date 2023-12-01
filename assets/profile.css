@@ -162,7 +162,26 @@ color: #111;
   border-radius: 8px;
 
 }
+@media  (min-width: 375px) {
+  .cards_style{
+    margin-left: 15px;
+  }
+}
 
+@media  (min-width: 576px) {
+  .cards_style{
+    margin-left: 110px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .cards_style {
+    margin-left: 200px;
+  }
+}
+
+
+ 
   .scrollspy-example {
     position: relative;
     height: 500px; /* Set the height of the scrollable container */
@@ -210,6 +229,7 @@ border-color: white;
 .profile_card_pic{
   margin-right: -150px;
   padding-bottom: 17px;
+  border-radius: 50%;
   
 }
 
@@ -222,11 +242,7 @@ border-color: white;
   margin-left: 30px;
 }
 
-.cards_style_lg{
-  text-align: center;
-  height: 410px;
-  border-radius: 8px;
-}
+ 
 
 .profile_card_pic_lg{
   margin-right: -150px;
