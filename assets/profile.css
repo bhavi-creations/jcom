@@ -1,4 +1,10 @@
-/* navbar............... */
+
+*{
+  padding: 0;
+  margin: 0;  
+}
+
+  /* navbar............... */
 .jcom_logo{
   width: 247px;
 height: 62.561px;
