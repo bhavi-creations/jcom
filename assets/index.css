@@ -28,6 +28,7 @@ flex-shrink: 0;
     display: inline-flex;
     align-items: flex-start;
     gap: 54px;
+    /* margin-left:100px; */
   }
   
   #navlink2 {
@@ -153,7 +154,7 @@ flex-shrink: 0;
 .navbar2 {
     margin-left:100px;
     margin-right: 100px;
-    margin-top: -50px;
+    /* margin-top: -0px; */
      
 }
 
