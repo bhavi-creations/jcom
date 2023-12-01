@@ -1,6 +1,4 @@
-
-
-  /* navbar............... */
+/* navbar............... */
 .jcom_logo{
   width: 247px;
 height: 62.561px;
@@ -24,10 +22,10 @@ flex-shrink: 0;
 
 #navlink2 {
   color: #000;
-  font-family:poppins;
+  font-family: Inter;
   font-size: 18px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   line-height: normal;
   
 }
@@ -52,17 +50,6 @@ flex-shrink: 0;
 background: #27A4DE;
 color: white;
 border-color: white;
-}
-
-.search_icon_main {
-  background-color: #27A4DE;
-  color: #FEFEFE;
-  border-radius:50px;
-  padding-top: 10px;
-   width:50px;
-   height: 50px;  
-  /* margin-right: 250px; */
-  stroke-width: 1.5px;
 }
 
 

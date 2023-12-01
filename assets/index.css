@@ -32,10 +32,10 @@ flex-shrink: 0;
   
   #navlink2 {
     color: #000;
-    font-family:poppins;
+    font-family: Inter;
     font-size: 18px;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
     line-height: normal;
     
 }
@@ -61,18 +61,6 @@ background: #27A4DE;
 color: white;
 border-color: white;
   }
-
-
-  .search_icon_main {
-    background-color: #27A4DE;
-    color: #FEFEFE;
-    border-radius:50px;
-    padding-top: 10px;
-     width:50px;
-     height: 50px;  
-    /* margin-right: 250px; */
-    stroke-width: 1.5px;
-}
   
 /* title-container  */
 
@@ -518,3 +506,62 @@ line-height: normal;
   height: 70px;
 
 }
+
+/* about us */
+
+.section1-heading {
+    color: #F17216;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.section1-subhead {
+    color: #282C4B;
+font-family: Inter;
+font-size: 27.62px;
+font-style: normal;
+font-weight: 600;
+/* line-height: 62px; 164.806% */
+text-transform: capitalize;
+width: auto;
+}
+
+.section1-para {
+    color: #555;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 23px; /* 127.778% */
+text-transform: capitalize;
+    width: auto;
+flex-shrink: 0;
+}
+
+.why_choose_para {
+    color: #555;
+    text-align: left;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px; /* 127.778% */
+    text-transform: capitalize;
+        width: auto;
+    flex-shrink: 0;
+}
+
+.icon1  {
+    margin-left:90%;
+}
+.icon2  {
+    margin-left:90%;
+}
+.icon3  {
+    margin-left:90%;
+}
+
