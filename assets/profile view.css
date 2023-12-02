@@ -1,57 +1,74 @@
-.jcom_logo{
-  width: 220px;
-height: 60px;
-flex-shrink: 0;
-/* margin-left:121px; */
-}
+ 
+  /* navbar............... */
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #f8f9fa;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-.navbar-nav {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 54px;
-}
-
-#navlink2 {
-  color: #000;
-  font-family: poppins;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  .search_icon_nav{
+    background-color: #27A4DE;
+    color: #FEFEFE;
+    border-radius:50px;
+    padding-top: 13px;
+     width:50px;
+     height: 50px; 
+    /* margin-right: 250px; */
+    stroke-width: 1.5px;
+    margin-left: -10px;
+  }
   
-}
-
-
-
-#navlink2:hover{
-  color: #27A4DE;
-  /* font-family: Inter;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal; */
+  .jcom_logo{
+    width: 247px;
+  height: 62.561px;
+  flex-shrink: 0;
+  /* margin-left:121px; */
+  }
   
-}
-.button1{
-  display: inline-flex;
-  padding: 6px 30px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 9px;
-background: #27A4DE;
-color: white;
-border-color: white;
-}
-
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .navbar-nav {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 54px;
+  }
+  
+  #navlink2 {
+    color: #000;
+    font-family: poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+  }
+  
+  
+  
+  #navlink2:hover{
+    color: #27A4DE;
+    /* font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; */
+    
+  }
+  .button1{
+    display: inline-flex;
+    padding: 6px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 9px;
+  background: #27A4DE;
+  color: white;
+  border-color: white;
+  }
+  
+  
+   
 /* section1 */
 .section1 {
 background-color: #F8F8F8;
