@@ -74,19 +74,19 @@
 
  <!-- five catigerorys   -->
 <!-- only display for lg-xl block  -->
-<div class="container ps-5 button_line mt-5 mb-5 d-none d-md-none d-lg-block d-xl-block">
+<!-- <div class="container ps-5 button_line mt-5 mb-5 d-none d-md-none d-lg-block d-xl-block">
   <div class="row    justify-content-center">
-      <div class="col-lg-2 col-sm-12">
+      <div class="col-lg-4 col-sm-12">
         <button type="button" class="five_bttons m-3 " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
-        <span class="btn_txt"> Digital Marketing</span> 
+        <span class="btn_txt">Select Chapters</span> 
         </button>
       </div>
-      <div class="col-lg-2 col-sm-12">
+      <div class="col-lg-4 col-sm-12">
         <button type="button" class="five_bttons m-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">
-          <span class="btn_txt"> Photography </span> 
+          <span class="btn_txt">Select Category</span> 
         </button>
-      </div>
-      <div class="col-lg-2 col-sm-12">
+      </div> -->
+      <!-- <div class="col-lg-2 col-sm-12">
       <button type="button" class="five_bttons m-3" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
        <span class="btn_txt">  Interiors</span> 
       </button>
@@ -100,12 +100,53 @@
       <button type="button" class="five_bttons m-3" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left">
        <span class="btn_txt"> Hospitals </span> 
       </button>
-      </div>
-   </div>
- </div>
+      </div> -->
+   <!-- </div>
+ </div> -->
+<div class="searchsec">
+ <h3 class="text-center m-5">Chapter and Category Search</h3  >
+
+ <form id="searchForm" class="d-flex justify-content-center">
+     <label for="chapterSelect" class="m-2">Select Chapter:</label>
+     <select id="chapterSelect" required>
+         <option value="" disabled selected>Select a Chapter</option>
+         <!-- Add your chapter options here -->
+         <option value="chapter1">Chapter 1</option>
+         <option value="chapter2">Chapter 2</option>
+         <!-- Add more chapters as needed -->
+     </select>
+
+     <label for="categorySelect" class="m-2">Select Category:</label>
+     <select id="categorySelect" required>
+         <option value="" disabled selected>Select a Category</option>
+         <!-- Add your category options here -->
+         <option value="category1">Category 1</option>
+         <option value="category2">Category 2</option>
+         <!-- Add more categories as needed -->
+     </select>
+
+     <button type="button" onclick="searchContent()">Search</button>
+ </form>
+
  
+</div>
+
+<!-- <script>
+  function searchContent() {
+      var chapter = document.getElementById("chapterSelect").value;
+      var category = document.getElementById("categorySelect").value;
+
+      if (chapter && category) {
+          // Redirect to the content page based on the selected chapter and category
+          window.location.href = "1Pullipudi Srinivas.html?chapter=1" + chapter + "&category=1" + category;
+          window.location.href = "2Ch.Naga Phaneendra.html?chapter=1" + chapter + "&category=2" + category;
+      } else {
+          alert("Please select both a chapter and a category.");
+      }
+  }
+</script> -->
  <!-- only display for xs-sm-md block  -->
- <div class="container  ps-5  mt-5 mb-5 d-sm-block d-xs-block d-md-block d-lg-none d-xl-none">
+ <!-- <div class="container  ps-5  mt-5 mb-5 d-sm-block d-xs-block d-md-block d-lg-none d-xl-none">
   <div class="row    justify-content-center">
       <div class=" col-md-12 col-sm-12 d-flex  justify-content-center  ">
         <button type="button" class="five_bttons m-3 " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
@@ -133,7 +174,7 @@
       </button>
       </div>
    </div>
- </div>
+ </div> -->
 
 
  <!-- scroll spy ..... -->
@@ -152,14 +193,14 @@
 
 
 
-                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12    shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                     <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12    shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
                           <div class="card_size"> 
                               <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
                               <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
                               <p class="details_qus" >Name: <span class="details_ans" >Pullipudi Srinivas</span></p>
                               <p  class="details_qus"  >Firm: <span class="details_ans" > Hardware Stores</span></p>
                               <p  class="details_qus"  >Category: <span class="details_ans" >Plywood, Glass & Hardware</span></p>
-                              <a href="./profileview/1Pullipudi Srinivas.html" ><button class="details_button mb-3 ">View More</button></a> 
+                              <a href="./1Pullipudi Srinivas.html" ><button class="details_button mb-3 ">View More</button></a> 
                           </div>
                       </div> 
                       
@@ -183,7 +224,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >Kommisetti Sri Harsha</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" >Kakinada Pharmacy</span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" > Medical Wholesale & Retail</span></p>
-                            <a href="./Sri Harsha2.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./3Kommisetti Sri Harsha.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div> 
                     
@@ -195,7 +236,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >Atchuta Siva kumar imandi</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" > Automotives</span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" >Mechanical Services</span></p>
-                            <a href="./Siva Kumar3.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./4Atchuta Siva Kumar.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div>
 
@@ -207,7 +248,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >Viswanath</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" >SB Ventures </span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" >Construction</span></p>
-                            <a href="./Viswanath4.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./5Viswanath.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div> 
                   
@@ -219,7 +260,7 @@
                         <p class="details_qus" >Name: <span class="details_ans" >Manikanta Pavan Varma P</span></p>
                         <p  class="details_qus"  >Firm: <span class="details_ans" >Wood Works</span></p>
                         <p  class="details_qus"  >Category: <span class="details_ans" > Doors and Windows</span></p>
-                        <a href="./Pavan Varma5.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        <a href="./6 Manikanta Pavan Varma P.html" ><button class="details_button mb-3 ">View More</button></a> 
                     </div>
                       </div> 
                   
@@ -231,7 +272,7 @@
                         <p class="details_qus" >Name: <span class="details_ans" >Rajasekhar</span></p>
                         <p  class="details_qus"  >Firm: <span class="details_ans" >Survellances </span></p>
                         <p  class="details_qus"  >Category: <span class="details_ans" >CC TV</span></p>
-                        <a href="./sekhar6.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        <a href="./7Rajasekhar.html" ><button class="details_button mb-3 ">View More</button></a> 
                     </div>
                       </div> 
                 
@@ -243,7 +284,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >Sai Chikkala</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" >  Arora Solutions</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" >Electrical Contractors</span></p>
-                      <a href="./Chikkala7.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./8Sai Chikkala.html" ><button class="details_button mb-3 ">View More</button></a> 
                   </div>
                       </div>
 
@@ -255,7 +296,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >Santosh Siva Kumar</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" >Cycle spares Polythene &General Stores</span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" > Disposables</span></p>
-                            <a href="./Santosh8.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./9Santosh Siva Kumar.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div> 
               
@@ -267,7 +308,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >JC R V Mahesh</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" >Lakshmi Jewellers</span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" >Lakshmi Jewellers</span></p>
-                            <a href="./Mahesh9.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./10JC R V Mahesh.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div> 
               
@@ -279,7 +320,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >Chittoory Murthy</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" >Venky Residency</span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" >  Hotel</span></p>
-                            <a href="./Chittoory10.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./11Chittoory Murthy.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div> 
             
@@ -291,7 +332,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >Anil Talluri</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" >Venkata Traders</span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" >kirana Wholesale</span></p>
-                            <a href="./Talluri11.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./12Anil Talluri.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div>
 
@@ -303,7 +344,7 @@
                           <p class="details_qus" >Name: <span class="details_ans" >Naveen</span></p>
                           <p  class="details_qus"  >Firm: <span class="details_ans" >Cemara Field</span></p>
                           <p  class="details_qus"  >Category: <span class="details_ans" >Photography</span></p>
-                          <a href="./Naveen12.html" ><button class="details_button mb-3 ">View More</button></a> 
+                          <a href="./13Naveen.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
           
@@ -315,7 +356,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >RK Naidu</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" >Fabin Events</span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" >Events</span></p>
-                            <a href="./Naidu13.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./14RK Naidu.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div> 
                       
@@ -327,7 +368,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >JC R sathish</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" >Fitness</span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" >Wellness</span></p>
-                            <a href="./Sathish14.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./15JC R Sathish.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div> 
         
@@ -339,7 +380,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >Sairam Vadaparthi</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" >Tailoring</span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" >Stitchings</span></p>
-                            <a href="./Sairam15.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./16Sairam Vadaparthi.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div>
 
@@ -351,7 +392,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >Vinay Vardhan</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" >Vinayaka Café</span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" >Catering</span></p>
-                            <a href="./Vardhan16.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./17Vinay Vardhan.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div> 
       
@@ -363,7 +404,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >R Adithya</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" >Insurance</span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" >Health Insurance</span></p>
-                            <a href="./Adithya17.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./18R Adithya.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div> 
                       
@@ -375,7 +416,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >Dr surya Kiran</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" >  Homeopathi</span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" >Sri Surya Chandra Homeo</span></p>
-                            <a href="./Insurance18.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./19Dr Surya Kiran.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div> 
                     
@@ -387,7 +428,7 @@
                           <p class="details_qus" >Name: <span class="details_ans" >K Lakshman Kumar</span></p>
                           <p  class="details_qus"  >Firm: <span class="details_ans" > Hospital</span></p>
                           <p  class="details_qus"  >Category: <span class="details_ans" >Mk Skin Hospital</span></p>
-                          <a href="./Lakshman19.html" ><button class="details_button mb-3 ">View More</button></a> 
+                          <a href="./20K Lakshman Kumar.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div>
 
@@ -399,7 +440,7 @@
                           <p class="details_qus" >Name: <span class="details_ans" >Hariprasad P</span></p>
                           <p  class="details_qus"  >Firm: <span class="details_ans" >Physiotherapy</span></p>
                           <p  class="details_qus"  >Category: <span class="details_ans" >Physiotherapist</span></p>
-                          <a href="./Hariprasad20.html" ><button class="details_button mb-3 ">View More</button></a> 
+                          <a href="./21 Hariprasad P.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
   
@@ -411,7 +452,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >Pavan Kuricheti</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" > Classic  Interiors</span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" >Interiors</span></p>
-                            <a href="./Kuricheti21.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./22Pavan Kuricheti.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div> 
                       
@@ -423,7 +464,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >Ravindra</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" >  Quality Care Lab</span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" >Laboratory</span></p>
-                            <a href="./Ravindra22.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./23Ravindra.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div> 
 
@@ -435,7 +476,7 @@
                           <p class="details_qus" >Name: <span class="details_ans" >Sankeerth</span></p>
                           <p  class="details_qus"  >Firm: <span class="details_ans" >Sankeerth Fitness</span></p>
                           <p  class="details_qus"  >Category: <span class="details_ans" >Sankeerth</span></p>
-                          <a href="./Sankeerth23.html" ><button class="details_button mb-3 ">View More</button></a> 
+                          <a href="./24Sankeerth.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div>
 
@@ -447,7 +488,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >Harshavardhan</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" >Harshavardhan Opticals</span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" >Opticals</span></p>
-                            <a href="./Harshavardhan24.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./25Harshavardhan.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div> 
 
@@ -459,7 +500,7 @@
                           <p class="details_qus" >Name: <span class="details_ans" >Chekka Bhadram</span></p>
                           <p  class="details_qus"  >Firm: <span class="details_ans" >LIC</span></p>
                           <p  class="details_qus"  >Category: <span class="details_ans" >Insurance- LIC</span></p>
-                          <a href="./Bhadram25.html" ><button class="details_button mb-3 ">View More</button></a> 
+                          <a href="./26Chekka Bhadram.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
 
@@ -471,7 +512,7 @@
                           <p class="details_qus" >Name: <span class="details_ans" >Harshitha</span></p>
                           <p  class="details_qus"  >Firm: <span class="details_ans" >Sree maangalya</span></p>
                           <p  class="details_qus"  >Category: <span class="details_ans" >Botique</span></p>
-                          <a href="./Harshitha26.html" ><button class="details_button mb-3 ">View More</button></a> 
+                          <a href="./27Harshitha.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
 
@@ -483,7 +524,7 @@
                         <p class="details_qus" >Name: <span class="details_ans" >N Murali Krishna</span></p>
                         <p  class="details_qus"  >Firm: <span class="details_ans" >Pan Mahal</span></p>
                         <p  class="details_qus"  >Category: <span class="details_ans" >Pan Mahal store</span></p>
-                        <a href="./Murali27.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        <a href="./28 N Murali Krishna.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div>
 
@@ -495,7 +536,7 @@
                             <p class="details_qus" >Name: <span class="details_ans" >Sriram Prakash</span></p>
                             <p  class="details_qus"  >Firm: <span class="details_ans" >Sriram Accounts</span></p>
                             <p  class="details_qus"  >Category: <span class="details_ans" > Tax Consultancy</span></p>
-                            <a href="./Sriram Prakash28.html" ><button class="details_button mb-3 ">View More</button></a> 
+                            <a href="./29Sriram Prakash.html" ><button class="details_button mb-3 ">View More</button></a> 
                         </div>
                       </div> 
 
@@ -507,7 +548,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >Narala Chinna Srinivas</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" >Chinna Real Estate</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" >Real Estate</span></p>
-                      <a href="./Narala Chinna29.html Chinna29.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./30Narala Chinna Srinivas.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
 
@@ -519,7 +560,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >Pavan kumar yerramilli</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" > Pavan Tours & Travels</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" > Tours & Travels</span></p>
-                      <a href="./Yerramilli30.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./31Pavan Kumar Yerramilli.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
 
@@ -531,7 +572,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >Boda Satish</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" >Satish Plumbing</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" >Plumbing</span></p>
-                      <a href="./Satish31.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./32Boda Satish.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div>
 
@@ -543,7 +584,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >Kapil Lunani</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" >  Sree Gopal Agencies</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" > Inverters, Batteries</span></p>
-                      <a href="./Lunani32.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./33Kapil Lunani.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
 
@@ -555,7 +596,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >Talluri Rajesh</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" >Rajesh Cycles</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" >Cycles</span></p>
-                      <a href="./Rajesh33.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./34 Talluri Rajesh.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
 
@@ -567,7 +608,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >Arudra  </span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" >Arudra Mobiles</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" >Mobiles Stores</span></p>
-                      <a href="./Arudra34.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./35Arudra.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
 
@@ -579,7 +620,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >JC Satyanandam</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" >Clothing</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" >Ready Made</span></p>
-                      <a href="./Satyanandam35.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./36JC Satyanandam.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div>
 
@@ -591,7 +632,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >M Vihari</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" >Home Needs</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" >  Home Appliances</span></p>
-                      <a href="./Vihari36.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./37 M Vihari.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
 
@@ -603,7 +644,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >JC V Murali</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" >Sree computers</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" >computers</span></p>
-                      <a href="./Murali37.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./38 JC V Murali.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
 
@@ -615,7 +656,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >Sagi Naga Varma</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" > Varma AC</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" >Air conditioning</span></p>
-                      <a href="./Sagi38.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./39 Sagi Naga Varma.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
 
@@ -627,7 +668,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >JC Srinivas Kumar Nalam</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" >Super Market</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" >Genral Stores</span></p>
-                      <a href="./Nalam39.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./40 Sagi Naga Varma.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div>
 
@@ -639,7 +680,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >Kamisetti Lakshmi Ganesh</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" > Choco Adda</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" >Choclates Store</span></p>
-                      <a href="./ Ganesh41.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./41 JC Srinivas Kumar Nalam.html ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
 
@@ -651,7 +692,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >Dr. T V K Karthik Hareen</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" >  Kusuma Hospital</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" >Hospitals</span></p>
-                      <a href="./Karthik Hareen42.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./42 Kamisetti Lakshmi Ganesh.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
 
@@ -663,7 +704,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >Dr. R Jahnavi</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" > Kusuma Dental</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" >Dentist</span></p>
-                      <a href="./Jahnavi43.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./43  Dr. T V K Karthik Hareen.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
 
@@ -675,7 +716,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >N Srinu Naik</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" > Swathi Hearing care center</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" > Hearing Aids</span></p>
-                      <a href="./Srinu Naik44.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./44 Dr. R Jahnavi.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div>
 
@@ -687,7 +728,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >P.s.v.v.mohan rao</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" >Vinayaka paints&traders</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" >Paints</span></p>
-                      <a href="./Mohan Rao45.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./45 N Srinu Naik.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
 
@@ -699,7 +740,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >Rebbapragada Rajesh Kumar</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" >Enagic Kangen Ionizer</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" >Enagic Kangen Ionizer</span></p>
-                      <a href="./Rebbapragada46.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./46  P.S.V.V.Mohan Rao.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
 
@@ -711,7 +752,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >D vipul avinash Reddy</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" > Kusuma Satya Convention</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" > Function hallv</span></p>
-                      <a href="./Vipul Avinash47.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./48 D Vipul Avinash Reddy.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div> 
 
@@ -723,7 +764,7 @@
                       <p class="details_qus" >Name: <span class="details_ans" >P Veerababu</span></p>
                       <p  class="details_qus"  >Firm: <span class="details_ans" >  Aryan Design Team</span></p>
                       <p  class="details_qus"  >Category: <span class="details_ans" >Architect</span></p>
-                      <a href="./P Veerababu48.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      <a href="./49  P Veerababu.html" ><button class="details_button mb-3 ">View More</button></a> 
                       </div>
                       </div>
 

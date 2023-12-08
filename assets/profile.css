@@ -311,3 +311,25 @@ line-height: normal;
 height: 70px;
 
 }
+
+/* dropdowns */
+.searchsec {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}

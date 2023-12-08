@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="" type="image/x-icon">
+ 
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&family=Quicksand&family=Roboto:ital,wght@0,300;0,900;1,100&display=swap');
+    </style>
+
+    <title>JCOM.profile</title>
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/profile.css">
+    
+ 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+        <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS bundle (includes Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+<body class="background_color body_container">
+    <!-- navbaar.........  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow ">
+        <a class="navbar-brand p-3" href="#">
+            <img class="jcom_logo" src="./assets/img/image 2.png" height="40px" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div class="navbar-nav  m-auto">
+            <a class="nav-item nav-link active" href="./index.html" id="navlink2">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="./about.html" id="navlink2" >About Us</a>
+            <a class="nav-item nav-link" href="./profile.html" id="navlink2" >Chapter 1</a>
+            <a class="nav-item nav-link" href="./contact.html" id="navlink2" >Contact Us</a>
+            <button class="button1 ml-md-2 ">Join Us</button>
+            <div class="search_icon_nav ">
+              <svg  xmlns="http://www.w3.org/2000/svg" width="50" height="25"  viewBox="0 0 26 24" fill="none">
+                  <mask id="path-1-inside-1_8_546" fill="white">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M18.2877 15.5327C19.35 13.9459 19.9696 12.0377 19.9696 9.98478C19.9696 4.47034 15.4992 0 9.98478 0C4.47034 0 0 4.47034 0 9.98478C0 15.4992 4.47034 19.9696 9.98478 19.9696C12.8916 19.9696 15.5083 18.7274 17.3331 16.7449L24.9437 24L26.0036 22.8881L18.2877 15.5327Z"/>
+                  </mask>
+                  <path d="M18.2877 15.5327L17.0412 14.6982L16.3388 15.7472L17.2527 16.6184L18.2877 15.5327ZM17.3331 16.7449L18.3681 15.6592L17.2632 14.6059L16.2294 15.7291L17.3331 16.7449ZM24.9437 24L23.9087 25.0857L24.9945 26.1207L26.0294 25.035L24.9437 24ZM26.0036 22.8881L27.0894 23.9231L28.1244 22.8374L27.0386 21.8024L26.0036 22.8881ZM18.4696 9.98478C18.4696 11.7314 17.9434 13.3506 17.0412 14.6982L19.5341 16.3672C20.7566 14.5412 21.4696 12.344 21.4696 9.98478H18.4696ZM9.98478 1.5C14.6708 1.5 18.4696 5.29877 18.4696 9.98478H21.4696C21.4696 3.64191 16.3276 -1.5 9.98478 -1.5V1.5ZM1.5 9.98478C1.5 5.29877 5.29877 1.5 9.98478 1.5V-1.5C3.64191 -1.5 -1.5 3.64191 -1.5 9.98478H1.5ZM9.98478 18.4696C5.29877 18.4696 1.5 14.6708 1.5 9.98478H-1.5C-1.5 16.3276 3.64191 21.4696 9.98478 21.4696V18.4696ZM16.2294 15.7291C14.6768 17.4159 12.4549 18.4696 9.98478 18.4696V21.4696C13.3283 21.4696 16.3399 20.0389 18.4367 17.7608L16.2294 15.7291ZM25.9787 22.9143L18.3681 15.6592L16.2981 17.8306L23.9087 25.0857L25.9787 22.9143ZM24.9179 21.8532L23.858 22.965L26.0294 25.035L27.0894 23.9231L24.9179 21.8532ZM17.2527 16.6184L24.9687 23.9739L27.0386 21.8024L19.3227 14.4469L17.2527 16.6184Z" fill="#FEFEFE" mask="url(#path-1-inside-1_8_546)"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+ 
+      <h1>Select Category and Chapter</h1>
+
+      <form id="myForm">
+          <label for="category">Select Category:</label>
+          <select id="category" name="category">
+              <option value="fiction">Fiction</option>
+              <option value="non-fiction">Non-Fiction</option>
+              <option value="mystery">Mystery</option>
+              <!-- Add more categories as needed -->
+          </select>
+      
+          <br>
+      
+          <label for="chapter">Select Chapter:</label>
+          <select id="chapter" name="chapter">
+              <option value="chapter1">Chapter 1</option>
+              <option value="chapter2">Chapter 2</option>
+              <option value="chapter3">Chapter 3</option>
+              <!-- Add more chapters as needed -->
+          </select>
+      
+          <br>
+      
+          <input type="submit" value="Submit">
+      </form>
+      
+      <script>
+          document.getElementById('myForm').addEventListener('submit', function (event) {
+              event.preventDefault(); // Prevents the default form submission behavior
+      
+              // Get selected values
+              var selectedCategory = document.getElementById('category').value;
+              var selectedChapter = document.getElementById('chapter').value;
+      
+              // Use switch statement to handle different cases
+              switch (selectedCategory) {
+                  case 'fiction':
+                      switch (selectedChapter) {
+                          case 'chapter1':
+                              alert('Selected Category: Fiction\nSelected Chapter: Chapter 1');
+                              break;
+                          case 'chapter2':
+                              alert('Selected Category: Fiction\nSelected Chapter: Chapter 2');
+                              break;
+                          case 'chapter3':
+                              alert('Selected Category: Fiction\nSelected Chapter: Chapter 3');
+                              break;
+                          // Add more cases as needed
+                          default:
+                              alert('Invalid Chapter Selection');
+                      }
+                      break;
+                  case 'non-fiction':
+                      // Handle non-fiction cases
+                      break;
+                  case 'mystery':
+                      // Handle mystery cases
+                      break;
+                  // Add more cases for other categories
+                  default:
+                      alert('Invalid Category Selection');
+              }
+          });
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- scroll spy ..... -->
+
+
+  <div class="profiles_lg   p-1 mb-5"  data-spy="scroll" data-target="#imageNavbar" data-offset="50">
+
+  <div class="container-fluid">
+    <div class="">
+      
+  
+      <main role="main" class=" col-xs-12  col-sm-12  col-md-12 col-lg-12 col-xl-12 ">
+        <div class=" mt-3 scrollspy-example">
+
+              <div class="row pt-3 ">
+
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12    shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                          <div class="card_size"> 
+                              <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                              <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                              <p class="details_qus" >Name: <span class="details_ans" >Pullipudi Srinivas</span></p>
+                              <p  class="details_qus"  >Firm: <span class="details_ans" > Hardware Stores</span></p>
+                              <p  class="details_qus"  >Category: <span class="details_ans" >Plywood, Glass & Hardware</span></p>
+                              <a href="./profileview/1Pullipudi Srinivas.html" ><button class="details_button mb-3 ">View More</button></a> 
+                          </div>
+                      </div> 
+                      
+                      
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/img/image 3.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/img/phani sir.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >Ch.Naga Phaneendra</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" > Bhavi Creations</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" >Digital marketing</span></p>
+                            <a href="./profile view.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div> 
+                      
+                      
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >Kommisetti Sri Harsha</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" >Kakinada Pharmacy</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" > Medical Wholesale & Retail</span></p>
+                            <a href="./Sri Harsha2.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div> 
+                    
+                    
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >Atchuta Siva kumar imandi</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" > Automotives</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" >Mechanical Services</span></p>
+                            <a href="./Siva Kumar3.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div>
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >Viswanath</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" >SB Ventures </span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" >Construction</span></p>
+                            <a href="./Viswanath4.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div> 
+                  
+                  
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow      mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                    <div class="card_size"> 
+                        <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                        <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                        <p class="details_qus" >Name: <span class="details_ans" >Manikanta Pavan Varma P</span></p>
+                        <p  class="details_qus"  >Firm: <span class="details_ans" >Wood Works</span></p>
+                        <p  class="details_qus"  >Category: <span class="details_ans" > Doors and Windows</span></p>
+                        <a href="./Pavan Varma5.html" ><button class="details_button mb-3 ">View More</button></a> 
+                    </div>
+                      </div> 
+                  
+                  
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow      mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                    <div class="card_size"> 
+                        <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                        <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                        <p class="details_qus" >Name: <span class="details_ans" >Rajasekhar</span></p>
+                        <p  class="details_qus"  >Firm: <span class="details_ans" >Survellances </span></p>
+                        <p  class="details_qus"  >Category: <span class="details_ans" >CC TV</span></p>
+                        <a href="./sekhar6.html" ><button class="details_button mb-3 ">View More</button></a> 
+                    </div>
+                      </div> 
+                
+                
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                  <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Sai Chikkala</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" >  Arora Solutions</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Electrical Contractors</span></p>
+                      <a href="./Chikkala7.html" ><button class="details_button mb-3 ">View More</button></a> 
+                  </div>
+                      </div>
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >Santosh Siva Kumar</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" >Cycle spares Polythene &General Stores</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" > Disposables</span></p>
+                            <a href="./Santosh8.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div> 
+              
+              
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow      mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >JC R V Mahesh</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" >Lakshmi Jewellers</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" >Lakshmi Jewellers</span></p>
+                            <a href="./Mahesh9.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div> 
+              
+              
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow    mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >Chittoory Murthy</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" >Venky Residency</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" >  Hotel</span></p>
+                            <a href="./Chittoory10.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div> 
+            
+            
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow    mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >Anil Talluri</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" >Venkata Traders</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" >kirana Wholesale</span></p>
+                            <a href="./Talluri11.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div>
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                          <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                          <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                          <p class="details_qus" >Name: <span class="details_ans" >Naveen</span></p>
+                          <p  class="details_qus"  >Firm: <span class="details_ans" >Cemara Field</span></p>
+                          <p  class="details_qus"  >Category: <span class="details_ans" >Photography</span></p>
+                          <a href="./Naveen12.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+          
+          
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/img/image 3.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/img/Rk naidu.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >RK Naidu</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" >Fabin Events</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" >Events</span></p>
+                            <a href="./Naidu13.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div> 
+                      
+                      
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >JC R sathish</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" >Fitness</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" >Wellness</span></p>
+                            <a href="./Sathish14.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div> 
+        
+        
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow    mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >Sairam Vadaparthi</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" >Tailoring</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" >Stitchings</span></p>
+                            <a href="./Sairam15.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div>
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >Vinay Vardhan</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" >Vinayaka Café</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" >Catering</span></p>
+                            <a href="./Vardhan16.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div> 
+      
+      
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow      mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >R Adithya</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" >Insurance</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" >Health Insurance</span></p>
+                            <a href="./Adithya17.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div> 
+                      
+                      
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow    mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >Dr surya Kiran</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" >  Homeopathi</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" >Sri Surya Chandra Homeo</span></p>
+                            <a href="./Insurance18.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div> 
+                    
+                    
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                          <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                          <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                          <p class="details_qus" >Name: <span class="details_ans" >K Lakshman Kumar</span></p>
+                          <p  class="details_qus"  >Firm: <span class="details_ans" > Hospital</span></p>
+                          <p  class="details_qus"  >Category: <span class="details_ans" >Mk Skin Hospital</span></p>
+                          <a href="./Lakshman19.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div>
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow      mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                          <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                          <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                          <p class="details_qus" >Name: <span class="details_ans" >Hariprasad P</span></p>
+                          <p  class="details_qus"  >Firm: <span class="details_ans" >Physiotherapy</span></p>
+                          <p  class="details_qus"  >Category: <span class="details_ans" >Physiotherapist</span></p>
+                          <a href="./Hariprasad20.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+  
+  
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow       mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >Pavan Kuricheti</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" > Classic  Interiors</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" >Interiors</span></p>
+                            <a href="./Kuricheti21.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div> 
+                      
+                      
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >Ravindra</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" >  Quality Care Lab</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" >Laboratory</span></p>
+                            <a href="./Ravindra22.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow      mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                          <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                          <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                          <p class="details_qus" >Name: <span class="details_ans" >Sankeerth</span></p>
+                          <p  class="details_qus"  >Firm: <span class="details_ans" >Sankeerth Fitness</span></p>
+                          <p  class="details_qus"  >Category: <span class="details_ans" >Sankeerth</span></p>
+                          <a href="./Sankeerth23.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div>
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow      mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >Harshavardhan</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" >Harshavardhan Opticals</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" >Opticals</span></p>
+                            <a href="./Harshavardhan24.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                          <img class="profile_card_logo" src="assets/img/image 3.png" alt="">                        
+                          <img class="profile_card_pic " src="assets/img/chekka bhadram.png" alt="">
+                          <p class="details_qus" >Name: <span class="details_ans" >Chekka Bhadram</span></p>
+                          <p  class="details_qus"  >Firm: <span class="details_ans" >LIC</span></p>
+                          <p  class="details_qus"  >Category: <span class="details_ans" >Insurance- LIC</span></p>
+                          <a href="./Bhadram25.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow      mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                          <img class="profile_card_logo" src="assets/img/image 3.png" alt="">                        
+                          <img class="profile_card_pic " src="assets/img/Botqui jcom 180180.png" alt="" >
+                          <p class="details_qus" >Name: <span class="details_ans" >Harshitha</span></p>
+                          <p  class="details_qus"  >Firm: <span class="details_ans" >Sree maangalya</span></p>
+                          <p  class="details_qus"  >Category: <span class="details_ans" >Botique</span></p>
+                          <a href="./Harshitha26.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow      mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                        <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                        <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                        <p class="details_qus" >Name: <span class="details_ans" >N Murali Krishna</span></p>
+                        <p  class="details_qus"  >Firm: <span class="details_ans" >Pan Mahal</span></p>
+                        <p  class="details_qus"  >Category: <span class="details_ans" >Pan Mahal store</span></p>
+                        <a href="./Murali27.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div>
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                        <div class="card_size"> 
+                            <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                            <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                            <p class="details_qus" >Name: <span class="details_ans" >Sriram Prakash</span></p>
+                            <p  class="details_qus"  >Firm: <span class="details_ans" >Sriram Accounts</span></p>
+                            <p  class="details_qus"  >Category: <span class="details_ans" > Tax Consultancy</span></p>
+                            <a href="./Sriram Prakash28.html" ><button class="details_button mb-3 ">View More</button></a> 
+                        </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow    mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Narala Chinna Srinivas</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" >Chinna Real Estate</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Real Estate</span></p>
+                      <a href="./Narala Chinna29.html Chinna29.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Pavan kumar yerramilli</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Pavan Tours & Travels</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" > Tours & Travels</span></p>
+                      <a href="./Yerramilli30.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow    mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Boda Satish</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" >Satish Plumbing</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Plumbing</span></p>
+                      <a href="./Satish31.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div>
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow    mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Kapil Lunani</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" >  Sree Gopal Agencies</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" > Inverters, Batteries</span></p>
+                      <a href="./Lunani32.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Talluri Rajesh</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" >Rajesh Cycles</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Cycles</span></p>
+                      <a href="./Rajesh33.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow    mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Arudra  </span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" >Arudra Mobiles</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Mobiles Stores</span></p>
+                      <a href="./Arudra34.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >JC Satyanandam</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" >Clothing</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Ready Made</span></p>
+                      <a href="./Satyanandam35.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div>
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >M Vihari</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" >Home Needs</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >  Home Appliances</span></p>
+                      <a href="./Vihari36.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >JC V Murali</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" >Sree computers</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >computers</span></p>
+                      <a href="./Murali37.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow    mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Sagi Naga Varma</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Varma AC</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Air conditioning</span></p>
+                      <a href="./Sagi38.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >JC Srinivas Kumar Nalam</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" >Super Market</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Genral Stores</span></p>
+                      <a href="./Nalam39.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div>
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Kamisetti Lakshmi Ganesh</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Choco Adda</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Choclates Store</span></p>
+                      <a href="./ Ganesh41.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow    mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Dr. T V K Karthik Hareen</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" >  Kusuma Hospital</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Hospitals</span></p>
+                      <a href="./Karthik Hareen42.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Dr. R Jahnavi</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Kusuma Dental</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Dentist</span></p>
+                      <a href="./Jahnavi43.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >N Srinu Naik</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Swathi Hearing care center</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" > Hearing Aids</span></p>
+                      <a href="./Srinu Naik44.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div>
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >P.s.v.v.mohan rao</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" >Vinayaka paints&traders</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Paints</span></p>
+                      <a href="./Mohan Rao45.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >Rebbapragada Rajesh Kumar</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" >Enagic Kangen Ionizer</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Enagic Kangen Ionizer</span></p>
+                      <a href="./Rebbapragada46.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow    mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >D vipul avinash Reddy</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" > Kusuma Satya Convention</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" > Function hallv</span></p>
+                      <a href="./Vipul Avinash47.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div> 
+
+
+                      <div class="cards_style me-3  col-xl-4  col-lg-4 col-md-12 col-sm-12   shadow     mt-2  d-flex justify-content-end flex-column"     style="width: 300px; "  >
+                      <div class="card_size"> 
+                      <img class="profile_card_logo" src="assets/image 2.png" alt="">                        
+                      <img class="profile_card_pic " src="assets/Ellipse 19.png" alt="">
+                      <p class="details_qus" >Name: <span class="details_ans" >P Veerababu</span></p>
+                      <p  class="details_qus"  >Firm: <span class="details_ans" >  Aryan Design Team</span></p>
+                      <p  class="details_qus"  >Category: <span class="details_ans" >Architect</span></p>
+                      <a href="./P Veerababu48.html" ><button class="details_button mb-3 ">View More</button></a> 
+                      </div>
+                      </div>
+
+
+
+
+
+
+
+                    
+              </div>
+
+        </div>
+      </main>
+
+    </div>
+  </div>
+</div>
+
+
+ 
+
+  
+     
+
+ 
+ <!-- footer  -->
+ 
+ 
+ <footer class="footer_bg pt-3 mt-2">
+    <div class="container">
+        <div class="row " >
+          
+
+            <div class="col-md">
+                <div class="ftco-footer-widget p-5">
+                    <ul class="list-unstyled">
+                        <li  ><a class="footer_heading" href=""><h4>About J com</h4></a></li>
+                        <li  ><a  class="footer_menu" href=""><p>To provide Business Development opportunities that empower young Entrepreneurs towards Business Growth.</p></a></li>
+                         
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget p-5">
+                    <ul class="list-unstyled">
+                        <li  ><a class="footer_heading" href=""><h4>website</h4></a></li>
+                        <li  ><a class="footer_menu" href="./index.html"><p>homepage</p></a></li>
+                        <li ><a class="footer_menu" href="./profile.html"><p>JCOM 1.0</p></a></li>
+                        <li  ><a class="footer_menu" href="./about.html"><p>About us</p></a></li>
+
+                      </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget p-5">
+                    <ul class="list-unstyled">
+                        <li ><a class="footer_heading" href=""><h4>startups and innovations</h4></a></li>
+                        <li ><a class="footer_menu" href=""><p>browser bt catefory</p></a></li>
+                        <li ><a class="footer_menu" href=""><p>search</p></a></li>
+                        <li ><a class="footer_menu" href=""><p>most visited</p></a></li>
+                     </ul>
+                </div>
+            </div>
+
+            <div class="col-md">
+                <div class="ftco-footer-widget p-5">
+                    <ul class="list-unstyled">
+                        <li ><a class="footer_heading" href=""><h4>support</h4></a></li>
+                        <li ><a class="footer_menu" href=""><p>contact us</p></a></li>
+                        <li ><a class="footer_menu" href=""><p>member login</p></a></li>
+                      </ul>
+                </div>
+            </div>
+          
+
+    </div>
+</footer>
+  <!-- dead line  -->
+<div >
+    <div class=" text-center foot_pad  pt-3">
+        <p class="fotter_end">
+          © 2023 J com.kakinada All Rights Reserved Terms of Use Privacy Policy <a href="https://bhavicreations.com"  target="_blank"><span class="bhavi_creations">Bhavi Creations</span></a>
+        </p>
+    </div>
+</div>  
+
+
+</body>
+
+</html>

@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="./assets/index.css"> -->
+    <link rel="stylesheet" href="./assets/profile view.css">
+ 
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&family=Quicksand&family=Roboto:ital,wght@0,300;0,900;1,100&display=swap');
+    </style>
+
+    <title>JCOM.home</title>
+    <link rel="icon" href="" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="./assets/index.css"> -->
+    <link rel="stylesheet" href="./assets/profile view.css">
+    
+ 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow ">
+        <a class="navbar-brand p-3" href="#">
+            <img class="jcom_logo" src="./assets/img/image 2.png" height="40px" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div class="navbar-nav  m-auto">
+            <a class="nav-item nav-link active" href="./index.html" id="navlink2">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="./about.html" id="navlink2" >About Us</a>
+            <a class="nav-item nav-link" href="./profile.html" id="navlink2" >Chapter 1</a>
+            <a class="nav-item nav-link" href="./contact.html" id="navlink2" >Contact Us</a>
+            <button class="button1 ml-md-2 ">Join Us</button>
+            <div class="search_icon_nav ">
+              <svg  xmlns="http://www.w3.org/2000/svg" width="50" height="25"  viewBox="0 0 26 24" fill="none">
+                  <mask id="path-1-inside-1_8_546" fill="white">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M18.2877 15.5327C19.35 13.9459 19.9696 12.0377 19.9696 9.98478C19.9696 4.47034 15.4992 0 9.98478 0C4.47034 0 0 4.47034 0 9.98478C0 15.4992 4.47034 19.9696 9.98478 19.9696C12.8916 19.9696 15.5083 18.7274 17.3331 16.7449L24.9437 24L26.0036 22.8881L18.2877 15.5327Z"/>
+                  </mask>
+                  <path d="M18.2877 15.5327L17.0412 14.6982L16.3388 15.7472L17.2527 16.6184L18.2877 15.5327ZM17.3331 16.7449L18.3681 15.6592L17.2632 14.6059L16.2294 15.7291L17.3331 16.7449ZM24.9437 24L23.9087 25.0857L24.9945 26.1207L26.0294 25.035L24.9437 24ZM26.0036 22.8881L27.0894 23.9231L28.1244 22.8374L27.0386 21.8024L26.0036 22.8881ZM18.4696 9.98478C18.4696 11.7314 17.9434 13.3506 17.0412 14.6982L19.5341 16.3672C20.7566 14.5412 21.4696 12.344 21.4696 9.98478H18.4696ZM9.98478 1.5C14.6708 1.5 18.4696 5.29877 18.4696 9.98478H21.4696C21.4696 3.64191 16.3276 -1.5 9.98478 -1.5V1.5ZM1.5 9.98478C1.5 5.29877 5.29877 1.5 9.98478 1.5V-1.5C3.64191 -1.5 -1.5 3.64191 -1.5 9.98478H1.5ZM9.98478 18.4696C5.29877 18.4696 1.5 14.6708 1.5 9.98478H-1.5C-1.5 16.3276 3.64191 21.4696 9.98478 21.4696V18.4696ZM16.2294 15.7291C14.6768 17.4159 12.4549 18.4696 9.98478 18.4696V21.4696C13.3283 21.4696 16.3399 20.0389 18.4367 17.7608L16.2294 15.7291ZM25.9787 22.9143L18.3681 15.6592L16.2981 17.8306L23.9087 25.0857L25.9787 22.9143ZM24.9179 21.8532L23.858 22.965L26.0294 25.035L27.0894 23.9231L24.9179 21.8532ZM17.2527 16.6184L24.9687 23.9739L27.0386 21.8024L19.3227 14.4469L17.2527 16.6184Z" fill="#FEFEFE" mask="url(#path-1-inside-1_8_546)"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+       <!-- section 1 -->
+       <div class="section1  justify-content-evenly d-md-none d-none d-lg-block w-auto">
+        <div class="row ms-5">
+            <div class="col-2">
+                 <img src= "assets/img/phani sir.png" class="profile-card-pic"  />
+            </div>
+            <div class="col-4">
+                <h1 class="sec1-heading"> R Adithya</h1>
+                <p class="sec1-para1"><span class="ceo">CEO of </span>  Bhavi creations</p>
+                <div class="d-flex">
+                    <div class="icon    ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                            <path d="M16.625 7.91667C16.625 13.4583 9.5 18.2083 9.5 18.2083C9.5 18.2083 2.375 13.4583 2.375 7.91667C2.375 6.027 3.12567 4.21473 4.46186 2.87854C5.79806 1.54234 7.61033 0.791672 9.5 0.791672C11.3897 0.791672 13.2019 1.54234 14.5381 2.87854C15.8743 4.21473 16.625 6.027 16.625 7.91667Z" stroke="#333333" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9.5 10.2917C10.8117 10.2917 11.875 9.22835 11.875 7.91667C11.875 6.605 10.8117 5.54167 9.5 5.54167C8.18832 5.54167 7.125 6.605 7.125 7.91667C7.125 9.22835 8.18832 10.2917 9.5 10.2917Z" stroke="#333333" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div>  
+                        <p class="sec1-para2 ms-2">behind J.N.T.U.Engineering College Play Ground, Ranga Rao Nagar, Kakinada</p>
+                    </div>
+                </div>
+
+                <div class="d-flex">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                            <path d="M3.16683 3.16667H15.8335C16.7043 3.16667 17.4168 3.87917 17.4168 4.75001V14.25C17.4168 15.1208 16.7043 15.8333 15.8335 15.8333H3.16683C2.296 15.8333 1.5835 15.1208 1.5835 14.25V4.75001C1.5835 3.87917 2.296 3.16667 3.16683 3.16667Z" stroke="#444444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M17.4168 4.75L9.50016 10.2917L1.5835 4.75" stroke="#444444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="sec1-para3 ms-2">admin@bhavicreations.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <img src="./assets/img/bhavi image.png" class="bhavi-iamge"/>
+            </div>
+            <div class="col-3 d-flex flex-column justify-content-top ">
+                <a href="#" class="m-2"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                    <path d="M0.177734 11.006C0.177734 17.0844 5.10527 22.0119 11.1837 22.0119C17.2621 22.0119 22.1897 17.0844 22.1897 11.006C22.1897 4.92754 17.2621 0 11.1837 0C5.10527 0 0.177734 4.92754 0.177734 11.006Z" fill="#F00073"/>
+                    <path d="M11.184 6.32844C12.6973 6.32844 12.9036 6.32844 13.5227 6.32844C14.073 6.32844 14.3482 6.46601 14.5545 6.5348C14.8297 6.67238 15.036 6.74116 15.2424 6.94753C15.4488 7.15389 15.5863 7.36025 15.6551 7.6354C15.7239 7.84176 15.7927 8.11691 15.8615 8.66721C15.8615 9.28629 15.8615 9.42387 15.8615 11.006C15.8615 12.5881 15.8615 12.7257 15.8615 13.3447C15.8615 13.895 15.7239 14.1702 15.6551 14.3765C15.5175 14.6517 15.4488 14.8581 15.2424 15.0644C15.036 15.2708 14.8297 15.4084 14.5545 15.4771C14.3482 15.5459 14.073 15.6147 13.5227 15.6835C12.9036 15.6835 12.7661 15.6835 11.184 15.6835C9.60184 15.6835 9.46427 15.6835 8.84518 15.6835C8.29489 15.6835 8.01974 15.5459 7.81338 15.4771C7.53823 15.3396 7.33187 15.2708 7.1255 15.0644C6.91914 14.8581 6.78157 14.6517 6.71278 14.3765C6.64399 14.1702 6.57521 13.895 6.50642 13.3447C6.50642 12.7257 6.50642 12.5881 6.50642 11.006C6.50642 9.42387 6.50642 9.28629 6.50642 8.66721C6.50642 8.11691 6.64399 7.84176 6.71278 7.6354C6.85035 7.36025 6.91914 7.15389 7.1255 6.94753C7.33187 6.74116 7.53823 6.60359 7.81338 6.5348C8.01974 6.46601 8.29489 6.39723 8.84518 6.32844C9.46427 6.32844 9.67063 6.32844 11.184 6.32844ZM11.184 5.29663C9.60184 5.29663 9.46427 5.29663 8.84518 5.29663C8.2261 5.29663 7.81338 5.43421 7.46944 5.57178C7.1255 5.70935 6.78157 5.91572 6.43763 6.25965C6.09369 6.60359 5.95612 6.87874 5.74976 7.29146C5.61218 7.6354 5.5434 8.04812 5.47461 8.66721C5.47461 9.28629 5.47461 9.49265 5.47461 11.006C5.47461 12.5881 5.47461 12.7257 5.47461 13.3447C5.47461 13.9638 5.61218 14.3765 5.74976 14.7205C5.88733 15.0644 6.09369 15.4084 6.43763 15.7523C6.78157 16.0962 7.05672 16.2338 7.46944 16.4402C7.81338 16.5777 8.2261 16.6465 8.84518 16.7153C9.46427 16.7153 9.67063 16.7153 11.184 16.7153C12.6973 16.7153 12.9036 16.7153 13.5227 16.7153C14.1418 16.7153 14.5545 16.5777 14.8985 16.4402C15.2424 16.3026 15.5863 16.0962 15.9303 15.7523C16.2742 15.4084 16.4118 15.1332 16.6181 14.7205C16.7557 14.3765 16.8245 13.9638 16.8933 13.3447C16.8933 12.7257 16.8933 12.5193 16.8933 11.006C16.8933 9.49265 16.8933 9.28629 16.8933 8.66721C16.8933 8.04812 16.7557 7.6354 16.6181 7.29146C16.4806 6.94753 16.2742 6.60359 15.9303 6.25965C15.5863 5.91572 15.3112 5.77814 14.8985 5.57178C14.5545 5.43421 14.1418 5.36542 13.5227 5.29663C12.9036 5.29663 12.7661 5.29663 11.184 5.29663Z" fill="white"/>
+                    <path d="M11.184 8.04812C9.53306 8.04812 8.2261 9.35508 8.2261 11.006C8.2261 12.6569 9.53306 13.9638 11.184 13.9638C12.8348 13.9638 14.1418 12.6569 14.1418 11.006C14.1418 9.35508 12.8348 8.04812 11.184 8.04812ZM11.184 12.932C10.1521 12.932 9.25791 12.1066 9.25791 11.006C9.25791 9.97416 10.0834 9.07993 11.184 9.07993C12.2158 9.07993 13.11 9.90538 13.11 11.006C13.11 12.0378 12.2158 12.932 11.184 12.932Z" fill="white"/>
+                    <path d="M14.2106 8.66721C14.5905 8.66721 14.8985 8.35924 14.8985 7.97933C14.8985 7.59943 14.5905 7.29146 14.2106 7.29146C13.8307 7.29146 13.5227 7.59943 13.5227 7.97933C13.5227 8.35924 13.8307 8.66721 14.2106 8.66721Z" fill="white"/>
+                  </svg></a> 
+
+
+                  <a href="#" class="m-2"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                    <path d="M0.177734 11.8252C0.177734 17.9037 5.10527 22.8312 11.1837 22.8312C17.2621 22.8312 22.1897 17.9037 22.1897 11.8252C22.1897 5.74681 17.2621 0.819275 11.1837 0.819275C5.10527 0.819275 0.177734 5.74681 0.177734 11.8252Z" fill="#1877F2"/>
+                    <path d="M16.6866 11.8252C16.6866 8.79861 14.2103 6.32227 11.1836 6.32227C8.157 6.32227 5.68066 8.79861 5.68066 11.8252C5.68066 14.5767 7.67549 16.8467 10.2894 17.2594V13.4074H8.91366V11.8252H10.2894V10.5871C10.2894 9.21133 11.1149 8.45467 12.353 8.45467C12.9721 8.45467 13.5912 8.59225 13.5912 8.59225V9.96799H12.9033C12.2155 9.96799 12.0091 10.3807 12.0091 10.7934V11.8252H13.5224L13.2473 13.4074H11.9403V17.3282C14.6918 16.9155 16.6866 14.5767 16.6866 11.8252Z" fill="white"/>
+                  </svg></a>
+                  <a href="#" class="m-2"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                    <path d="M0.177734 11.6445C0.177734 17.7229 5.10527 22.6505 11.1837 22.6505C17.2621 22.6505 22.1897 17.7229 22.1897 11.6445C22.1897 5.56609 17.2621 0.63855 11.1837 0.63855C5.10527 0.63855 0.177734 5.56609 0.177734 11.6445Z" fill="#FF0000"/>
+                    <path d="M16.4115 8.96179C16.2739 8.48028 15.93 8.13634 15.4485 7.99877C14.623 7.7924 11.1149 7.7924 11.1149 7.7924C11.1149 7.7924 7.6755 7.7924 6.78126 7.99877C6.29975 8.13634 5.95581 8.48028 5.81824 8.96179C5.68066 9.85602 5.68066 11.6445 5.68066 11.6445C5.68066 11.6445 5.68067 13.433 5.88703 14.3272C6.0246 14.8087 6.36853 15.1526 6.85005 15.2902C7.67549 15.4966 11.1836 15.4966 11.1836 15.4966C11.1836 15.4966 14.623 15.4966 15.5172 15.2902C15.9987 15.1526 16.3427 14.8087 16.4803 14.3272C16.6866 13.433 16.6866 11.6445 16.6866 11.6445C16.6866 11.6445 16.6866 9.85602 16.4115 8.96179ZM10.083 13.2954V9.9936L12.9721 11.6445L10.083 13.2954Z" fill="white"/>
+                  </svg></a>
+                  <a href="#" class="m-2"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                    <path d="M0.177734 11.4638C0.177734 17.5422 5.10527 22.4698 11.1837 22.4698C17.2621 22.4698 22.1897 17.5422 22.1897 11.4638C22.1897 5.38538 17.2621 0.45784 11.1837 0.45784C5.10527 0.45784 0.177734 5.38538 0.177734 11.4638Z" fill="#2867B2"/>
+                    <path d="M8.15701 16.9668H5.81824V9.60656H8.15701V16.9668ZM6.98762 8.57475C6.23096 8.57475 5.68066 8.02445 5.68066 7.26779C5.68066 6.51113 6.29975 5.96083 6.98762 5.96083C7.74428 5.96083 8.29458 6.51113 8.29458 7.26779C8.29458 8.02445 7.74428 8.57475 6.98762 8.57475ZM16.6866 16.9668H14.3479V12.9771C14.3479 11.8077 13.8663 11.4638 13.1785 11.4638C12.4906 11.4638 11.8027 12.0141 11.8027 13.0459V16.9668H9.46396V9.60656H11.6652V10.6384C11.8715 10.1569 12.697 9.40019 13.8663 9.40019C15.1733 9.40019 16.5491 10.1569 16.5491 12.4268V16.9668H16.6866Z" fill="white"/>
+                  </svg></a>
+                </div>
+        </div>
+    </div>
+
+    <!-- section1 for medium devices -->
+    <div class="section1  justify-content-evenly  d-lg-none d-md-block d-none w-auto">
+        <div class="row ms-5 justify-content-between">
+            <div class="col-3">
+                <!-- <img src="./assets/img/profileview-backgroundimg.jpg" class="profile-card-logo" height="50px" width="50px"/> -->
+                <img src="assets/img/phani sir.png" class="profile-card-pic" height="150px" width="150px"/>
+            </div>
+
+            <div class="col-8">
+                <h1 class="sec1-heading"> R Adithya</h1>
+                <p class="sec1-para1"><span class="ceo">CEO of </span>  Bhavi creations</p>
+                    <div class="d-flex">
+                        <div class="icon    ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                <path d="M16.625 7.91667C16.625 13.4583 9.5 18.2083 9.5 18.2083C9.5 18.2083 2.375 13.4583 2.375 7.91667C2.375 6.027 3.12567 4.21473 4.46186 2.87854C5.79806 1.54234 7.61033 0.791672 9.5 0.791672C11.3897 0.791672 13.2019 1.54234 14.5381 2.87854C15.8743 4.21473 16.625 6.027 16.625 7.91667Z" stroke="#333333" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.5 10.2917C10.8117 10.2917 11.875 9.22835 11.875 7.91667C11.875 6.605 10.8117 5.54167 9.5 5.54167C8.18832 5.54167 7.125 6.605 7.125 7.91667C7.125 9.22835 8.18832 10.2917 9.5 10.2917Z" stroke="#333333" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                <div><p class="sec1-para2 ms-2">behind J.N.T.U.Engineering College Play Ground, Ranga Rao Nagar, Kakinada</p></div>
+            </div>
+                <div class="d-flex">
+                    <div class="icon ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                            <path d="M3.16683 3.16667H15.8335C16.7043 3.16667 17.4168 3.87917 17.4168 4.75001V14.25C17.4168 15.1208 16.7043 15.8333 15.8335 15.8333H3.16683C2.296 15.8333 1.5835 15.1208 1.5835 14.25V4.75001C1.5835 3.87917 2.296 3.16667 3.16683 3.16667Z" stroke="#444444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M17.4168 4.75L9.50016 10.2917L1.5835 4.75" stroke="#444444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="sec1-para3 ms-2">admin@bhavicreations.com</p>
+                    </div>
+                </div>
+            </div> 
+
+        <div class="row mt-5 justify-content-between">
+            <div class="col-5">
+                <img src="./assets/img/bhavi image.png" class="bhavi-iamge"/>
+            </div>
+
+            <div class="col-5 ms-5 d-flex flex-column justify-content-center">
+                <a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                    <path d="M0.177734 11.006C0.177734 17.0844 5.10527 22.0119 11.1837 22.0119C17.2621 22.0119 22.1897 17.0844 22.1897 11.006C22.1897 4.92754 17.2621 0 11.1837 0C5.10527 0 0.177734 4.92754 0.177734 11.006Z" fill="#F00073"/>
+                    <path d="M11.184 6.32844C12.6973 6.32844 12.9036 6.32844 13.5227 6.32844C14.073 6.32844 14.3482 6.46601 14.5545 6.5348C14.8297 6.67238 15.036 6.74116 15.2424 6.94753C15.4488 7.15389 15.5863 7.36025 15.6551 7.6354C15.7239 7.84176 15.7927 8.11691 15.8615 8.66721C15.8615 9.28629 15.8615 9.42387 15.8615 11.006C15.8615 12.5881 15.8615 12.7257 15.8615 13.3447C15.8615 13.895 15.7239 14.1702 15.6551 14.3765C15.5175 14.6517 15.4488 14.8581 15.2424 15.0644C15.036 15.2708 14.8297 15.4084 14.5545 15.4771C14.3482 15.5459 14.073 15.6147 13.5227 15.6835C12.9036 15.6835 12.7661 15.6835 11.184 15.6835C9.60184 15.6835 9.46427 15.6835 8.84518 15.6835C8.29489 15.6835 8.01974 15.5459 7.81338 15.4771C7.53823 15.3396 7.33187 15.2708 7.1255 15.0644C6.91914 14.8581 6.78157 14.6517 6.71278 14.3765C6.64399 14.1702 6.57521 13.895 6.50642 13.3447C6.50642 12.7257 6.50642 12.5881 6.50642 11.006C6.50642 9.42387 6.50642 9.28629 6.50642 8.66721C6.50642 8.11691 6.64399 7.84176 6.71278 7.6354C6.85035 7.36025 6.91914 7.15389 7.1255 6.94753C7.33187 6.74116 7.53823 6.60359 7.81338 6.5348C8.01974 6.46601 8.29489 6.39723 8.84518 6.32844C9.46427 6.32844 9.67063 6.32844 11.184 6.32844ZM11.184 5.29663C9.60184 5.29663 9.46427 5.29663 8.84518 5.29663C8.2261 5.29663 7.81338 5.43421 7.46944 5.57178C7.1255 5.70935 6.78157 5.91572 6.43763 6.25965C6.09369 6.60359 5.95612 6.87874 5.74976 7.29146C5.61218 7.6354 5.5434 8.04812 5.47461 8.66721C5.47461 9.28629 5.47461 9.49265 5.47461 11.006C5.47461 12.5881 5.47461 12.7257 5.47461 13.3447C5.47461 13.9638 5.61218 14.3765 5.74976 14.7205C5.88733 15.0644 6.09369 15.4084 6.43763 15.7523C6.78157 16.0962 7.05672 16.2338 7.46944 16.4402C7.81338 16.5777 8.2261 16.6465 8.84518 16.7153C9.46427 16.7153 9.67063 16.7153 11.184 16.7153C12.6973 16.7153 12.9036 16.7153 13.5227 16.7153C14.1418 16.7153 14.5545 16.5777 14.8985 16.4402C15.2424 16.3026 15.5863 16.0962 15.9303 15.7523C16.2742 15.4084 16.4118 15.1332 16.6181 14.7205C16.7557 14.3765 16.8245 13.9638 16.8933 13.3447C16.8933 12.7257 16.8933 12.5193 16.8933 11.006C16.8933 9.49265 16.8933 9.28629 16.8933 8.66721C16.8933 8.04812 16.7557 7.6354 16.6181 7.29146C16.4806 6.94753 16.2742 6.60359 15.9303 6.25965C15.5863 5.91572 15.3112 5.77814 14.8985 5.57178C14.5545 5.43421 14.1418 5.36542 13.5227 5.29663C12.9036 5.29663 12.7661 5.29663 11.184 5.29663Z" fill="white"/>
+                    <path d="M11.184 8.04812C9.53306 8.04812 8.2261 9.35508 8.2261 11.006C8.2261 12.6569 9.53306 13.9638 11.184 13.9638C12.8348 13.9638 14.1418 12.6569 14.1418 11.006C14.1418 9.35508 12.8348 8.04812 11.184 8.04812ZM11.184 12.932C10.1521 12.932 9.25791 12.1066 9.25791 11.006C9.25791 9.97416 10.0834 9.07993 11.184 9.07993C12.2158 9.07993 13.11 9.90538 13.11 11.006C13.11 12.0378 12.2158 12.932 11.184 12.932Z" fill="white"/>
+                    <path d="M14.2106 8.66721C14.5905 8.66721 14.8985 8.35924 14.8985 7.97933C14.8985 7.59943 14.5905 7.29146 14.2106 7.29146C13.8307 7.29146 13.5227 7.59943 13.5227 7.97933C13.5227 8.35924 13.8307 8.66721 14.2106 8.66721Z" fill="white"/>
+                  </svg></a> 
+
+
+                  <a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                    <path d="M0.177734 11.8252C0.177734 17.9037 5.10527 22.8312 11.1837 22.8312C17.2621 22.8312 22.1897 17.9037 22.1897 11.8252C22.1897 5.74681 17.2621 0.819275 11.1837 0.819275C5.10527 0.819275 0.177734 5.74681 0.177734 11.8252Z" fill="#1877F2"/>
+                    <path d="M16.6866 11.8252C16.6866 8.79861 14.2103 6.32227 11.1836 6.32227C8.157 6.32227 5.68066 8.79861 5.68066 11.8252C5.68066 14.5767 7.67549 16.8467 10.2894 17.2594V13.4074H8.91366V11.8252H10.2894V10.5871C10.2894 9.21133 11.1149 8.45467 12.353 8.45467C12.9721 8.45467 13.5912 8.59225 13.5912 8.59225V9.96799H12.9033C12.2155 9.96799 12.0091 10.3807 12.0091 10.7934V11.8252H13.5224L13.2473 13.4074H11.9403V17.3282C14.6918 16.9155 16.6866 14.5767 16.6866 11.8252Z" fill="white"/>
+                  </svg></a>
+                  <a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                    <path d="M0.177734 11.6445C0.177734 17.7229 5.10527 22.6505 11.1837 22.6505C17.2621 22.6505 22.1897 17.7229 22.1897 11.6445C22.1897 5.56609 17.2621 0.63855 11.1837 0.63855C5.10527 0.63855 0.177734 5.56609 0.177734 11.6445Z" fill="#FF0000"/>
+                    <path d="M16.4115 8.96179C16.2739 8.48028 15.93 8.13634 15.4485 7.99877C14.623 7.7924 11.1149 7.7924 11.1149 7.7924C11.1149 7.7924 7.6755 7.7924 6.78126 7.99877C6.29975 8.13634 5.95581 8.48028 5.81824 8.96179C5.68066 9.85602 5.68066 11.6445 5.68066 11.6445C5.68066 11.6445 5.68067 13.433 5.88703 14.3272C6.0246 14.8087 6.36853 15.1526 6.85005 15.2902C7.67549 15.4966 11.1836 15.4966 11.1836 15.4966C11.1836 15.4966 14.623 15.4966 15.5172 15.2902C15.9987 15.1526 16.3427 14.8087 16.4803 14.3272C16.6866 13.433 16.6866 11.6445 16.6866 11.6445C16.6866 11.6445 16.6866 9.85602 16.4115 8.96179ZM10.083 13.2954V9.9936L12.9721 11.6445L10.083 13.2954Z" fill="white"/>
+                  </svg></a>
+                  <a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                    <path d="M0.177734 11.4638C0.177734 17.5422 5.10527 22.4698 11.1837 22.4698C17.2621 22.4698 22.1897 17.5422 22.1897 11.4638C22.1897 5.38538 17.2621 0.45784 11.1837 0.45784C5.10527 0.45784 0.177734 5.38538 0.177734 11.4638Z" fill="#2867B2"/>
+                    <path d="M8.15701 16.9668H5.81824V9.60656H8.15701V16.9668ZM6.98762 8.57475C6.23096 8.57475 5.68066 8.02445 5.68066 7.26779C5.68066 6.51113 6.29975 5.96083 6.98762 5.96083C7.74428 5.96083 8.29458 6.51113 8.29458 7.26779C8.29458 8.02445 7.74428 8.57475 6.98762 8.57475ZM16.6866 16.9668H14.3479V12.9771C14.3479 11.8077 13.8663 11.4638 13.1785 11.4638C12.4906 11.4638 11.8027 12.0141 11.8027 13.0459V16.9668H9.46396V9.60656H11.6652V10.6384C11.8715 10.1569 12.697 9.40019 13.8663 9.40019C15.1733 9.40019 16.5491 10.1569 16.5491 12.4268V16.9668H16.6866Z" fill="white"/>
+                  </svg></a>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+    <!-- section1 mobile view -->
+
+    <div class="section2 d-md-none d-block w-auto justify-content-center" style="margin-top:30px">
+        <div class="row  justify-content-between">
+            <div class="col-3 ">
+                <!-- <img src="./assets/img/profileview-backgroundimg.jpg" class="profile-card-logo" height="50px" width="50px"/> -->
+                <img src="https://s3-alpha-sig.figma.com/img/641b/9069/757fcb4ef2f9530bc1f63574eeacd26b?Expires=1702252800&Signature=l972o6s1uRRUn~JOJTLrXLP8oMeVeaN0MXTdqbLoCeVdVc-ICuDTiX6My0l3QtiLpVm-wJfn58wNoxcajZCKfiVG6qEm5IQqBs7A8idVdF-6Y75ujjeBQMUy2gyswtlgM3hl4dd-ysJLmH~FbgxjtqIsfNVxSGx9cxYtP-ndv0ijAqSzSeZT0laWHLeN3~9c4lYSTcLHHbFN79A4eiP9E~Fn~hbrK~6VX3YDLgPV~O0aTr3Na-H9TCz8u2irsAP80rS3K0chmyJ-beulPlGePHYkg6BqWmLfwAHl0WYLZ6GEyckUYigBvf8SVDzfIrTYbaTP0PIZxv6o8F6YDxOp9g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" class="profile-card-pic" height="150px" width="150px"/>
+            </div>
+
+            <div class="col-7">
+                <h1 class="sec1-heading"> R Adithya</h1>
+                <p class="sec1-para1"><span class="ceo">CEO of </span>  Bhavi creations</p>
+                    <div class="d-flex">
+                        <div class="icon    ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                <path d="M16.625 7.91667C16.625 13.4583 9.5 18.2083 9.5 18.2083C9.5 18.2083 2.375 13.4583 2.375 7.91667C2.375 6.027 3.12567 4.21473 4.46186 2.87854C5.79806 1.54234 7.61033 0.791672 9.5 0.791672C11.3897 0.791672 13.2019 1.54234 14.5381 2.87854C15.8743 4.21473 16.625 6.027 16.625 7.91667Z" stroke="#333333" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.5 10.2917C10.8117 10.2917 11.875 9.22835 11.875 7.91667C11.875 6.605 10.8117 5.54167 9.5 5.54167C8.18832 5.54167 7.125 6.605 7.125 7.91667C7.125 9.22835 8.18832 10.2917 9.5 10.2917Z" stroke="#333333" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                <div><p class="sec1-para2 ms-2">behind J.N.T.U.Engineering College Play Ground, Ranga Rao Nagar, Kakinada</p></div>
+            </div>
+                <div class="d-flex">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                            <path d="M3.16683 3.16667H15.8335C16.7043 3.16667 17.4168 3.87917 17.4168 4.75001V14.25C17.4168 15.1208 16.7043 15.8333 15.8335 15.8333H3.16683C2.296 15.8333 1.5835 15.1208 1.5835 14.25V4.75001C1.5835 3.87917 2.296 3.16667 3.16683 3.16667Z" stroke="#444444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M17.4168 4.75L9.50016 10.2917L1.5835 4.75" stroke="#444444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="sec1-para3 ms-2">admin@bhavicreations.com</p>
+                    </div>
+                </div>
+            </div> 
+
+        <div class="row mt-5 justify-content-between">
+            <div class="col-5 ">
+                <img src="./assets/img/bhavi image.png" class="bhavi-iamge"/>
+            </div>
+
+            <div class="col-2 ms-4 mob-social d-flex flex-column justify-content-center">
+                <a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                    <path d="M0.177734 11.006C0.177734 17.0844 5.10527 22.0119 11.1837 22.0119C17.2621 22.0119 22.1897 17.0844 22.1897 11.006C22.1897 4.92754 17.2621 0 11.1837 0C5.10527 0 0.177734 4.92754 0.177734 11.006Z" fill="#F00073"/>
+                    <path d="M11.184 6.32844C12.6973 6.32844 12.9036 6.32844 13.5227 6.32844C14.073 6.32844 14.3482 6.46601 14.5545 6.5348C14.8297 6.67238 15.036 6.74116 15.2424 6.94753C15.4488 7.15389 15.5863 7.36025 15.6551 7.6354C15.7239 7.84176 15.7927 8.11691 15.8615 8.66721C15.8615 9.28629 15.8615 9.42387 15.8615 11.006C15.8615 12.5881 15.8615 12.7257 15.8615 13.3447C15.8615 13.895 15.7239 14.1702 15.6551 14.3765C15.5175 14.6517 15.4488 14.8581 15.2424 15.0644C15.036 15.2708 14.8297 15.4084 14.5545 15.4771C14.3482 15.5459 14.073 15.6147 13.5227 15.6835C12.9036 15.6835 12.7661 15.6835 11.184 15.6835C9.60184 15.6835 9.46427 15.6835 8.84518 15.6835C8.29489 15.6835 8.01974 15.5459 7.81338 15.4771C7.53823 15.3396 7.33187 15.2708 7.1255 15.0644C6.91914 14.8581 6.78157 14.6517 6.71278 14.3765C6.64399 14.1702 6.57521 13.895 6.50642 13.3447C6.50642 12.7257 6.50642 12.5881 6.50642 11.006C6.50642 9.42387 6.50642 9.28629 6.50642 8.66721C6.50642 8.11691 6.64399 7.84176 6.71278 7.6354C6.85035 7.36025 6.91914 7.15389 7.1255 6.94753C7.33187 6.74116 7.53823 6.60359 7.81338 6.5348C8.01974 6.46601 8.29489 6.39723 8.84518 6.32844C9.46427 6.32844 9.67063 6.32844 11.184 6.32844ZM11.184 5.29663C9.60184 5.29663 9.46427 5.29663 8.84518 5.29663C8.2261 5.29663 7.81338 5.43421 7.46944 5.57178C7.1255 5.70935 6.78157 5.91572 6.43763 6.25965C6.09369 6.60359 5.95612 6.87874 5.74976 7.29146C5.61218 7.6354 5.5434 8.04812 5.47461 8.66721C5.47461 9.28629 5.47461 9.49265 5.47461 11.006C5.47461 12.5881 5.47461 12.7257 5.47461 13.3447C5.47461 13.9638 5.61218 14.3765 5.74976 14.7205C5.88733 15.0644 6.09369 15.4084 6.43763 15.7523C6.78157 16.0962 7.05672 16.2338 7.46944 16.4402C7.81338 16.5777 8.2261 16.6465 8.84518 16.7153C9.46427 16.7153 9.67063 16.7153 11.184 16.7153C12.6973 16.7153 12.9036 16.7153 13.5227 16.7153C14.1418 16.7153 14.5545 16.5777 14.8985 16.4402C15.2424 16.3026 15.5863 16.0962 15.9303 15.7523C16.2742 15.4084 16.4118 15.1332 16.6181 14.7205C16.7557 14.3765 16.8245 13.9638 16.8933 13.3447C16.8933 12.7257 16.8933 12.5193 16.8933 11.006C16.8933 9.49265 16.8933 9.28629 16.8933 8.66721C16.8933 8.04812 16.7557 7.6354 16.6181 7.29146C16.4806 6.94753 16.2742 6.60359 15.9303 6.25965C15.5863 5.91572 15.3112 5.77814 14.8985 5.57178C14.5545 5.43421 14.1418 5.36542 13.5227 5.29663C12.9036 5.29663 12.7661 5.29663 11.184 5.29663Z" fill="white"/>
+                    <path d="M11.184 8.04812C9.53306 8.04812 8.2261 9.35508 8.2261 11.006C8.2261 12.6569 9.53306 13.9638 11.184 13.9638C12.8348 13.9638 14.1418 12.6569 14.1418 11.006C14.1418 9.35508 12.8348 8.04812 11.184 8.04812ZM11.184 12.932C10.1521 12.932 9.25791 12.1066 9.25791 11.006C9.25791 9.97416 10.0834 9.07993 11.184 9.07993C12.2158 9.07993 13.11 9.90538 13.11 11.006C13.11 12.0378 12.2158 12.932 11.184 12.932Z" fill="white"/>
+                    <path d="M14.2106 8.66721C14.5905 8.66721 14.8985 8.35924 14.8985 7.97933C14.8985 7.59943 14.5905 7.29146 14.2106 7.29146C13.8307 7.29146 13.5227 7.59943 13.5227 7.97933C13.5227 8.35924 13.8307 8.66721 14.2106 8.66721Z" fill="white"/>
+                  </svg></a> 
+
+
+                  <a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                    <path d="M0.177734 11.8252C0.177734 17.9037 5.10527 22.8312 11.1837 22.8312C17.2621 22.8312 22.1897 17.9037 22.1897 11.8252C22.1897 5.74681 17.2621 0.819275 11.1837 0.819275C5.10527 0.819275 0.177734 5.74681 0.177734 11.8252Z" fill="#1877F2"/>
+                    <path d="M16.6866 11.8252C16.6866 8.79861 14.2103 6.32227 11.1836 6.32227C8.157 6.32227 5.68066 8.79861 5.68066 11.8252C5.68066 14.5767 7.67549 16.8467 10.2894 17.2594V13.4074H8.91366V11.8252H10.2894V10.5871C10.2894 9.21133 11.1149 8.45467 12.353 8.45467C12.9721 8.45467 13.5912 8.59225 13.5912 8.59225V9.96799H12.9033C12.2155 9.96799 12.0091 10.3807 12.0091 10.7934V11.8252H13.5224L13.2473 13.4074H11.9403V17.3282C14.6918 16.9155 16.6866 14.5767 16.6866 11.8252Z" fill="white"/>
+                  </svg></a>
+                  <a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                    <path d="M0.177734 11.6445C0.177734 17.7229 5.10527 22.6505 11.1837 22.6505C17.2621 22.6505 22.1897 17.7229 22.1897 11.6445C22.1897 5.56609 17.2621 0.63855 11.1837 0.63855C5.10527 0.63855 0.177734 5.56609 0.177734 11.6445Z" fill="#FF0000"/>
+                    <path d="M16.4115 8.96179C16.2739 8.48028 15.93 8.13634 15.4485 7.99877C14.623 7.7924 11.1149 7.7924 11.1149 7.7924C11.1149 7.7924 7.6755 7.7924 6.78126 7.99877C6.29975 8.13634 5.95581 8.48028 5.81824 8.96179C5.68066 9.85602 5.68066 11.6445 5.68066 11.6445C5.68066 11.6445 5.68067 13.433 5.88703 14.3272C6.0246 14.8087 6.36853 15.1526 6.85005 15.2902C7.67549 15.4966 11.1836 15.4966 11.1836 15.4966C11.1836 15.4966 14.623 15.4966 15.5172 15.2902C15.9987 15.1526 16.3427 14.8087 16.4803 14.3272C16.6866 13.433 16.6866 11.6445 16.6866 11.6445C16.6866 11.6445 16.6866 9.85602 16.4115 8.96179ZM10.083 13.2954V9.9936L12.9721 11.6445L10.083 13.2954Z" fill="white"/>
+                  </svg></a>
+                  <a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                    <path d="M0.177734 11.4638C0.177734 17.5422 5.10527 22.4698 11.1837 22.4698C17.2621 22.4698 22.1897 17.5422 22.1897 11.4638C22.1897 5.38538 17.2621 0.45784 11.1837 0.45784C5.10527 0.45784 0.177734 5.38538 0.177734 11.4638Z" fill="#2867B2"/>
+                    <path d="M8.15701 16.9668H5.81824V9.60656H8.15701V16.9668ZM6.98762 8.57475C6.23096 8.57475 5.68066 8.02445 5.68066 7.26779C5.68066 6.51113 6.29975 5.96083 6.98762 5.96083C7.74428 5.96083 8.29458 6.51113 8.29458 7.26779C8.29458 8.02445 7.74428 8.57475 6.98762 8.57475ZM16.6866 16.9668H14.3479V12.9771C14.3479 11.8077 13.8663 11.4638 13.1785 11.4638C12.4906 11.4638 11.8027 12.0141 11.8027 13.0459V16.9668H9.46396V9.60656H11.6652V10.6384C11.8715 10.1569 12.697 9.40019 13.8663 9.40019C15.1733 9.40019 16.5491 10.1569 16.5491 12.4268V16.9668H16.6866Z" fill="white"/>
+                  </svg></a>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+
+<!-- <div class="section1  d-md-none d-block w-auto justify-content-center" style="margin-top:30px">
+    <div class="row ">
+        <div class="col-12 ">
+            <img src="https://s3-alpha-sig.figma.com/img/641b/9069/757fcb4ef2f9530bc1f63574eeacd26b?Expires=1702252800&Signature=l972o6s1uRRUn~JOJTLrXLP8oMeVeaN0MXTdqbLoCeVdVc-ICuDTiX6My0l3QtiLpVm-wJfn58wNoxcajZCKfiVG6qEm5IQqBs7A8idVdF-6Y75ujjeBQMUy2gyswtlgM3hl4dd-ysJLmH~FbgxjtqIsfNVxSGx9cxYtP-ndv0ijAqSzSeZT0laWHLeN3~9c4lYSTcLHHbFN79A4eiP9E~Fn~hbrK~6VX3YDLgPV~O0aTr3Na-H9TCz8u2irsAP80rS3K0chmyJ-beulPlGePHYkg6BqWmLfwAHl0WYLZ6GEyckUYigBvf8SVDzfIrTYbaTP0PIZxv6o8F6YDxOp9g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" class="profile-card-pic " height="150px" width="150px"/>
+        </div>
+        <div class="col-12 mt-3">
+            <h1 class="sec1-heading"> R Adithya</h1>
+            <p class="sec1-para1"><span class="ceo">CEO of </span>  Bhavi creations</p>
+            <div class="d-flex">
+                <div class="icon ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                        <path d="M16.625 7.91667C16.625 13.4583 9.5 18.2083 9.5 18.2083C9.5 18.2083 2.375 13.4583 2.375 7.91667C2.375 6.027 3.12567 4.21473 4.46186 2.87854C5.79806 1.54234 7.61033 0.791672 9.5 0.791672C11.3897 0.791672 13.2019 1.54234 14.5381 2.87854C15.8743 4.21473 16.625 6.027 16.625 7.91667Z" stroke="#333333" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9.5 10.2917C10.8117 10.2917 11.875 9.22835 11.875 7.91667C11.875 6.605 10.8117 5.54167 9.5 5.54167C8.18832 5.54167 7.125 6.605 7.125 7.91667C7.125 9.22835 8.18832 10.2917 9.5 10.2917Z" stroke="#333333" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div>  
+                    <p class="sec1-para2 ms-2">behind J.N.T.U.Engineering College Play Ground, Ranga Rao Nagar, Kakinada</p>
+                </div>
+            </div>
+
+            <div class="d-flex">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                        <path d="M3.16683 3.16667H15.8335C16.7043 3.16667 17.4168 3.87917 17.4168 4.75001V14.25C17.4168 15.1208 16.7043 15.8333 15.8335 15.8333H3.16683C2.296 15.8333 1.5835 15.1208 1.5835 14.25V4.75001C1.5835 3.87917 2.296 3.16667 3.16683 3.16667Z" stroke="#444444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.4168 4.75L9.50016 10.2917L1.5835 4.75" stroke="#444444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div>
+                    <p class="sec1-para3 ms-2">send message</p>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div> -->
+
+<!-- section2 -->
+<div class="section2 w-auto d-none d-md-block d-lg-block">
+    <div class="row d-flex flex-row justify-content-center ">
+        <div class="col-5 ms-2">
+          <div class="card shadow border-0">
+            <div class="card-body">
+                <div class="d-flex">
+                    <div>
+                        <p class="card-head1">professional bio</p>
+                    </div>
+                    <div class="ms-auto">
+                        <p class="card-head2"><span class="years"> 14 </span>years expexperience </p>
+                    </div>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur. In quisque facilisis a amet diam. Diam et ac aliquet sapien integer rhoncus sapien. Sapien nunc et commodo elementum</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur. In quisque facilisis a amet diam. Diam et ac aliquet sapien integer rhoncus sapien. Sapien nunc et commodo elementum nec dictum ipsum dui posuere. Vulputate sed id ipsum sed vivamus fringilla facilisi tincidunt quis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-5">
+            <div class="card shadow border-0">
+              <div class="card-body">
+                <p class="card-head3">personal details</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur. In quisque facilisis a amet diam. Diam et ac aliquet sapien integer rhoncus sapien. Sapien nunc et commodo elementum</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur. In quisque facilisis a amet diam. Diam et ac aliquet sapien integer rhoncus sapien. Sapien nunc et commodo elementum nec dictum ipsum dui posuere. Vulputate sed id ipsum sed vivamus fringilla facilisi tincidunt quis.</p>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- section2 for mobile view -->
+
+  <div class="section2 w-auto d-sm-block d-md-none d-lg-none">
+    <div class="row d-flex flex-row justify-content-center ">
+        <div class="col-12 ms-2 mb-2">
+          <div class="card shadow border-0">
+            <div class="card-body">
+                <div class="d-flex">
+                    <div>
+                        <p class="card-head1">professional bio</p>
+                    </div>
+                    <div class="ms-auto">
+                        <p class="card-head2"><span class="years"> 14 </span>years expexperience </p>
+                    </div>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur. In quisque facilisis a amet diam. Diam et ac aliquet sapien integer rhoncus sapien. Sapien nunc et commodo elementum</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur. In quisque facilisis a amet diam. Diam et ac aliquet sapien integer rhoncus sapien. Sapien nunc et commodo elementum nec dictum ipsum dui posuere. Vulputate sed id ipsum sed vivamus fringilla facilisi tincidunt quis.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="row d-flex flex-row justify-content-center ">
+        <div class="col-12 ms-2">
+          <div class="card shadow border-0">
+            <div class="card-body">
+                <div class="d-flex">
+                    <div>
+                        <p class="card-head1">professional bio</p>
+                    </div>
+                    <div class="ms-auto">
+                        <p class="card-head2"><span class="years"> 14 </span>years expexperience </p>
+                    </div>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur. In quisque facilisis a amet diam. Diam et ac aliquet sapien integer rhoncus sapien. Sapien nunc et commodo elementum</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur. In quisque facilisis a amet diam. Diam et ac aliquet sapien integer rhoncus sapien. Sapien nunc et commodo elementum nec dictum ipsum dui posuere. Vulputate sed id ipsum sed vivamus fringilla facilisi tincidunt quis.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- ssection3 -->
+
+<div class="card m-5 border-0 shadow w-auto " >
+    <div class="card-body">
+      <h5 class="card-title">About Bhavi creations</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur. In quisque facilisis a amet diam. Diam et ac aliquet sapien integer rhoncus sapien. Sapien nunc et commodo elementum</p>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur. In quisque facilisis a amet diam. Diam et ac aliquet sapien integer rhoncus sapien. Sapien nunc et commodo elementum nec dictum ipsum dui posuere. Vulputate sed id ipsum sed vivamus fringilla facilisi tincidunt quis.</p>
+    </div>
+  </div>
+       
+
+
+  <!-- section 4 -->
+
+
+<!-- ========================================================== -->
+
+<div id="carouselExampleControls" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+          <h1 class="sec4-heading">We provide services</h1>
+      </div>
+    </div>
+      <div class="carousel-inner mb-5">
+        <div class="carousel-item active">
+          <div class="row">
+            <!-- First Slider with 4 cards -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="card " style="height: 400px;" >
+                  <img src="./assets/img/logodesign.jpg"  height="205px" width="40px" class="card-img-top p-2" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title ">Logo Design</h5>
+                    <p class="card-text">At Bhavi Creations, we believe that a powerful logo is the foundation of a successful brand.</p>
+                  </div>
+              </div>
+            </div>
+            <!-- First card ends -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="card " style="height: 400px;">
+               <img src="./assets/img/websitedesign.webp" height="205px" width="40px"  class="card-img-top p-3" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Website Design</h5>
+                  <p class="card-text">Get a professional and unique website design that reflects your brand and engages your customers. </p>
+                </div>
+            </div>
+            </div>
+            <!-- second card ends -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="card " style="height: 400px;">
+                <img src="./assets/img/google.png" height="205px" width="40px"  class="card-img-top p-3" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Google my Business</h5>
+                  <p class="card-text">At Bhavi Creations, we take pride in offering top-notch Google My Business services to elevate your online presence.</p>
+                </div>
+            </div>
+            </div>
+            <!-- third card ends -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="card " style="height: 400px;">
+                <img src="./assets/img/social media.webp" height="205px" width="40px" class="card-img-top p-3" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Social Media Marketing</h5>
+                  <p class="card-text">Social media marketing is an essential tool to grow your business. </p>
+                </div>
+            </div>
+            </div>
+          </div>
+          <!-- Row ends -->
+        </div>
+        <!-- carousel item ends -->
+  
+        <div class="carousel-item ">
+          <div class="row">
+            <!-- Second Slider with 4 cards -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="card " style="height: 400px;">
+                  <img src="./assets/img/content creation.webp"  height="205px" width="40px" class="card-img-top p-3" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Content Creation</h5>
+                    <p class="card-text">Get a professional and unique website design that reflects your brand and engages your customers. </p>
+                  </div>
+              </div>
+            </div>
+            <!-- First card ends -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="card " style="height: 400px;" >
+                <img src="assets/img/bulk wp bd sms.png" height="205px" width="40px" class="card-img-top p-3" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Bulk WhatsApp And SMS</h5>
+                  <p class="card-text">Reach your customers instantly with bulk WhatsApp and SMS messaging. Send personalized messages to thousands of people at once, effortlessly.</p>
+                </div>
+            </div>
+            </div>
+            <!-- Second card ends -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="card " style="height: 400px;">
+                <img src="./assets/img/youtube.webp" height="205px" width="40px" class="card-img-top p-3" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">You Tube Monetization</h5>
+                  <p class="card-text">Give your website the boost it needs with our SEO services. Our experts will help you optimize your content to improve rank and visibility, drive more traffic, and increase conversions.</p>
+                </div>
+            </div>
+            </div>
+            <!-- Third card ends -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="card " style="height: 400px;">
+                <img src="./assets/img/AD campigns.webp" height="205px" width="40px" class="card-img-top p-3" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Ad Campaigns</h5>
+                  <p class="card-text">Get the most out of your ad campaigns with our comprehensive description writing services. We will craft compelling descriptions that capture attention and drive conversions.</p>
+                </div>
+            </div>
+            </div>
+            <!-- Fourth card ends -->
+          </div>
+          <!-- row ends -->
+        </div>
+        <!-- carousil card ends -->
+        
+        <div class="carousel-item ">
+          <div class="row">
+            <!-- Third Slider with 4 cards -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="card " style="height: 400px;">
+                  <img src="http://bhavicreations.com/wp-content/uploads/2023/08/f9b3ca426d85b7bee686ae11e999540d.jpg" height="205px" width="40px" class="card-img-top p-3" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Graphic Design</h5>
+                    <p class="card-text">Get the best graphic design services for your business. Our experienced designers create stunning visuals that can help you stand out from the competition.</p>
+                  </div>
+              </div>
+            </div>
+            <!-- First card ends -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="card " style="height: 400px;">
+                <img src="./assets/img/video design.webp" height="205px" width="40px" class="card-img-top p-3" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Video Design</h5>
+                  <p class="card-text">Create stunning videos with our intuitive video designing platform. Our user-friendly tools let you bring your ideas to life quickly and easily.</p>
+                </div>
+            </div>
+            </div>
+            <!-- Second card ends -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="card " style="height: 400px;">
+                <img src="http://bhavicreations.com/wp-content/uploads/2023/08/images-9.jpeg" height="205px" width="40px" class="card-img-top p-3" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Product Photo Shoot</h5>
+                  <p class="card-text">At Bhavi Creations, we offer professional product photo shoot services that bring your products to life. </p>
+                </div>
+            </div>
+            </div>
+            <!-- Third card ends -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="card " style="height: 400px;">
+                <img src="./assets/img/SEO design.webp" height="205px" width="40px"  class="card-img-top p-3" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">SEO</h5>
+                  <p class="card-text">Give your website the boost it needs with our SEO services. Our experts will help you optimize your content to improve rank and visibility, drive more traffic, and increase conversions.</p>
+                </div>
+            </div>
+            </div>
+            <!-- Fourth card ends -->
+          </div>
+          <!-- row ends -->
+        <!-- Add more carousel items as needed -->
+      </div>
+      <!-- carousil card ends -->
+      </div>
+      <!-- carousel-inner -->
+  
+      
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    
+      <!-- Bootstrap JS Bundle (Popper included) -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+<!-- =============================================================== -->
+<!-- mobile view  -->
+<div id="carouselExampleControls" class="carousel slide d-block d-md-none" data-bs-ride="carousel">
+  <div class="row">
+    <div class="col-12 text-center mb-5">
+        <h1 class="sec4-heading">We provide services</h1>
+    </div>
+  </div>
+    <div class="carousel-inner mb-5">
+      <div class="carousel-item active">
+        <div class="row">
+          <!-- First Slider with 4 cards -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="card " style="height: 400px;" >
+                <img src="./assets/img/logodesign.jpg"  height="205px" width="40px" class="card-img-top p-2" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title ">Logo Design</h5>
+                  <p class="card-text">At Bhavi Creations, we believe that a powerful logo is the foundation of a successful brand.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- Row ends -->
+      </div>
+      <!-- carousel item ends -->
+
+      <div class="carousel-item ">
+        <div class="row">
+          <!-- Second Slider with 4 cards -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="card " style="height: 400px;">
+                <img src="./assets/img/content creation.webp"  height="205px" width="40px" class="card-img-top p-3" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Content Creation</h5>
+                  <p class="card-text">Get a professional and unique website design that reflects your brand and engages your customers. </p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- row ends -->
+      </div>
+      <!-- carousil card ends -->
+      
+      <div class="carousel-item ">
+        <div class="row">
+          <!-- Third Slider with 4 cards -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="card " style="height: 400px;">
+                <img src="http://bhavicreations.com/wp-content/uploads/2023/08/f9b3ca426d85b7bee686ae11e999540d.jpg" height="205px" width="40px" class="card-img-top p-3" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Graphic Design</h5>
+                  <p class="card-text">Get the best graphic design services for your business. Our experienced designers create stunning visuals that can help you stand out from the competition.</p>
+                </div>
+            </div>
+          </div>
+          <!-- Fourth card ends -->
+        </div>
+        <!-- row ends -->
+    </div>
+    <!-- carousil card ends -->new added 
+    <div class="carousel-item ">
+      <div class="row">
+        <!-- Second Slider with 4 cards -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card " style="height: 400px;">
+            <img src="./assets/img/websitedesign.webp" height="205px" width="40px"  class="card-img-top p-3" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Website Design</h5>
+              <p class="card-text">Get a professional and unique website design that reflects your brand and engages your customers. </p>
+            </div>  
+          </div>
+        </div>
+      </div>
+      <!-- row ends -->
+    </div>
+    <!-- carousil card ends -->
+
+    <div class="carousel-item ">
+      <div class="row">
+        <!-- Second Slider with 4 cards -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card " style="height: 400px;">
+            <img src="./assets/img/google.png" height="205px" width="40px"  class="card-img-top p-3" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Google my Business</h5>
+              <p class="card-text">At Bhavi Creations, we take pride in offering top-notch Google My Business services to elevate your online presence.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row ends -->
+    </div>
+    <!-- carousil card ends -->
+
+    <div class="carousel-item ">
+      <div class="row">
+        <!-- Second Slider with 4 cards -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card " style="height: 400px;">
+            <img src="./assets/img/social media.webp" height="205px" width="40px" class="card-img-top p-3" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Social Media Marketing</h5>
+              <p class="card-text">Social media marketing is an essential tool to grow your business. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row ends -->
+    </div>
+    <!-- carousil card ends -->
+
+    <div class="carousel-item ">
+      <div class="row">
+        <!-- Second Slider with 4 cards -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card " style="height: 400px;">
+            <img src="assets/img/bulk wp bd sms.png" height="205px" width="40px" class="card-img-top p-3" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Bulk WhatsApp And SMS</h5>
+              <p class="card-text">Reach your customers instantly with bulk WhatsApp and SMS messaging. Send personalized messages to thousands of people at once, effortlessly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row ends -->
+    </div>
+    <!-- carousil card ends -->
+
+    <div class="carousel-item ">
+      <div class="row">
+        <!-- Second Slider with 4 cards -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card " style="height: 400px;">
+            <img src="./assets/img/youtube.webp" height="205px" width="40px" class="card-img-top p-3" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">You Tube Monetization</h5>
+              <p class="card-text">Give your website the boost it needs with our SEO services. Our experts will help you optimize your content to improve rank and visibility, drive more traffic, and increase conversions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row ends -->
+    </div>
+    <!-- carousil card ends -->
+
+    <div class="carousel-item ">
+      <div class="row">
+        <!-- Second Slider with 4 cards -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card " style="height: 400px;">
+            <img src="./assets/img/AD campigns.webp" height="205px" width="40px" class="card-img-top p-3" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Ad Campaigns</h5>
+              <p class="card-text">Get the most out of your ad campaigns with our comprehensive description writing services. We will craft compelling descriptions that capture attention and drive conversions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row ends -->
+    </div>
+    <!-- carousil card ends -->
+
+    <div class="carousel-item ">
+      <div class="row">
+        <!-- Second Slider with 4 cards -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card " style="height: 400px;">
+            <img src="./assets/img/video design.webp" height="205px" width="40px" class="card-img-top p-3" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Video Design</h5>
+              <p class="card-text">Create stunning videos with our intuitive video designing platform. Our user-friendly tools let you bring your ideas to life quickly and easily.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row ends -->
+    </div>
+    <!-- carousil card ends -->
+
+    <div class="carousel-item ">
+      <div class="row">
+        <!-- Second Slider with 4 cards -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card " style="height: 400px;">
+            <img src="http://bhavicreations.com/wp-content/uploads/2023/08/images-9.jpeg" height="205px" width="40px" class="card-img-top p-3" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Product Photo Shoot</h5>
+              <p class="card-text">At Bhavi Creations, we offer professional product photo shoot services that bring your products to life. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row ends -->
+    </div>
+    <!-- carousil card ends -->
+
+    <div class="carousel-item ">
+      <div class="row">
+        <!-- Second Slider with 4 cards -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card " style="height: 400px;">
+            <img src="./assets/img/SEO design.webp" height="205px" width="40px"  class="card-img-top p-3" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">SEO</h5>
+              <p class="card-text">Give your website the boost it needs with our SEO services. Our experts will help you optimize your content to improve rank and visibility, drive more traffic, and increase conversions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row ends -->
+    </div>
+    <!-- carousil card ends -->
+
+    </div>
+    <!-- carousel-inner -->
+
+    
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  
+    <!-- Bootstrap JS Bundle (Popper included) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </div>
+
+
+      <!-- footer -->
+      <footer class="footer_bg pt-3 mt-2">
+        <div class="container">
+            <div class="row " > 
+                <div class="col-md">
+                    <div class="ftco-footer-widget p-5">
+                        <ul class="list-unstyled">
+                            <li  ><a class="footer_heading" href=""><h4>About J com</h4></a></li>
+                            <li  ><a  class="footer_menu" href=""><p>To provide Business Development opportunities that empower young Entrepreneurs towards Business Growth.</p></a></li>
+                             
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget p-5">
+                        <ul class="list-unstyled">
+                            <li  ><a class="footer_heading" href=""><h4>website</h4></a></li>
+                            <li  ><a class="footer_menu" href="./index.html"><p>homepage</p></a></li>
+                            <li ><a class="footer_menu" href="./profile.html"><p>JCOM 1.0</p></a></li>
+                            <li  ><a class="footer_menu" href="./"><p>About us</p></a></li>
+    
+                          </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget p-5">
+                        <ul class="list-unstyled">
+                            <li ><a class="footer_heading" href=""><h4>startups and innovations</h4></a></li>
+                            <li ><a class="footer_menu" href=""><p>browser bt catefory</p></a></li>
+                            <li ><a class="footer_menu" href=""><p>search</p></a></li>
+                            <li ><a class="footer_menu" href=""><p>most visited</p></a></li>
+                         </ul>
+                    </div>
+                </div>
+    
+                <div class="col-md">
+                    <div class="ftco-footer-widget p-5">
+                        <ul class="list-unstyled">
+                            <li ><a class="footer_heading" href=""><h4>support</h4></a></li>
+                            <li ><a class="footer_menu" href=""><p>contact us</p></a></li>
+                            <li ><a class="footer_menu" href=""><p>member login</p></a></li>
+                          </ul>
+                    </div>
+                </div>
+              
+    
+        </div>
+    </footer>
+    
+    <div >
+        <div class=" text-center foot_pad  pt-3">
+            <p class="fotter_end">
+                © 2023 J com.kakinada All Rights Reserved Terms of Use Privacy Policy <a href="https://bhavicreations.com"  target="_blank"><span class="bhavi_creations">Bhavi Creations</span></a>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
