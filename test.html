@@ -142,11 +142,169 @@
 
 
 
+      <!-- ================================================= -->
+
+
+      <div class="searchsec">
+        <h3 class="text-center m-5 service_heading_lg">Chapter and Category Search</h3>
+    
+        <form id="searchForm" class="d-flex justify-content-center">
+            <label for="chapterSelect" class="m-2" style="font-weight:bold;font-family:Roboto">Select Chapter:</label>
+            <select id="chapterSelect" required>
+                <option value="" selected>Select a Chapter</option>
+                <option value="Chapter 1">Chapter 1</option>
+                <option value="Chapter 2">Chapter 2</option>
+                <!-- Add more chapters as needed -->
+            </select>
+    
+            <label for="categorySelect" class="m-2" style="font-weight:bold;font-family:Roboto">Select Category:</label>
+            <select id="categorySelect" required>
+                <option value="" selected>Select a Category</option>
+                <!-- Add your category options here -->
+                <option value="Hardware Stores">Hardware Stores</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+                <option value="Medical Wholesale & Retail">Medical Wholesale & Retail</option>
+                <!-- Add more categories as needed -->
+                <!-- ... up to 50 categories -->
+            </select>
+    
+            <button type="button" onclick="searchContent()" class="button1">Search</button>
+        </form>
+    </div>
+    
+    <script>
+        function searchContent() {
+            var chapter = document.getElementById("chapterSelect").value;
+            var category = document.getElementById("categorySelect").value;
+    
+            if (chapter && category) {
+                // Define an array to store information for each category
+                var categoryData = [
+                    { chapter: "Chapter 1", category: "Hardware Stores", page: "1Pullipudi Srinivas.html" },
+                    { chapter: "Chapter 1", category: "Digital Marketing", page: "2Ch.Naga Phaneendra.html" },
+                    { chapter: "Chapter 1", category: "Medical Wholesale & Retail", page: "3Kommisetti Sri Harsha.html" },
+                    { chapter: "Chapter 1", category: "Mechanical Services", page: "4Atchuta Siva Kumar Imandi.html" },
+                    { chapter: "Chapter 1", category: "Construction", page: "5Viswanath.html" },
+                    { chapter: "Chapter 1", category: "Doors And Windows", page: "6 Manikanta Pavan Varma P.html" },
+                    { chapter: "Chapter 1", category: "CC TV", page: "7Rajasekhar.html" },
+                    { chapter: "Chapter 1", category: "Electrical Contractors", page: "8Sai Chikkala.html" },
+                    { chapter: "Chapter 1", category: "Disposables", page: "9Santosh Siva Kumar.html" },
+                    { chapter: "Chapter 1", category: "Lakshmi Jewellers", page: "10JC R V Mahesh.html" },
+
+                    { chapter: "Chapter 1", category: "Hotel", page: "11Chittoory Murthy.html" },
+                    { chapter: "Chapter 1", category: "Kirana Wholesale", page: "12Anil Talluri.html" },
+                    { chapter: "Chapter 1", category: "Photography", page: "13Naveen.html" },
+                    { chapter: "Chapter 1", category: "Events", page: "14RK Naidu.html" },
+                    { chapter: "Chapter 1", category: "Wellness", page: "15JC R Sathish.html" },
+                    { chapter: "Chapter 1", category: "Stitchings", page: "16Sairam Vadaparthi.html" },
+                    { chapter: "Chapter 1", category: "Catering", page: "17Vinay Vardhan.html" },
+                    { chapter: "Chapter 1", category: "Health Insurance", page: "18R Adithya.html" },
+                    { chapter: "Chapter 1", category: "Sri Surya Chandra Homeo", page: "19Dr Surya Kiran.html" },
+                    { chapter: "Chapter 1", category: "Mk Skin Hospital", page: "20K Lakshman Kumar.html" },
+
+                   { chapter: "Chapter 1", category: "Physiotherapist", page: "21 Hariprasad P.html" },
+                    { chapter: "Chapter 1", category: "Interiors", page: "22Pavan Kuricheti.html" },
+                    { chapter: "Chapter 1", category: "Laboratory", page: "23Ravindra.html" },
+                    { chapter: "Chapter 1", category: "Sankeerth", page: "24Sankeerth.html" },
+                    { chapter: "Chapter 1", category: "Opticals", page: "25Harshavardhan.html" },
+                    { chapter: "Chapter 1", category: "Insurance- LIC", page: "26Chekka Bhadram.html" },
+                    { chapter: "Chapter 1", category: "Botique", page: "27Harshitha.html" },
+                    { chapter: "Chapter 1", category: "Pan Mahal Store", page: "28N Murali Krishna.html" },
+                    { chapter: "Chapter 1", category: "Tax Consultancy", page: "29Sriram Prakash.html" },
+                    { chapter: "Chapter 1", category: "Real Estate", page: "30Narala Chinna Srinivas.html" },
+
+                    { chapter: "Chapter 1", category: "Tours & Travels", page: "31Pavan Kumar Yerramilli.html" },
+                    { chapter: "Chapter 1", category: "Plumbing", page: "32Boda Satish.html" },
+                    { chapter: "Chapter 1", category: "Inverters, Batteries", page: "33Kapil Lunani.html" },
+                    { chapter: "Chapter 1", category: "Cycles", page: "34 Talluri Rajesh.html" },
+                    { chapter: "Chapter 1", category: "Mobiles Stores", page: "35Arudra.html" },
+                    { chapter: "Chapter 1", category: "Ready Made", page: "36JC Satyanandam.html" },
+                    { chapter: "Chapter 1", category: "Home Appliances", page: "37 M Vihari.html" },
+                    { chapter: "Chapter 1", category: "Computers", page: "38 JC V Murali.html" },
+                    { chapter: "Chapter 1", category: "Air Conditioning", page: "39 Sagi Naga Varma.html" },
+                    { chapter: "Chapter 1", category: "Genral Stores", page: "40 JC Srinivas Kumar Nalam.html" },
+
+                    { chapter: "Chapter 1", category: "Choclates Store", page: "41 Kamisetti Lakshmi Ganesh.html" },
+                    { chapter: "Chapter 1", category: "Hospitals", page: "42 Dr. T V K Karthik Hareen.html" },
+                    { chapter: "Chapter 1", category: "Dentist", page: "43 Dr. R Jahnavi.html" },
+                    { chapter: "Chapter 1", category: "Hearing Aids", page: "44 N Srinu Naik.html" },
+                    { chapter: "Chapter 1", category: "Paints", page: "45 P.S.V.V.Mohan Rao.html" },
+                    { chapter: "Chapter 1", category: "Enagic Kangen Ionizer", page: "46 Rebbapragada Rajesh Kumar.html" },
+                    { chapter: "Chapter 1", category: "Function Hallv", page: "47 D Vipul Avinash Reddy.html" },
+                    { chapter: "Chapter 1", category: "Architect", page: "48 P Veerababu.html" },
+                    
+              
+
+                    // Add more entries for the remaining categories
+                    // ... up to 50 categories
+                ];
+    
+                // Find the selected category in the array
+                var selectedCategory = categoryData.find(function (data) {
+                    return data.chapter === chapter && data.category === category;
+                });
+    
+                if (selectedCategory) {
+                    // Redirect to the corresponding page
+                    window.location.href = 1Pullipudi Srinivas.html + "?chapter=" + chapter + "&category=" + category;
+                } else {
+                    alert("Selected combination not found.");
+                }
+            } else {
+                alert("Please select both a chapter and a category.");
+            }
+        }
+    </script>
+    
 
 
 
 
 
+
+<!-- ... Your HTML code ... -->
+
+<script>
+  function searchContent() {
+      var chapter = document.getElementById("chapterSelect").value;
+      var category = document.getElementById("categorySelect").value;
+
+      if (chapter && category) {
+          // Define an array to store information for each category
+          var categoryData = [
+              { chapter: "Chapter 1", category: "Hardware Stores", page: "1Pullipudi Srinivas.html" },
+              { chapter: "Chapter 1", category: "Digital Marketing", page: "2Ch.Naga Phaneendra.html" },
+              { chapter: "Chapter 1", category: "Medical Wholesale & Retail", page: "3Kommisetti Sri Harsha.html" },
+              // Add information for the remaining categories
+              // ...
+              { chapter: "Chapter 1", category: "Architect", page: "48 P Veerababu.html" },
+          ];
+
+          // Add information for the remaining categories using a loop
+          for (var i = 4; i <= 48; i++) {
+              categoryData.push({
+                  chapter: "Chapter 1",
+                  category: "Category " + i,
+                  page: i + "YourPageName.html"
+              });
+          }
+
+          // Find the selected category in the array
+          var selectedCategory = categoryData.find(function (data) {
+              return data.chapter === chapter && data.category === category;
+          });
+
+          if (selectedCategory) {
+              // Redirect to the corresponding page
+              window.location.href = selectedCategory.page + "?chapter=" + chapter + "&category=" + category;
+          } else {
+              alert("Selected combination not found.");
+          }
+      } else {
+          alert("Please select both a chapter and a category.");
+      }
+  }
+</script>
 
 
 

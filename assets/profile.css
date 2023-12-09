@@ -333,3 +333,10 @@ button {
   padding: 8px;
   cursor: pointer;
 }
+.service_heading_lg{
+  color: #F17216;
+  font-family: 'Inter', sans-serif;font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
