@@ -340,3 +340,23 @@ button {
   font-weight: 600;
   line-height: normal;
   }
+
+  .searchsec {
+    padding: 20px;
+  }
+
+  .service_heading_lg {
+    font-size: 24px;
+  }
+
+  /* Add more styles as needed */
+
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .service_heading_lg {
+      font-size: 20px;
+
+    #searchForm {
+      /* padding:20px; */
+    }
+    }

@@ -277,8 +277,7 @@ line-height: 25px; /* 125% */
     font-family: 'Inter', sans-serif;
 font-size: 36px;
 font-style: normal;
-font-weight: 700;
-line-height: 53px; /* 147.222% */
+font-weight: 700; /* 147.222% */
 letter-spacing: 0.72px;
 }
 
@@ -288,7 +287,6 @@ letter-spacing: 0.72px;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 27px; /* 135% */
 }
 
 /* hello mee tour new members .......... */
@@ -577,4 +575,5 @@ flex-shrink: 0;
 .ind1 {
     margin:0px;
 }
+
 

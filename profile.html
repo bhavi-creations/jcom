@@ -76,20 +76,26 @@
 
  <div class="searchsec">
   <div class="row">
-  <h3 class="text-center m-5 service_heading_lg">Chapter and Category Search</h3>
-
+    <div class="col-12">
+        <h3 class="text-center service_heading_lg mb-4">Chapter and Category Search</h3>
+    </div>
+  </div>
   <form id="searchForm" class="d-flex justify-content-center">
-      <label for="chapterSelect" class="m-2" style="font-weight:bold;font-family:Roboto">Select Chapter:</label>
-      <select id="chapterSelect" required>
-          <option value=""  selected>Select a Chapter</option>
-          <!-- Add your chapter options here -->
-          <option value="Chapter 1">Chapter 1</option>
-          <option value="Chapter 2">Chapter 2</option>
-          <!-- Add more chapters as needed -->
-      </select>
-
-      <label for="categorySelect" class="m-2" style="font-weight:bold;font-family:Roboto">Select Category:</label>
-      <select id="categorySelect" required>
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <label for="chapterSelect" class="m-2" style="font-weight:bold;font-family:Roboto">Select Chapter:</label>
+        <select id="chapterSelect" required class="mb-2">
+            <option value=""  selected >Select a Chapter</option>
+            <!-- Add your chapter options here -->
+            <option value="Chapter 1">Chapter 1</option>
+            <option value="Chapter 2">Chapter 2</option>
+            <!-- Add more chapters as needed -->
+        </select>
+      </div>
+      
+      <div class="col-11 col-lg-5">
+      <label for="categorySelect" style="font-weight:bold;font-family:Roboto">Select Category:</label>
+      <select id="categorySelect" required class="mb-2">
           <option value=""  selected>Select a Category</option>
           <!-- Add your category options here -->
         
@@ -100,7 +106,7 @@
           <option value="Construction">Construction</option>
           <option value="Doors And Windows">Doors And Windows</option>
           <option value="CC TV">CC TV</option>
-          <option value="Electrical Contractors">Electrical Contractors</option>
+          <option value="Electrical Contractors">Electrical Contractors</option>  
           <option value="Disposables">Disposables</option>
           <option value="Lakshmi Jewellers">Lakshmi Jewellers</option>
 
@@ -128,7 +134,7 @@
 
           <option value="Tours & Travels">Tours & Travels</option>
           <option value="Plumbing">Plumbing</option>
-          <option value="Inverters">Inverters</option>
+          <option value="Inverters, Batteries">Inverters, Batteries</option>
           <option value="Cycles">Cycles</option>
           <option value="Mobiles Stores">Mobiles Stores</option>
           <option value="Ready Made">Ready Made</option>
@@ -148,8 +154,11 @@
 
           <!-- Add more categories as needed -->
       </select>
-
+    </div>
+    <div class="col-6 col-lg-1 ">
       <button type="button" onclick="searchContent()" class="button1">Search</button>
+    </div>
+    </div>
   </form>
 </div>
 </div>
@@ -169,7 +178,7 @@
           } else if (chapter === "Chapter 1" && category === "Medical Wholesale & Retail") {
               window.location.href = "3Kommisetti Sri Harsha.html?chapter=2&category=Medical Wholesale & Retail";
           } else if (chapter === "Chapter 1" && category === "Mechanical Services") {
-              window.location.href = "4Atchuta Siva Kumar Imandi.html?chapter=2&category=Mechanical Services";
+              window.location.href = "4Atchuta Siva Kumar.html?chapter=2&category=Mechanical Services";
           } else if (chapter === "Chapter 1" && category === "Construction") {
             window.location.href = "5Viswanath.html?chapter=2&category=Construction";
           } else if (chapter === "Chapter 1" && category === "Doors And Windows") {
@@ -193,18 +202,18 @@
             window.location.href = "13Naveen.html?chapter=2&category=Photography";
         } else if (chapter === "Chapter 1" && category === "Events") {
             window.location.href = "14RK Naidu.html?chapter=2&category=Events";
+        } else if (chapter === "Chapter 1" && category === "Wellness") {
+          window.location.href = "15JC R Sathish.html?chapter=2&category=Wellness";
         } else if (chapter === "Chapter 1" && category === "Stitchings") {
-          window.location.href = "15JC R Sathish.html?chapter=2&category=Stitchings";
+          window.location.href = "16Sairam Vadaparthi.html?chapter=2&category=Stitchings";
         } else if (chapter === "Chapter 1" && category === "Catering") {
-          window.location.href = "16Sairam Vadaparthi.html?chapter=2&category=Catering";
+          window.location.href = "17Vinay Vardhan.html?chapter=2&category=Catering";
         } else if (chapter === "Chapter 1" && category === "Health Insurance") {
-          window.location.href = "17Vinay Vardhan.html?chapter=2&category=Health Insurance";
-        } else if (chapter === "Chapter 1" && category === "Sri Surya Chandra Homeo") {
-          window.location.href = "18R Adithya.html?chapter=2&category=Sri Surya Chandra Homeo";
+          window.location.href = "18R Adithya.html?chapter=2&category=Health Insurance";
+       } else if (chapter === "Chapter 1" && category === "Sri Surya Chandra Homeo") {
+        window.location.href = "19Dr Surya Kiran.html?chapter=2&category=Sri Surya Chandra Homeo";
        } else if (chapter === "Chapter 1" && category === "Mk Skin Hospital") {
-        window.location.href = "19Dr Surya Kiran.html?chapter=2&category=Mk Skin Hospital";
-       } else if (chapter === "Chapter 1" && category === "Category 4") {
-        window.location.href = "20K Lakshman Kumar.html?chapter=2&category=Lakshmi Jewellers";
+        window.location.href = "20K Lakshman Kumar.html?chapter=2&category=Mk Skin Hospital";
        }    
 
 
@@ -224,7 +233,7 @@
         } else if (chapter === "Chapter 1" && category === "Botique") {
           window.location.href = "27Harshitha.html?chapter=2&category=Botique";
         } else if (chapter === "Chapter 1" && category === "Pan Mahal Store") {
-          window.location.href = "28N Murali Krishna.html?chapter=2&category=Pan Mahal Store";
+          window.location.href = "28 N Murali Krishna.html?chapter=2&category=Pan Mahal Store";
         } else if (chapter === "Chapter 1" && category === "Tax Consultancy") {
         window.location.href = "29Sriram Prakash.html?chapter=2&category=Tax Consultancy";
         } else if (chapter === "Chapter 1" && category === "Real Estate") {
@@ -236,41 +245,41 @@
             window.location.href = "31Pavan Kumar Yerramilli.html?chapter=1&category=Tours & Travels";
         } else if (chapter === "Chapter 1" && category === "Plumbing") {
             window.location.href = "32Boda Satish.html?chapter=1&category=Plumbing";
-        } else if (chapter === "Chapter 1" && category === "Inverters") {
-            window.location.href = "33Kapil Lunani.html?chapter=2&category=Inverters";
+        } else if (chapter === "Chapter 1" && category === "Inverters, Batteries") {
+            window.location.href = "33Kapil Lunani.html?chapter=2&category=Inverters, Batteries";
         } else if (chapter === "Chapter 1" && category === "Cycles") {
             window.location.href = "34 Talluri Rajesh.html?chapter=2&category=Cycles";
-        } else if (chapter === "Chapter 1" && category === "Ready Made") {
-          window.location.href = "35Arudra.html?chapter=2&category=Ready Made";
-        } else if (chapter === "Chapter 1" && category === "Home Appliances") {
-          window.location.href = "36JC Satyanandam.html?chapter=2&category=Home Appliances";
-        } else if (chapter === "Chapter 1" && category === "Computers") {
-          window.location.href = "37 M Vihari.html?chapter=2&category=Computers";
-        } else if (chapter === "Chapter 1" && category === "Air Conditioning") {
-          window.location.href = "38 JC V Murali.html?chapter=2&category=Air Conditioning";
-        } else if (chapter === "Chapter 1" && category === "Genral Stores") {
-        window.location.href = "39 Sagi Naga Varma.html?chapter=2&category=Genral Stores";
         } else if (chapter === "Chapter 1" && category === "Mobiles Stores") {
-        window.location.href = "40 JC Srinivas Kumar Nalam.html?chapter=2&category=Mobiles Stores";
+          window.location.href = "35Arudra.html?chapter=2&category=Mobiles Stores";
+        } else if (chapter === "Chapter 1" && category === "Ready Made") {
+          window.location.href = "36JC Satyanandam.html?chapter=2&category=Ready Made";
+        } else if (chapter === "Chapter 1" && category === "Home Appliances") {
+          window.location.href = "37 M Vihari.html?chapter=2&category=Home Appliances";
+        } else if (chapter === "Chapter 1" && category === "Computers") {
+          window.location.href = "38 JC V Murali.html?chapter=2&category=Computers";
+        } else if (chapter === "Chapter 1" && category === "Air Conditioning") {
+        window.location.href = "39 Sagi Naga Varma.html?chapter=2&category=Air Conditioning";
+        } else if (chapter === "Chapter 1" && category === "Genral Stores") {
+        window.location.href = "40 JC Srinivas Kumar Nalam.html?chapter=2&category=Genral Stores";
         }  
         
         // Add more combinations as needed
         if (chapter === "Chapter 1" && category === "Choclates Store") {
           window.location.href = "41 Kamisetti Lakshmi Ganesh.html?chapter=1&category=Choclates Store";
         } else if (chapter === "Chapter 1" && category === "Hospitals") {
-          window.location.href = "42 Dr. T V K Karthik Hareen.html?chapter=1&category=Hospitals";
+          window.location.href = "42  Dr. T V K Karthik Hareen.html?chapter=1&category=Hospitals";
         } else if (chapter === "Chapter 1" && category === "Dentist") {
           window.location.href = "43 Dr. R Jahnavi.html?chapter=2&category=Dentist";
         } else if (chapter === "Chapter 1" && category === "Hearing Aids") {
           window.location.href = "44 N Srinu Naik.html?chapter=2&category=Hearing Aids";
         } else if (chapter === "Chapter 1" && category === "Paints") {
-        window.location.href = "45 P.S.V.V.Mohan Rao.html?chapter=2&category=Paints";
+        window.location.href = "45  P.S.V.V.Mohan Rao.html?chapter=2&category=Paints";
         } else if (chapter === "Chapter 1" && category === "Enagic Kangen Ionizer") {
         window.location.href = "46 Rebbapragada Rajesh Kumar.html?chapter=2&category=Enagic Kangen Ionizer";
         } else if (chapter === "Chapter 1" && category === "Function Hallv") {
         window.location.href = "47 D Vipul Avinash Reddy.html?chapter=2&category=Function Hallv";
         } else if (chapter === "Chapter 1" && category === "Architect") {
-        window.location.href = "48 P Veerababu.html?chapter=2&category=Architect";
+        window.location.href = "48  P Veerababu.html?chapter=2&category=Architect";
         } 
         
       } else {
@@ -889,66 +898,124 @@
  
  <!-- footer  -->
  
- 
- <footer class="footer_bg pt-3 mt-2">
-    <div class="container">
-        <div class="row " >
-          
+ <footer class="footer_bg pt-3 mt-2 d-none d-md-block">
+  <div class="container">
+      <div class="row " >
+        
 
-            <div class="col-md">
-                <div class="ftco-footer-widget p-5">
-                    <ul class="list-unstyled">
-                        <li  ><a class="footer_heading" href=""><h4>About J com</h4></a></li>
-                        <li  ><a  class="footer_menu" href=""><p>To provide Business Development opportunities that empower young Entrepreneurs towards Business Growth.</p></a></li>
-                         
+          <div class="col-md">
+              <div class="ftco-footer-widget p-5">
+                  <ul class="list-unstyled">
+                      <li  ><a class="footer_heading" href=""><h4>About J com</h4></a></li>
+                      <li  ><a  class="footer_menu" href=""><p>To provide Business Development opportunities that empower young Entrepreneurs towards Business Growth.</p></a></li>
+                       
+                  </ul>
+              </div>
+          </div>
+          <div class="col-md">
+              <div class="ftco-footer-widget p-5">
+                  <ul class="list-unstyled">
+                      <li  ><a class="footer_heading" href=""><h4>website</h4></a></li>
+                      <li  ><a class="footer_menu" href=""><p>homepage</p></a></li>
+                      <li ><a class="footer_menu" href=""><p>JCOM 1.0</p></a></li>
+                      <li  ><a class="footer_menu" href=""><p>About us</p></a></li>
+
                     </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget p-5">
-                    <ul class="list-unstyled">
-                        <li  ><a class="footer_heading" href=""><h4>website</h4></a></li>
-                        <li  ><a class="footer_menu" href="./index.html"><p>homepage</p></a></li>
-                        <li ><a class="footer_menu" href="./profile.html"><p>JCOM 1.0</p></a></li>
-                        <li  ><a class="footer_menu" href="./about.html"><p>About us</p></a></li>
+              </div>
+          </div>
+          <div class="col-md">
+              <div class="ftco-footer-widget p-5">
+                  <ul class="list-unstyled">
+                      <li ><a class="footer_heading" href=""><h4>startups and innovations</h4></a></li>
+                      <li ><a class="footer_menu" href=""><p>browser bt catefory</p></a></li>
+                      <li ><a class="footer_menu" href=""><p>search</p></a></li>
+                      <li ><a class="footer_menu" href=""><p>most visited</p></a></li>
+                   </ul>
+              </div>
+          </div>
 
-                      </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget p-5">
-                    <ul class="list-unstyled">
-                        <li ><a class="footer_heading" href=""><h4>startups and innovations</h4></a></li>
-                        <li ><a class="footer_menu" href=""><p>browser bt catefory</p></a></li>
-                        <li ><a class="footer_menu" href=""><p>search</p></a></li>
-                        <li ><a class="footer_menu" href=""><p>most visited</p></a></li>
-                     </ul>
-                </div>
-            </div>
+          <div class="col-md">
+              <div class="ftco-footer-widget p-5">
+                  <ul class="list-unstyled">
+                      <li ><a class="footer_heading" href=""><h4>support</h4></a></li>
+                      <li ><a class="footer_menu" href=""><p>contact us</p></a></li>
+                      <li ><a class="footer_menu" href=""><p>member login</p></a></li>
+                    </ul>
+              </div>
+          </div>
+        
 
-            <div class="col-md">
-                <div class="ftco-footer-widget p-5">
-                    <ul class="list-unstyled">
-                        <li ><a class="footer_heading" href=""><h4>support</h4></a></li>
-                        <li ><a class="footer_menu" href=""><p>contact us</p></a></li>
-                        <li ><a class="footer_menu" href=""><p>member login</p></a></li>
-                      </ul>
-                </div>
-            </div>
-          
-
-    </div>
+  </div>
 </footer>
-  <!-- dead line  -->
+
 <div >
-    <div class=" text-center foot_pad  pt-3">
-        <p class="fotter_end">
-          © 2023 J com.kakinada All Rights Reserved Terms of Use Privacy Policy <a href="https://bhavicreations.com"  target="_blank"><span class="bhavi_creations">Bhavi Creations</span></a>
-        </p>
-    </div>
-</div>  
+  <div class=" text-center foot_pad  pt-3 d-none d-md-block">
+      <p class="fotter_end">
+          © 2023 J com.kakinada All Rights Reserved Terms of Use Privacy Policy
+ <a href="https://bhavicreations.com"  target="_blank"><span class="bhavi_creations">Bhavi Creations</span></a>
+      </p>
+  </div>
+</div>
 
+<!-- footer for small -->
+<footer class="footer_bg  d-block d-md-none p-3">
+  <div class="container">
+      <div class="row " >
+        
 
+          <div class="col-6 ">
+              <div class="ftco-footer-widget">
+                  <ul class="list-unstyled">
+                      <li  ><a class="footer_heading" href=""><h4>About J com</h4></a></li>
+                      <li  ><a  class="footer_menu" href=""><p>To provide Business Development opportunities that empower young Entrepreneurs towards Business Growth.</p></a></li>
+                       
+                  </ul>
+              </div>
+          </div>
+          <div class="col-6 ps-5">
+              <div class="ftco-footer-widget ">
+                  <ul class="list-unstyled">
+                      <li  ><a class="footer_heading" href=""><h4>website</h4></a></li>
+                      <li  ><a class="footer_menu" href=""><p>homepage</p></a></li>
+                      <li ><a class="footer_menu" href=""><p>JCOM 1.0</p></a></li>
+                      <li  ><a class="footer_menu" href=""><p>About us</p></a></li>
+
+                    </ul>
+              </div>
+          </div>
+          <div class="col-6 pt-3">
+              <div class="ftco-footer-widget">
+                  <ul class="list-unstyled">
+                      <li ><a class="footer_heading" href=""><h4>startups and innovations</h4></a></li>
+                      <li ><a class="footer_menu" href=""><p>browser bt catefory</p></a></li>
+                      <li ><a class="footer_menu" href=""><p>search</p></a></li>
+                      <li ><a class="footer_menu" href=""><p>most visited</p></a></li>
+                   </ul>
+              </div>
+          </div>
+
+          <div class="col-6 ps-5 pt-3">
+              <div class="ftco-footer-widget">
+                  <ul class="list-unstyled">
+                      <li ><a class="footer_heading" href=""><h4>support</h4></a></li>
+                      <li ><a class="footer_menu" href=""><p>contact us</p></a></li>
+                      <li ><a class="footer_menu" href=""><p>member login</p></a></li>
+                    </ul>
+              </div>
+          </div>
+        
+
+  </div>
+</footer>
+
+<div >
+  <div class=" text-center foot_pad  pt-3 d-block d-md-none">
+      <p class="fotter_end">
+          © 2023 J com.kakinada All Rights Reserved Terms of Use Privacy Policy
+ <a href="https://bhavicreations.com"  target="_blank"><span class="bhavi_creations">Bhavi Creations</span></a>
+      </p>
+  </div>
+</div>
 </body>
 
 </html>
