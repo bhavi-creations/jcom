@@ -1,22 +1,36 @@
 /* navbar............... */
+ /* For mobile devices (up to 992px) */
+ @media (max-width: 992px) {
+  .navbar-nav {
+    margin: 0; /* Adjust the margin as per your requirement */
+  }
+  .nav-item {
+    margin: 0 20px ;
+    margin-bottom:-50px; /* Adjust the horizontal margin as per your requirement */
+  }
+  .button1 {
+      margin: 0 20px ;
+      margin-bottom:-0px; 
+  }
+}
 
-.search_icon_nav {
+.search_icon_nav{
   background-color: #27A4DE;
   color: #FEFEFE;
   border-radius:50px;
-  padding-top: 13px;
-   width:50px;
-   height: 50px; 
-  /* margin-right: 250px; */
-  stroke-width: 1.5px;
+  padding-top: 7px;
+    width:40px;
+   height: 40px; 
+
+   stroke-width: 1.5px;
   margin-left: -10px;
-} 
+}
 
 .jcom_logo{
   width: 247px;
 height: 62.561px;
 flex-shrink: 0;
-/* margin-left:121px; */
+
 }
 
 .navbar {

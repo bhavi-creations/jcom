@@ -1,4 +1,19 @@
 /* navbar............... */
+ /* For mobile devices (up to 992px) */
+ @media (max-width: 992px) {
+  .navbar-nav {
+    margin: 0; /* Adjust the margin as per your requirement */
+  }
+  .nav-item {
+    margin: 0 20px ;
+    margin-bottom:-50px; /* Adjust the horizontal margin as per your requirement */
+  }
+  .button1 {
+      margin: 0 20px ;
+      margin-bottom:-0px; 
+  }
+}
+
 .jcom_logo{
   width: 247px;
 height: 62.561px;

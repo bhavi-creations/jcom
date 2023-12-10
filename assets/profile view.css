@@ -1,15 +1,28 @@
  
   /* navbar............... */
-
+ /* For mobile devices (up to 992px) */
+ @media (max-width: 992px) {
+  .navbar-nav {
+    margin: 0; /* Adjust the margin as per your requirement */
+  }
+  .nav-item {
+    margin: 0 20px ;
+    margin-bottom:-50px; /* Adjust the horizontal margin as per your requirement */
+  }
+  .button1 {
+      margin: 0 20px ;
+      margin-bottom:-0px; 
+  }
+}
   .search_icon_nav{
     background-color: #27A4DE;
     color: #FEFEFE;
     border-radius:50px;
-    padding-top: 13px;
-     width:50px;
-     height: 50px; 
-    /* margin-right: 250px; */
-    stroke-width: 1.5px;
+    padding-top: 7px;
+      width:40px;
+     height: 40px; 
+
+     stroke-width: 1.5px;
     margin-left: -10px;
   }
   
@@ -17,8 +30,8 @@
     width: 247px;
   height: 62.561px;
   flex-shrink: 0;
-  /* margin-left:121px; */
-  }
+
+}
   
   .navbar {
     display: flex;
@@ -72,10 +85,13 @@
 /* section1 */
 .section1 {
 background-color: #F8F8F8;
+/* background-color: #fcdddd; */
 /* background-size: cover; */
-margin-top:100px;
-margin-bottom: 100px;
+margin-top:50px;
+margin-bottom: 40px;
 margin-left:80px;
+margin-right:80px;
+padding:10px;
 }
 .card1 {
   margin:10px;
@@ -295,46 +311,83 @@ border-radius:50%;
   border-radius:25px;
 }
 
-.title-scroller {
-  font-family:'inter' serif
-}
-.title-scroller-text {
-  padding-top:20px;
-}
 
-.marquee{
- 
-	white-space: nowrap;
-      overflow: hidden;
-      box-sizing: border-box;
-      background-color: pink;
-      padding : 10px;
-	  animation: scrollText 15s linear infinite; 
+  .inner-header{
+	 
+    padding-top: 10px;
+    margin-bottom: -8px;
+ }
+ .inner-header{ min-width:100%; padding:2px 0; color:#fff;		background: linear-gradient(to right, #3b2b98, #01a3d4, #df0e86);
+ }
+ .inner-header .container{ position:relative; z-index:2;}
+ .inner-header .container h1{ font-weight:800; font-size:30px; margin:10px 0;}
+
+ .marque_anc{
+	text-decoration: none;
 }
 
-@keyframes marquee {
-	0%   { transform: translateX(100%); }
-	100% { transform: translateX(-100%); }
+.text-center{
+	text-align: center;
+	justify-content: center;
+
 }
 
-/* .marquee {
-	background-color: #01a3d4;
-  }  */
-
-.scrolling-text {
-	 overflow: hidden; /*Hide overflowing content */
+/* owl carousel */
+.owl-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #27A4DE;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.owl-dot.active {
+  background-color: #333;
+}
+.owl-carousel .item {
+    display: flex;
+    flex-direction: row;
   }
   
-.scrolling-text p {
-	white-space: nowrap; /* Prevent text from breaking into multiple lines */
-	animation: scrollText 25s linear infinite; /* Adjust the animation duration as needed */
+  .owl-carousel .item h4 .card {
+    margin-right: 50px; /* Adjust the margin as needed for spacing between headings */
   }
-  
-@keyframes scrollText {
-	from {
-	  transform: translateX(100%); /* Start off-screen to the right */
-	}
-	to {
-	  transform: translateX(-100%); /* Move to the left */
-	}
-	}
+  .owl-carousel .card-body {
+    height:270px;
+    width:200px;
+    padding:10px;
+  }
+
+  .owl-carousel .item .card {
+    margin-right: 10px; /* Adjust the margin as needed for spacing between cards */
+    border: 1px solid #ddd; /* Add a border color */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow for a subtle lift */
+    background-color: #fff; /* Set background color to white */ 
+  }
+  .card img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  h5 p {
+    text-align:center;
+  }
+
+.service-heading {
+  color: var(--gray-gray-900, #1A202C);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px; /* 275% */
+}
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 992px) {
+  .card {
+    width: 100%; /* Set the width to 100% for smaller screens */
+  }
+}

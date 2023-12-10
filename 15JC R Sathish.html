@@ -31,7 +31,7 @@
     <link rel="icon" href="" type="image/x-icon">
     <!-- <link rel="stylesheet" href="./assets/index.css"> -->
     <link rel="stylesheet" href="./assets/profile view.css">
-    
+    <link rel="stylesheet" href="./assets/profile.css">
  
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -43,32 +43,247 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow ">
-        <a class="navbar-brand p-3" href="#">
-            <img class="jcom_logo" src="./assets/img/image 2.png" height="40px" />
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-          <div class="navbar-nav  m-auto">
-            <a class="nav-item nav-link active" href="./index.html" id="navlink2">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="./about.html" id="navlink2" >About Us</a>
-            <a class="nav-item nav-link" href="./profile.html" id="navlink2" >Chapter 1</a>
-            <a class="nav-item nav-link" href="./contact.html" id="navlink2" >Contact Us</a>
-            <button class="button1 ml-md-2 ">Join Us</button>
-            <div class="search_icon_nav ">
-              <svg  xmlns="http://www.w3.org/2000/svg" width="50" height="25"  viewBox="0 0 26 24" fill="none">
-                  <mask id="path-1-inside-1_8_546" fill="white">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M18.2877 15.5327C19.35 13.9459 19.9696 12.0377 19.9696 9.98478C19.9696 4.47034 15.4992 0 9.98478 0C4.47034 0 0 4.47034 0 9.98478C0 15.4992 4.47034 19.9696 9.98478 19.9696C12.8916 19.9696 15.5083 18.7274 17.3331 16.7449L24.9437 24L26.0036 22.8881L18.2877 15.5327Z"/>
-                  </mask>
-                  <path d="M18.2877 15.5327L17.0412 14.6982L16.3388 15.7472L17.2527 16.6184L18.2877 15.5327ZM17.3331 16.7449L18.3681 15.6592L17.2632 14.6059L16.2294 15.7291L17.3331 16.7449ZM24.9437 24L23.9087 25.0857L24.9945 26.1207L26.0294 25.035L24.9437 24ZM26.0036 22.8881L27.0894 23.9231L28.1244 22.8374L27.0386 21.8024L26.0036 22.8881ZM18.4696 9.98478C18.4696 11.7314 17.9434 13.3506 17.0412 14.6982L19.5341 16.3672C20.7566 14.5412 21.4696 12.344 21.4696 9.98478H18.4696ZM9.98478 1.5C14.6708 1.5 18.4696 5.29877 18.4696 9.98478H21.4696C21.4696 3.64191 16.3276 -1.5 9.98478 -1.5V1.5ZM1.5 9.98478C1.5 5.29877 5.29877 1.5 9.98478 1.5V-1.5C3.64191 -1.5 -1.5 3.64191 -1.5 9.98478H1.5ZM9.98478 18.4696C5.29877 18.4696 1.5 14.6708 1.5 9.98478H-1.5C-1.5 16.3276 3.64191 21.4696 9.98478 21.4696V18.4696ZM16.2294 15.7291C14.6768 17.4159 12.4549 18.4696 9.98478 18.4696V21.4696C13.3283 21.4696 16.3399 20.0389 18.4367 17.7608L16.2294 15.7291ZM25.9787 22.9143L18.3681 15.6592L16.2981 17.8306L23.9087 25.0857L25.9787 22.9143ZM24.9179 21.8532L23.858 22.965L26.0294 25.035L27.0894 23.9231L24.9179 21.8532ZM17.2527 16.6184L24.9687 23.9739L27.0386 21.8024L19.3227 14.4469L17.2527 16.6184Z" fill="#FEFEFE" mask="url(#path-1-inside-1_8_546)"/>
-              </svg>
-            </div>
-          </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow ">
+    <a class="navbar-brand p-3" href="#">
+        <img class="jcom_logo" src="./assets/img/image 2.png" height="40px" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+      <div class="navbar-nav  m-auto">
+        <a class="nav-item nav-link active" href="./index.html" id="navlink2" >Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="./about.html" id="navlink2" >About Us</a>
+        <a class="nav-item nav-link" href="./profile.html" id="navlink2" >Chapter 1</a>
+        <a class="nav-item nav-link" href="./contact.html" id="navlink2">Contact Us</a>
+        <button class="button1 ml-md-2 ">Join Us</button>
+        <div class="search_icon_nav d-none d-md-block" >
+          <svg  xmlns="http://www.w3.org/2000/svg" width="45" height="25"  viewBox="0 0 26 24" fill="none">
+              <mask id="path-1-inside-1_8_546" fill="white">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M18.2877 15.5327C19.35 13.9459 19.9696 12.0377 19.9696 9.98478C19.9696 4.47034 15.4992 0 9.98478 0C4.47034 0 0 4.47034 0 9.98478C0 15.4992 4.47034 19.9696 9.98478 19.9696C12.8916 19.9696 15.5083 18.7274 17.3331 16.7449L24.9437 24L26.0036 22.8881L18.2877 15.5327Z"/>
+              </mask>
+              <path d="M18.2877 15.5327L17.0412 14.6982L16.3388 15.7472L17.2527 16.6184L18.2877 15.5327ZM17.3331 16.7449L18.3681 15.6592L17.2632 14.6059L16.2294 15.7291L17.3331 16.7449ZM24.9437 24L23.9087 25.0857L24.9945 26.1207L26.0294 25.035L24.9437 24ZM26.0036 22.8881L27.0894 23.9231L28.1244 22.8374L27.0386 21.8024L26.0036 22.8881ZM18.4696 9.98478C18.4696 11.7314 17.9434 13.3506 17.0412 14.6982L19.5341 16.3672C20.7566 14.5412 21.4696 12.344 21.4696 9.98478H18.4696ZM9.98478 1.5C14.6708 1.5 18.4696 5.29877 18.4696 9.98478H21.4696C21.4696 3.64191 16.3276 -1.5 9.98478 -1.5V1.5ZM1.5 9.98478C1.5 5.29877 5.29877 1.5 9.98478 1.5V-1.5C3.64191 -1.5 -1.5 3.64191 -1.5 9.98478H1.5ZM9.98478 18.4696C5.29877 18.4696 1.5 14.6708 1.5 9.98478H-1.5C-1.5 16.3276 3.64191 21.4696 9.98478 21.4696V18.4696ZM16.2294 15.7291C14.6768 17.4159 12.4549 18.4696 9.98478 18.4696V21.4696C13.3283 21.4696 16.3399 20.0389 18.4367 17.7608L16.2294 15.7291ZM25.9787 22.9143L18.3681 15.6592L16.2981 17.8306L23.9087 25.0857L25.9787 22.9143ZM24.9179 21.8532L23.858 22.965L26.0294 25.035L27.0894 23.9231L24.9179 21.8532ZM17.2527 16.6184L24.9687 23.9739L27.0386 21.8024L19.3227 14.4469L17.2527 16.6184Z" fill="#FEFEFE" mask="url(#path-1-inside-1_8_546)"/>
+          </svg>
         </div>
-      </nav>
+      </div>
+    </div>
+  </nav>
 
+<!-- ========================================================================================================= -->
+
+<div class="searchsec">
+  <div class="row">
+    <div class="col-12">
+        <h3 class="text-center service_heading_lg mb-4">Chapter and Category Search</h3>
+    </div>
+  </div>
+  <form id="searchForm" class="d-flex justify-content-center">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <label for="chapterSelect" class="m-2" style="font-weight:bold;font-family:Roboto">Select Chapter:</label>
+        <select id="chapterSelect" required class="mb-2">
+            <option value=""  selected >Select a Chapter</option>
+            <!-- Add your chapter options here -->
+            <option value="Chapter 1">Chapter 1</option>
+            <option value="Chapter 2">Chapter 2</option>
+            <!-- Add more chapters as needed -->
+        </select>
+      </div>
+      
+      <div class="col-11 col-lg-5">
+      <label for="categorySelect" style="font-weight:bold;font-family:Roboto">Select Category:</label>
+      <select id="categorySelect" required class="mb-2">
+          <option value=""  selected>Select a Category</option>
+          <!-- Add your category options here -->
+        
+          <option value="Hardware Stores">Hardware Stores</option>
+          <option value="Digital Marketing">Digital Marketing</option>
+          <option value="Medical Wholesale & Retail">Medical Wholesale & Retail</option>
+          <option value="Mechanical Services">Mechanical Services</option>
+          <option value="Construction">Construction</option>
+          <option value="Doors And Windows">Doors And Windows</option>
+          <option value="CC TV">CC TV</option>
+          <option value="Electrical Contractors">Electrical Contractors</option>  
+          <option value="Disposables">Disposables</option>
+          <option value="Lakshmi Jewellers">Lakshmi Jewellers</option>
+
+          <option value="Hotel">Hotel</option>
+          <option value="Kirana Wholesale">Kirana Wholesale</option>
+          <option value="Photography">Photography</option>
+          <option value="Events">Events</option>
+          <option value="Wellness">Wellness</option>
+          <option value="Stitchings">Stitchings</option>
+          <option value="Catering">Catering</option>
+          <option value="Health Insurance">Health Insurance</option>
+          <option value="Sri Surya Chandra Homeo">Sri Surya Chandra Homeo</option>
+          <option value="Mk Skin Hospital">Mk Skin Hospital</option>
+
+          <option value="Physiotherapist">Physiotherapist</option>
+          <option value="Interiors">Interiors</option>
+          <option value="Laboratory">Laboratory</option>
+          <option value="Sankeerth">Sankeerth</option>
+          <option value="Opticals">Opticals</option>
+          <option value="Insurance- LIC">Insurance- LIC</option>
+          <option value="Botique">Botique</option>
+          <option value="Pan Mahal Store">Pan Mahal Store</option>
+          <option value="Tax Consultancy">Tax Consultancy</option>
+          <option value="Real Estate">Real Estate</option>
+
+          <option value="Tours & Travels">Tours & Travels</option>
+          <option value="Plumbing">Plumbing</option>
+          <option value="Inverters, Batteries">Inverters, Batteries</option>
+          <option value="Cycles">Cycles</option>
+          <option value="Mobiles Stores">Mobiles Stores</option>
+          <option value="Ready Made">Ready Made</option>
+          <option value="Home Appliances">Home Appliances</option>
+          <option value="Computers">Computers</option>
+          <option value="Air Conditioning">Air Conditioning</option>
+          <option value="Genral Stores">Genral Stores</option>
+                    
+          <option value="Choclates Store">Choclates Store</option>
+          <option value="Hospitals">Hospitals</option>
+          <option value="Dentist">Dentist</option>
+          <option value="Hearing Aids">Hearing Aids</option>
+          <option value="Paints">Paints</option>
+          <option value="Enagic Kangen Ionizer">Enagic Kangen Ionizer</option>
+          <option value="Function Hallv">Function Hallv</option>
+          <option value="Architect">Architect</option>
+
+          <!-- Add more categories as needed -->
+      </select>
+    </div>
+    <div class="col-6 col-lg-1 ">
+      <button type="button" onclick="searchContent()" class="button1">Search</button>
+    </div>
+    </div>
+  </form>
+</div>
+</div>
+</div>
+
+<script>
+  function searchContent() {
+      var chapter = document.getElementById("chapterSelect").value;
+      var category = document.getElementById("categorySelect").value;
+
+      if (chapter && category) {
+          // Check chapter and category combinations
+          if (chapter === "Chapter 1" && category === "Hardware Stores") {
+              window.location.href = "1Pullipudi Srinivas.html?chapter=1&category=Hardware Stores";
+          } else if (chapter === "Chapter 1" && category === "Digital Marketing") {
+              window.location.href = "2Ch.Naga Phaneendra.html?chapter=1&category=Digital Marketing";
+          } else if (chapter === "Chapter 1" && category === "Medical Wholesale & Retail") {
+              window.location.href = "3Kommisetti Sri Harsha.html?chapter=2&category=Medical Wholesale & Retail";
+          } else if (chapter === "Chapter 1" && category === "Mechanical Services") {
+              window.location.href = "4Atchuta Siva Kumar.html?chapter=2&category=Mechanical Services";
+          } else if (chapter === "Chapter 1" && category === "Construction") {
+            window.location.href = "5Viswanath.html?chapter=2&category=Construction";
+          } else if (chapter === "Chapter 1" && category === "Doors And Windows") {
+            window.location.href = "6 Manikanta Pavan Varma P.html?chapter=2&category=Doors And Windows";
+          } else if (chapter === "Chapter 1" && category === "CC TV") {
+            window.location.href = "7Rajasekhar.html?chapter=2&category=CC TV";
+          } else if (chapter === "Chapter 1" && category === "Electrical Contractors") {
+            window.location.href = "8Sai Chikkala.html?chapter=2&category=Electrical Contractors";
+         } else if (chapter === "Chapter 1" && category === "Disposables") {
+          window.location.href = "9Santosh Siva Kumar.html?chapter=2&category=Disposables";
+         } else if (chapter === "Chapter 1" && category === "Lakshmi Jewellers") {
+          window.location.href = "10JC R V Mahesh.html?chapter=2&category=Lakshmi Jewellers";
+         }  
+
+          // Add more combinations as needed
+          if (chapter === "Chapter 1" && category === "Hotel") {
+            window.location.href = "11Chittoory Murthy.html?chapter=1&category=Hotel";
+        } else if (chapter === "Chapter 1" && category === "Kirana Wholesale") {
+            window.location.href = "12Anil Talluri.html?chapter=1&category=Kirana Wholesale";
+        } else if (chapter === "Chapter 1" && category === "Photography") {
+            window.location.href = "13Naveen.html?chapter=2&category=Photography";
+        } else if (chapter === "Chapter 1" && category === "Events") {
+            window.location.href = "14RK Naidu.html?chapter=2&category=Events";
+        } else if (chapter === "Chapter 1" && category === "Wellness") {
+          window.location.href = "15JC R Sathish.html?chapter=2&category=Wellness";
+        } else if (chapter === "Chapter 1" && category === "Stitchings") {
+          window.location.href = "16Sairam Vadaparthi.html?chapter=2&category=Stitchings";
+        } else if (chapter === "Chapter 1" && category === "Catering") {
+          window.location.href = "17Vinay Vardhan.html?chapter=2&category=Catering";
+        } else if (chapter === "Chapter 1" && category === "Health Insurance") {
+          window.location.href = "18R Adithya.html?chapter=2&category=Health Insurance";
+       } else if (chapter === "Chapter 1" && category === "Sri Surya Chandra Homeo") {
+        window.location.href = "19Dr Surya Kiran.html?chapter=2&category=Sri Surya Chandra Homeo";
+       } else if (chapter === "Chapter 1" && category === "Mk Skin Hospital") {
+        window.location.href = "20K Lakshman Kumar.html?chapter=2&category=Mk Skin Hospital";
+       }    
+
+
+          // Add more combinations as needed
+          if (chapter === "Chapter 1" && category === "Physiotherapist") {
+            window.location.href = "21 Hariprasad P.html?chapter=1&category=Physiotherapist";
+        } else if (chapter === "Chapter 1" && category === "Interiors") {
+            window.location.href = "22Pavan Kuricheti.html?chapter=1&category=Interiors";
+        } else if (chapter === "Chapter 1" && category === "Laboratory") {
+            window.location.href = "23Ravindra.html?chapter=2&category=Laboratory";
+        } else if (chapter === "Chapter 1" && category === "Sankeerth") {
+            window.location.href = "24Sankeerth.html?chapter=2&category=Sankeerth";
+        } else if (chapter === "Chapter 1" && category === "Opticals") {
+          window.location.href = "25Harshavardhan.html?chapter=2&category=Opticals";
+        } else if (chapter === "Chapter 1" && category === "Insurance- LIC") {
+          window.location.href = "26Chekka Bhadram.html?chapter=2&category=Insurance- LIC";
+        } else if (chapter === "Chapter 1" && category === "Botique") {
+          window.location.href = "27Harshitha.html?chapter=2&category=Botique";
+        } else if (chapter === "Chapter 1" && category === "Pan Mahal Store") {
+          window.location.href = "28 N Murali Krishna.html?chapter=2&category=Pan Mahal Store";
+        } else if (chapter === "Chapter 1" && category === "Tax Consultancy") {
+        window.location.href = "29Sriram Prakash.html?chapter=2&category=Tax Consultancy";
+        } else if (chapter === "Chapter 1" && category === "Real Estate") {
+        window.location.href = "30Narala Chinna Srinivas.html?chapter=2&category=Real Estate";
+        }  
+
+          // Add more combinations as needed
+          if (chapter === "Chapter 1" && category === "Tours & Travels") {
+            window.location.href = "31Pavan Kumar Yerramilli.html?chapter=1&category=Tours & Travels";
+        } else if (chapter === "Chapter 1" && category === "Plumbing") {
+            window.location.href = "32Boda Satish.html?chapter=1&category=Plumbing";
+        } else if (chapter === "Chapter 1" && category === "Inverters, Batteries") {
+            window.location.href = "33Kapil Lunani.html?chapter=2&category=Inverters, Batteries";
+        } else if (chapter === "Chapter 1" && category === "Cycles") {
+            window.location.href = "34 Talluri Rajesh.html?chapter=2&category=Cycles";
+        } else if (chapter === "Chapter 1" && category === "Mobiles Stores") {
+          window.location.href = "35Arudra.html?chapter=2&category=Mobiles Stores";
+        } else if (chapter === "Chapter 1" && category === "Ready Made") {
+          window.location.href = "36JC Satyanandam.html?chapter=2&category=Ready Made";
+        } else if (chapter === "Chapter 1" && category === "Home Appliances") {
+          window.location.href = "37 M Vihari.html?chapter=2&category=Home Appliances";
+        } else if (chapter === "Chapter 1" && category === "Computers") {
+          window.location.href = "38 JC V Murali.html?chapter=2&category=Computers";
+        } else if (chapter === "Chapter 1" && category === "Air Conditioning") {
+        window.location.href = "39 Sagi Naga Varma.html?chapter=2&category=Air Conditioning";
+        } else if (chapter === "Chapter 1" && category === "Genral Stores") {
+        window.location.href = "40 JC Srinivas Kumar Nalam.html?chapter=2&category=Genral Stores";
+        }  
+        
+        // Add more combinations as needed
+        if (chapter === "Chapter 1" && category === "Choclates Store") {
+          window.location.href = "41 Kamisetti Lakshmi Ganesh.html?chapter=1&category=Choclates Store";
+        } else if (chapter === "Chapter 1" && category === "Hospitals") {
+          window.location.href = "42  Dr. T V K Karthik Hareen.html?chapter=1&category=Hospitals";
+        } else if (chapter === "Chapter 1" && category === "Dentist") {
+          window.location.href = "43 Dr. R Jahnavi.html?chapter=2&category=Dentist";
+        } else if (chapter === "Chapter 1" && category === "Hearing Aids") {
+          window.location.href = "44 N Srinu Naik.html?chapter=2&category=Hearing Aids";
+        } else if (chapter === "Chapter 1" && category === "Paints") {
+        window.location.href = "45  P.S.V.V.Mohan Rao.html?chapter=2&category=Paints";
+        } else if (chapter === "Chapter 1" && category === "Enagic Kangen Ionizer") {
+        window.location.href = "46 Rebbapragada Rajesh Kumar.html?chapter=2&category=Enagic Kangen Ionizer";
+        } else if (chapter === "Chapter 1" && category === "Function Hallv") {
+        window.location.href = "47 D Vipul Avinash Reddy.html?chapter=2&category=Function Hallv";
+        } else if (chapter === "Chapter 1" && category === "Architect") {
+        window.location.href = "48  P Veerababu.html?chapter=2&category=Architect";
+        } 
+        
+      } else {
+          alert("Please select both a chapter and a category.");
+      }
+  } 
+</script>
        <!-- section 1 -->
        <div class="section1  justify-content-evenly d-md-none d-none d-lg-block w-auto">
         <div class="row ms-5">
@@ -784,11 +999,13 @@
 
 
       <!-- footer -->
-      <footer class="footer_bg pt-3 mt-2">
+      <footer class="footer_bg pt-3 mt-2 d-none d-md-block">
         <div class="container">
-            <div class="row " > 
-                <div class="col-md">
-                    <div class="ftco-footer-widget p-5">
+            <div class="row " >
+              
+    
+                <div class="col-md col-lg-3 col-xl-3 p-5">
+                    <div class="ftco-footer-widget ">
                         <ul class="list-unstyled">
                             <li  ><a class="footer_heading" href=""><h4>About J com</h4></a></li>
                             <li  ><a  class="footer_menu" href=""><p>To provide Business Development opportunities that empower young Entrepreneurs towards Business Growth.</p></a></li>
@@ -796,19 +1013,19 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md">
-                    <div class="ftco-footer-widget p-5">
+                <div class="col-md col-lg-3 col-xl-3 p-5">
+                    <div class="ftco-footer-widget ">
                         <ul class="list-unstyled">
                             <li  ><a class="footer_heading" href=""><h4>website</h4></a></li>
-                            <li  ><a class="footer_menu" href="./index.html"><p>homepage</p></a></li>
-                            <li ><a class="footer_menu" href="./profile.html"><p>JCOM 1.0</p></a></li>
-                            <li  ><a class="footer_menu" href="./"><p>About us</p></a></li>
+                            <li  ><a class="footer_menu" href=""><p>homepage</p></a></li>
+                            <li ><a class="footer_menu" href=""><p>Chapter 1</p></a></li>
+                            <li  ><a class="footer_menu" href=""><p>About us</p></a></li>
     
                           </ul>
                     </div>
                 </div>
-                <div class="col-md">
-                    <div class="ftco-footer-widget p-5">
+                <div class="col-md col-lg-3 col-xl-3 p-5">
+                    <div class="ftco-footer-widget ">
                         <ul class="list-unstyled">
                             <li ><a class="footer_heading" href=""><h4>startups and innovations</h4></a></li>
                             <li ><a class="footer_menu" href=""><p>browser bt catefory</p></a></li>
@@ -818,8 +1035,8 @@
                     </div>
                 </div>
     
-                <div class="col-md">
-                    <div class="ftco-footer-widget p-5">
+                <div class="col-md col-lg-3 col-xl-3 p-5">
+                    <div class="ftco-footer-widget">
                         <ul class="list-unstyled">
                             <li ><a class="footer_heading" href=""><h4>support</h4></a></li>
                             <li ><a class="footer_menu" href=""><p>contact us</p></a></li>
@@ -833,12 +1050,74 @@
     </footer>
     
     <div >
-        <div class=" text-center foot_pad  pt-3">
+        <div class=" text-center foot_pad  pt-3 d-none d-md-block">
             <p class="fotter_end">
-                © 2023 J com.kakinada All Rights Reserved Terms of Use Privacy Policy <a href="https://bhavicreations.com"  target="_blank"><span class="bhavi_creations">Bhavi Creations</span></a>
+                © 2023 J com.kakinada All Rights Reserved Terms of Use Privacy Policy
+       <a href="https://bhavicreations.com"  target="_blank"><span class="bhavi_creations">Bhavi Creations</span></a>
             </p>
         </div>
     </div>
-
+    
+    <!-- footer for small -->
+    <footer class="footer_bg  d-block d-md-none p-3">
+        <div class="container">
+            <div class="row " >
+              
+    
+                <div class="col-6 ">
+                    <div class="ftco-footer-widget">
+                        <ul class="list-unstyled">
+                            <li  ><a class="footer_heading" href=""><h4>About J com</h4></a></li>
+                            <li  ><a  class="footer_menu" href=""><p>To provide Business Development opportunities that empower young Entrepreneurs towards Business Growth.</p></a></li>
+                             
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 ps-5">
+                    <div class="ftco-footer-widget ">
+                        <ul class="list-unstyled">
+                            <li  ><a class="footer_heading" href=""><h4>website</h4></a></li>
+                            <li  ><a class="footer_menu" href=""><p>homepage</p></a></li>
+                            <li ><a class="footer_menu" href=""><p>Chapter 1</p></a></li>
+                            <li  ><a class="footer_menu" href=""><p>About us</p></a></li>
+    
+                          </ul>
+                    </div>
+                </div>
+                <div class="col-6 pt-3">
+                    <div class="ftco-footer-widget">
+                        <ul class="list-unstyled">
+                            <li ><a class="footer_heading" href=""><h4>startups and innovations</h4></a></li>
+                            <li ><a class="footer_menu" href=""><p>browser bt catefory</p></a></li>
+                            <li ><a class="footer_menu" href=""><p>search</p></a></li>
+                            <li ><a class="footer_menu" href=""><p>most visited</p></a></li>
+                         </ul>
+                    </div>
+                </div>
+    
+                <div class="col-6 ps-5 pt-3">
+                    <div class="ftco-footer-widget">
+                        <ul class="list-unstyled">
+                            <li ><a class="footer_heading" href=""><h4>support</h4></a></li>
+                            <li ><a class="footer_menu" href=""><p>contact us</p></a></li>
+                            <li ><a class="footer_menu" href=""><p>member login</p></a></li>
+                          </ul>
+                    </div>
+                </div>
+              
+    
+        </div>
+    </footer>
+    
+    <div >
+        <div class=" text-center foot_pad  pt-3 d-block d-md-none">
+            <p class="fotter_end">
+                © 2023 J com.kakinada All Rights Reserved Terms of Use Privacy Policy
+       <a href="https://bhavicreations.com"  target="_blank"><span class="bhavi_creations">Bhavi Creations</span></a>
+            </p>
+        </div>
+    </div>
+    
+    
 </body>
 </html>
