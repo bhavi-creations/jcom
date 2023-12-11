@@ -390,4 +390,9 @@ line-height: 55px; /* 275% */
   .card {
     width: 100%; /* Set the width to 100% for smaller screens */
   }
+  .owl-carousel .card-body {
+    height:50px;
+    width:200px;
+  
+  }
 }

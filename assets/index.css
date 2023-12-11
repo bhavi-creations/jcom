@@ -245,6 +245,12 @@ font-style: normal;
 font-weight: 600;   
 line-height: normal;
 }
+@media only screen and (max-width: 767px) {
+    .heading {
+     text-align:right;
+    }
+  }
+
  .Capability_heading{
     color: #282C4B;
     font-family: 'Inter', sans-serif;
