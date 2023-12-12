@@ -120,9 +120,12 @@ line-height: normal;
 }
 .card_bg_img{
 margin-top: 300px;
+ 
 /* margin-bottom: 50px; */
 }
-
+.img_bod{
+  border-radius: 10px;
+}
 
 .top_card1{
 margin-top: -600px;
@@ -313,3 +316,37 @@ line-height: normal;
 height: 70px;
 
 }
+.circle-icon-container {
+	position: fixed;
+	
+	bottom: 20px;
+	right: 20px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px; /* Add some padding for spacing */
+  }
+  .circle-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	background-color: #3b2b98;
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;
+    text-decoration: none;
+ 
+  }
+
+  .circle-icon i {
+	font-size: 24px; /* Adjust the font size as needed */
+  }
+
+
+  .circle-icon-container .circle-icon a:hover{
+	color:aqua;
+	text-decoration: none;
+  }
