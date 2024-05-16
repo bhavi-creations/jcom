@@ -222,7 +222,7 @@ font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: 156.119%; /* 23.418px */
-text-transform: capitalize;
+/* text-transform: capitalize; */
 /* width: 605px;
 height: 92px; */
 flex-shrink: 0;
